@@ -1,11 +1,11 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -261,
-  "ViewPos.y":  -716,
+  "ViewPos.x":  479,
+  "ViewPos.y":  -53,
   "ScriptName":  "Cat_ZelRangers",
-  "ScriptFileOut":  "C:\\Users\\DmitB\\Downloads\\Cat_ZelRangers.scr",
-  "ScriptTextOut":  "C:\\Users\\DmitB\\Downloads\\Cat_ZelRangers.txt",
+  "ScriptFileOut":  "D:\\Games\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_ZelRangers\\DATA\\Script\\Cat_ZelRangers.scr",
+  "ScriptTextOut":  "D:\\Games\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_ZelRangers\\DATA\\Script\\Cat_ZelRangers.txt",
   "Visual.Objects":  
   [
     {
@@ -18,7 +18,7 @@
           "Pos.y":  320,
           "Parent":  -1,
           "#":  27,
-          "Msg":  "Надо напомнить этим воякам, кто выйграл клисанскую войну... Могу ли я чем-нибудь помочь?",
+          "Msg":  "Не, ну, я, конечно, не барон, пока что, но ты дело говоришь.",
           "AMsg.Num":  "0"        
         },
         {
@@ -28,7 +28,7 @@
           "Pos.y":  380,
           "Parent":  -1,
           "#":  29,
-          "Msg":  "Да я знаю, чем вы занимаетесь у вас в брошуре написано, но что вы конкретно имеете ввиду?",
+          "Msg":  "Не, ну, как бы, да... а к чему ты это?",
           "AMsg.Num":  "1"        
         },
         {
@@ -38,7 +38,7 @@
           "Pos.y":  440,
           "Parent":  -1,
           "#":  31,
-          "Msg":  "Хорошо, я согласен! Сколько вам нужно?",
+          "Msg":  "Так у тебя всё готово?! Так это же другое дело! Yу чё там, сколько кредитов стоит закупить пару-тройку подержаных звездолётов?",
           "AMsg.Num":  "2"        
         },
         {
@@ -48,7 +48,7 @@
           "Pos.y":  410,
           "Parent":  -1,
           "#":  32,
-          "Msg":  "Ага, еще чего? Я свои кровно заработанные денюжки никому не отдам.",
+          "Msg":  "Не, идея здравая, но мне мои деньги явно важней.",
           "AMsg.Num":  "3"        
         },
         {
@@ -68,7 +68,7 @@
           "Pos.y":  190,
           "Parent":  -1,
           "#":  40,
-          "Msg":  "Информация о параметрах корабля, для первого класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для первого класса салаг",
           "AMsg.Num":  "5"        
         },
         {
@@ -78,7 +78,7 @@
           "Pos.y":  210,
           "Parent":  -1,
           "#":  46,
-          "Msg":  "Информация о параметрах корабля, для второго класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для второго класса салаг",
           "AMsg.Num":  "6"        
         },
         {
@@ -88,7 +88,7 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  47,
-          "Msg":  "Информация о параметрах корабля, для третьего класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для третьего класса салаг",
           "AMsg.Num":  "7"        
         },
         {
@@ -98,7 +98,7 @@
           "Pos.y":  250,
           "Parent":  -1,
           "#":  48,
-          "Msg":  "Информация о параметрах корабля, для четвертого класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для четвертого класса салаг",
           "AMsg.Num":  "8"        
         },
         {
@@ -108,7 +108,7 @@
           "Pos.y":  270,
           "Parent":  -1,
           "#":  49,
-          "Msg":  "Информация о параметрах корабля, для пятого класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для пятого класса салаг",
           "AMsg.Num":  "9"        
         },
         {
@@ -128,7 +128,7 @@
           "Pos.y":  -80,
           "Parent":  -1,
           "#":  52,
-          "Msg":  "Меня интересует количество классов для обучения новых рейнджеров\r\n",
+          "Msg":  "Меня интересует количество классов для обучения салаг\r\n",
           "AMsg.Num":  "11"        
         },
         {
@@ -138,7 +138,7 @@
           "Pos.y":  -60,
           "Parent":  -1,
           "#":  53,
-          "Msg":  "Меня интересует скорость обучения рейнджеров\r\n",
+          "Msg":  "Меня интересует скорость обучения салаг\r\n",
           "AMsg.Num":  "12"        
         },
         {
@@ -148,7 +148,7 @@
           "Pos.y":  -40,
           "Parent":  -1,
           "#":  54,
-          "Msg":  "Меня интересует количество выдаваемого оборудования новым рейнджерам",
+          "Msg":  "Меня интересует количество выдаваемого оборудования новым салагам",
           "AMsg.Num":  "13"        
         },
         {
@@ -158,7 +158,7 @@
           "Pos.y":  -20,
           "Parent":  -1,
           "#":  55,
-          "Msg":  "Меня интересует программа обучения новых рейнджеров",
+          "Msg":  "Меня интересует программа обучения новых салаг",
           "AMsg.Num":  "14"        
         },
         {
@@ -168,7 +168,7 @@
           "Pos.y":  0,
           "Parent":  -1,
           "#":  56,
-          "Msg":  "Меня интересует улучшение оборудования рейнджеров",
+          "Msg":  "Меня интересует улучшение оборудования салаг",
           "AMsg.Num":  "15"        
         },
         {
@@ -248,7 +248,7 @@
           "Pos.y":  280,
           "Parent":  -1,
           "#":  103,
-          "Msg":  "Обратно к параметрам текущего рейнджера",
+          "Msg":  "Обратно к параметрам текущего салаги",
           "AMsg.Num":  "23"        
         },
         {
@@ -310,6 +310,236 @@
           "#":  136,
           "Msg":  "Обратно к выбору параметров",
           "AMsg.Num":  "29"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1240,
+          "Pos.y":  400,
+          "Parent":  -1,
+          "#":  154,
+          "Msg":  "Пожалуй, пока хватит буянить",
+          "AMsg.Num":  "30"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  1200,
+          "Pos.y":  590,
+          "Parent":  -1,
+          "#":  173,
+          "Msg":  "Эге, бродяги! Слишком много нас стало! Пора лишних пропойц посадить на берег, за орудия планетарной обороны, а их деньги передать в общак!",
+          "AMsg.Num":  "31"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  1240,
+          "Pos.y":  590,
+          "Parent":  -1,
+          "#":  175,
+          "Msg":  "Эге, бродяги! Слишком много нас стало! Пора лишних пропойц посадить на берег, за орудия планетарной обороны, а их деньги передать в общак!",
+          "AMsg.Num":  "32"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1200,
+          "Pos.y":  670,
+          "Parent":  -1,
+          "#":  177,
+          "Msg":  "Уверен на все сто! Распространяй давай мой приказ!",
+          "AMsg.Num":  "33"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1240,
+          "Pos.y":  630,
+          "Parent":  -1,
+          "#":  178,
+          "Msg":  "Не, пожалуй, не сейчас",
+          "AMsg.Num":  "34"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  590,
+          "Parent":  -1,
+          "#":  183,
+          "Msg":  "Мне нужен отряд лучших! Вызвать Кустодиев!",
+          "AMsg.Num":  "35"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  1370,
+          "Pos.y":  590,
+          "Parent":  -1,
+          "#":  184,
+          "Msg":  "Мне нужен отряд лучших! Вызвать Кустодиев!",
+          "AMsg.Num":  "36"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1370,
+          "Pos.y":  630,
+          "Parent":  -1,
+          "#":  186,
+          "Msg":  "Пожалуй, не время для такой силы",
+          "AMsg.Num":  "37"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  670,
+          "Parent":  -1,
+          "#":  187,
+          "Msg":  "Мне они нужны как можно скорее! Тысяча чертей!",
+          "AMsg.Num":  "38"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1370,
+          "Pos.y":  790,
+          "Parent":  -1,
+          "#":  190,
+          "Msg":  "Десять",
+          "AMsg.Num":  "39"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1330,
+          "Pos.y":  790,
+          "Parent":  -1,
+          "#":  191,
+          "Msg":  "Пять",
+          "AMsg.Num":  "40"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1410,
+          "Pos.y":  790,
+          "Parent":  -1,
+          "#":  192,
+          "Msg":  "Двадцать пять",
+          "AMsg.Num":  "41"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1450,
+          "Pos.y":  790,
+          "Parent":  -1,
+          "#":  193,
+          "Msg":  "Пятьдесят",
+          "AMsg.Num":  "42"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  1350,
+          "Pos.y":  810,
+          "Parent":  -1,
+          "#":  202,
+          "Msg":  "Пять",
+          "AMsg.Num":  "43"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  1390,
+          "Pos.y":  810,
+          "Parent":  -1,
+          "#":  206,
+          "Msg":  "Десять",
+          "AMsg.Num":  "44"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  1430,
+          "Pos.y":  810,
+          "Parent":  -1,
+          "#":  207,
+          "Msg":  "Двадцать пять",
+          "AMsg.Num":  "45"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  1470,
+          "Pos.y":  810,
+          "Parent":  -1,
+          "#":  208,
+          "Msg":  "Пятьдесят",
+          "AMsg.Num":  "46"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  1470,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  212,
+          "Msg":  "Поднять всех негодяев и подлецов! Мы идём на штурм!",
+          "AMsg.Num":  "47"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  1470,
+          "Pos.y":  510,
+          "Parent":  -1,
+          "#":  213,
+          "Msg":  "Отправляйте созванных пиратов на штурм!",
+          "AMsg.Num":  "48"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  1550,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  218,
+          "Msg":  "Начинай давай!",
+          "AMsg.Num":  "49"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1670,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  220,
+          "Msg":  "Жду с нетерпением",
+          "AMsg.Num":  "50"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1590,
+          "Pos.y":  510,
+          "Parent":  -1,
+          "#":  228,
+          "Msg":  "Отставить! Не время...",
+          "AMsg.Num":  "51"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1690,
+          "Pos.y":  450,
+          "Parent":  -1,
+          "#":  235,
+          "Msg":  "Отлично",
+          "AMsg.Num":  "52"        
         }      
       ],
       "DialogMessages":      
@@ -321,7 +551,7 @@
           "Pos.y":  290,
           "Parent":  -1,
           "#":  26,
-          "Msg":  "Да, вы абсолютно правы. В последнее время центрам рейнджеров сильно урезали бюджет в связи с тяжелым положением на фронтах. Доминаторы захватывают систему за системой и все доступные средства Коалиции уходят на постройку и содержание большого военного флота. Тех крох, которые перепадают нам, едва хватает на обучение и экипировку новых рейджеров. У нас банально не хватает денег на совершенствование оборудования для наших бравых добровольцев.",
+          "Msg":  "Ну, братух, сам понимаешь - мы ребята вольные, да и ремесло наше непростое. Сейчас, когда с одной стороны жестянки, а с другой - псы Коалиции, совсем грусно стало. Был бы я Бароном - всем новичкам раздавал бы по кораблю и оборудки не жалел бы.",
           "DMsg.Num":  "0"        
         },
         {
@@ -331,7 +561,7 @@
           "Pos.y":  350,
           "Parent":  -1,
           "#":  28,
-          "Msg":  "Знаете, ведь именно наша организация позволяет вам беспрепятственно торговать и осуществлять оперативные действия на всех планетах галактического содружества, вся бюрократия лежит на нас, и если правительство не всилах поднять субсидирование - это можете сделать вы! свободные и лихие герои галактики!",
+          "Msg":  "Слушай, можешь не отвечать, конечно, но это же про тебя постоянно статьи в галанете пишут, да и корабль твой в ангаре самый навороченный из всех - явно же при деньгах...",
           "DMsg.Num":  "1"        
         },
         {
@@ -341,7 +571,7 @@
           "Pos.y":  410,
           "Parent":  -1,
           "#":  30,
-          "Msg":  "У нас есть таблица в Гаалакселе. В ней указаны все статьи расходов и что мы можем на них позволить, если вы сможете пожертвовать нам неободимые суммы, мы успешно сможем их распределить на нужды новых рейнджеров - ваших будущих боевых товарищей!",
+          "Msg":  "Да я третьего дня сидел кумекал с проверенными братками, сколько чё стоить будет, если бароном стану или ему просто идею закинуть, короче, таблицу расходов в Гаалакселе наваял.\r\nЕсли интересно, то могу показать а там уже если чё - и браткам закинешь на новую ласточку.",
           "DMsg.Num":  "2"        
         },
         {
@@ -351,7 +581,7 @@
           "Pos.y":  410,
           "Parent":  -1,
           "#":  33,
-          "Msg":  "Эх... ну, ничего страшного, будем надеятся, что военные смогут победить...",
+          "Msg":  "Да... Я всё понимаю, братух, но как захочишь че-нить в мире поменять, то ты знаешь, где меня найти.",
           "DMsg.Num":  "3"        
         },
         {
@@ -361,7 +591,7 @@
           "Pos.y":  470,
           "Parent":  -1,
           "#":  35,
-          "Msg":  "Не торопитесь. Столько денег у вас наверняка нету. Развитие разных направлений требует разного количества вложений. Нашего бюджета хватает на то, чтобы снаряжать и обучать новых рейнджеров, но на улучшение инфраструктуры у нас денег нет. Давайте я вам расскажу о текущем положении дел.",
+          "Msg":  "Ха, вот это по-нашему, держи доступ!\r\nТаблица интерактивная - сама подскажет, что имеем и что можно подтянуть: глядишь, если все статьи закроем, то и Коалицию победим.",
           "DMsg.Num":  "4"        
         },
         {
@@ -381,7 +611,7 @@
           "Pos.y":  -40,
           "Parent":  -1,
           "#":  51,
-          "Msg":  "В общие параметры входит:\r\n1. Количество классов для обучения новых рейнджеров\r\n2. Скорость обучения рейнджеров\r\n3. Количество выдаваемого оборудования рейнджерам\r\n4. Качество программы обучения новых рейнджеров\r\n5. Степерь дополнительного улучшения оборудования рейнджеров\r\n",
+          "Msg":  "В общие параметры входит:\r\n1. Количество баров для экскурса салаг\r\n2. Скорость обучения рейнджеров\r\n3. Количество выдаваемого оборудования рейнджерам\r\n4. Качество программы обучения новых рейнджеров\r\n5. Степерь дополнительного улучшения оборудования рейнджеров\r\n",
           "DMsg.Num":  "6"        
         },
         {
@@ -401,7 +631,7 @@
           "Pos.y":  -60,
           "Parent":  -1,
           "#":  69,
-          "Msg":  "Мы постоянно работаем над привлечением новых гуманоидов в рейнджерское движение. Прямо сейчас мы <StrLvlFreq[LvlFreq-1]>.",
+          "Msg":  "Мы постоянно работаем над привлечением новых гуманоидов в пиратское движение. Прямо сейчас мы <StrLvlFreq[LvlFreq-1]>.",
           "DMsg.Num":  "8"        
         },
         {
@@ -411,7 +641,7 @@
           "Pos.y":  -40,
           "Parent":  -1,
           "#":  70,
-          "Msg":  "Следующим рейнджерам мы будем выдавать <StrNItems[NItems-1]>.",
+          "Msg":  "Следующим салагам мы будем выдавать <StrNItems[NItems-1]>.",
           "DMsg.Num":  "9"        
         },
         {
@@ -441,7 +671,7 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  73,
-          "Msg":  "В параметры корабля рейнджера входит:\r\n1. Размер корпуса\r\n2. Акрин корпуса\r\n3. Уровень экипировки",
+          "Msg":  "В параметры корабля салаги входит:\r\n1. Размер корпуса\r\n2. Акрин корпуса\r\n3. Уровень экипировки",
           "DMsg.Num":  "12"        
         },
         {
@@ -451,7 +681,7 @@
           "Pos.y":  210,
           "Parent":  -1,
           "#":  82,
-          "Msg":  "Этот класс рейнджеров получит <StrLvlHullSize[LvlHullSize[current_ranger]-1]>.",
+          "Msg":  "Этот класс салаг получит <StrLvlHullSize[LvlHullSize[current_ranger]-1]>.",
           "DMsg.Num":  "13"        
         },
         {
@@ -461,7 +691,7 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  83,
-          "Msg":  "Акринацию корпуса для этого класса рейнджеров производят <StrLvlHullAcrin[LvlHullAcrin[current_ranger]-1]>.",
+          "Msg":  "Акринацию корпуса для этого класса салаг производят <StrLvlHullAcrin[LvlHullAcrin[current_ranger]-1]>.",
           "DMsg.Num":  "14"        
         },
         {
@@ -471,7 +701,7 @@
           "Pos.y":  250,
           "Parent":  -1,
           "#":  84,
-          "Msg":  "Оборудование для этого класса рейнджеров мы <StrLvlEq[LvlEq[current_ranger]-1]>.",
+          "Msg":  "Оборудование для этого класса салаг мы <StrLvlEq[LvlEq[current_ranger]-1]>.",
           "DMsg.Num":  "15"        
         },
         {
@@ -491,7 +721,7 @@
           "Pos.y":  140,
           "Parent":  -1,
           "#":  97,
-          "Msg":  "Спасибо рейнджер, ваш вклад в общее дело неоценим, благодаря таким как вы, мы точно восстановим мир в галактике!",
+          "Msg":  "Спасибо братуха, твоя жертва не оценима, давай налью бесплатно! Обмоем. Только благодаря таким как ты мы ещё на плаву.",
           "DMsg.Num":  "17"        
         },
         {
@@ -503,6 +733,86 @@
           "#":  101,
           "Msg":  "Этот параметр уже находится на максимальном уровне",
           "DMsg.Num":  "18"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1200,
+          "Pos.y":  400,
+          "Parent":  -1,
+          "#":  153,
+          "Msg":  "Рады приветствовать вас, Верховный!\r\n\r\nНаше братство радо слушать ваши мудрые речи и дальновидные приказания!\r\n\r\nКого будем грабить сегодня?",
+          "DMsg.Num":  "19"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1200,
+          "Pos.y":  630,
+          "Parent":  -1,
+          "#":  176,
+          "Msg":  "Верховный, вы уверены? Повернуть приказ вспять будет проблематично.",
+          "DMsg.Num":  "20"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  630,
+          "Parent":  -1,
+          "#":  185,
+          "Msg":  "Вы уверены, Барон?\r\n\r\nОтозвать Кустодиев обратно уже нельзя",
+          "DMsg.Num":  "21"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  710,
+          "Parent":  -1,
+          "#":  189,
+          "Msg":  "Итак, найм одного Кустодиес обойдётся общаку в <clr>1.000.000<clrEnd> cr.\r\n\r\nВыбирайте количество",
+          "DMsg.Num":  "22"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1510,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  217,
+          "Msg":  "Вы уверены, Барон? Мы не сможем распустить братков!",
+          "DMsg.Num":  "23"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1630,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  219,
+          "Msg":  "Хорошо. Ждите отчёт через пару месяцев о сборе пиратских сил.",
+          "DMsg.Num":  "24"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1510,
+          "Pos.y":  510,
+          "Parent":  -1,
+          "#":  227,
+          "Msg":  "Итак, Барон, выбирайте систему, которую атакуют наши соколики",
+          "DMsg.Num":  "25"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  1690,
+          "Pos.y":  410,
+          "Parent":  -1,
+          "#":  234,
+          "Msg":  "Отлично, Барон! Наши братки уже выдвигаются в систему <Name(GalaxyStar(GAnswerData))>.",
+          "DMsg.Num":  "26"        
         }      
       ],
       "Dialogs":      
@@ -522,6 +832,22 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  39        
+        },
+        {
+          "Type":  "TDialog",
+          "Name":  "Baron",
+          "Pos.x":  1200,
+          "Pos.y":  360,
+          "Parent":  -1,
+          "#":  152        
+        },
+        {
+          "Type":  "TDialog",
+          "Name":  "DialogOk",
+          "Pos.x":  1690,
+          "Pos.y":  330,
+          "Parent":  -1,
+          "#":  232        
         }      
       ],
       "Groups":      
@@ -543,6 +869,64 @@
           "CargoHook":  0,
           "EmptySpace":  0,
           "AddPlayer":  true,
+          "StatusTraderMin":  0,
+          "StatusTraderMax":  100,
+          "StatusWarriorMin":  0,
+          "StatusWarriorMax":  100,
+          "StatusPirateMin":  0,
+          "StatusPirateMax":  100,
+          "DistSearch":  10000,
+          "Dialog":  -1,
+          "StrengthMin":  "0",
+          "StrengthMax":  "0",
+          "Ruins":  ""        
+        },
+        {
+          "Type":  "TGroup",
+          "Name":  "GroupPirates",
+          "Pos.x":  250,
+          "Pos.y":  -70,
+          "Parent":  -1,
+          "#":  155,
+          "Owner":  62,
+          "Group.Type":  126,
+          "CntShipMin":  0,
+          "CntShipMax":  0,
+          "SpeedMin":  100,
+          "SpeedMax":  10000,
+          "Weapon":  0,
+          "CargoHook":  0,
+          "EmptySpace":  0,
+          "AddPlayer":  false,
+          "StatusTraderMin":  0,
+          "StatusTraderMax":  100,
+          "StatusWarriorMin":  0,
+          "StatusWarriorMax":  100,
+          "StatusPirateMin":  0,
+          "StatusPirateMax":  100,
+          "DistSearch":  10000,
+          "Dialog":  -1,
+          "StrengthMin":  "0",
+          "StrengthMax":  "0",
+          "Ruins":  ""        
+        },
+        {
+          "Type":  "TGroup",
+          "Name":  "GroupLand",
+          "Pos.x":  130,
+          "Pos.y":  -70,
+          "Parent":  -1,
+          "#":  163,
+          "Owner":  62,
+          "Group.Type":  126,
+          "CntShipMin":  0,
+          "CntShipMax":  0,
+          "SpeedMin":  100,
+          "SpeedMax":  10000,
+          "Weapon":  0,
+          "CargoHook":  0,
+          "EmptySpace":  0,
+          "AddPlayer":  false,
           "StatusTraderMin":  0,
           "StatusTraderMax":  100,
           "StatusWarriorMin":  0,
@@ -586,9 +970,9 @@
               "    buy_date = CurTurn();",
               "    // Покупаем NRangers рейнджеров на каждом ЦР",
               "    for (j = 0; j < GalaxyStars(); j = j + 1) {",
-              "        if (StarRuins(GalaxyStar(j), 'RC')) {",
+              "        if (StarRuins(GalaxyStar(j),'PB')) {",
               "            for (k = 0; k < NRangers; k = k + 1) {",
-              "                BuyNewRanger(StarRuins(GalaxyStar(j), 'RC'), k);",
+              "                BuyNewRanger(StarRuins(GalaxyStar(j),'PB'), k);",
               "            }",
               "        }",
               "    }",
@@ -697,7 +1081,7 @@
               "    }",
               "",
               "    if(!result){// Этого не должно происходить, но если произошло, то даем малокский промлазер 1ТУ весом 10",
-              "        if (debug) SFT('[ZelRangers.RandomWeapon] Пушка не выдалась');",
+              "        if (debug) SFT('[ZelPirates.RandomWeapon] Пушка не выдалась');",
               "        result = CreateEquipment(t_Weapon1, 10, 1, 0);",
               "    }",
               "}",
@@ -1027,7 +1411,7 @@
               "//LvlSkills = 1; // повышение навыков",
               "//LvlUpgrade = 1; // улучшение оборудки",
               "",
-              "money = newarray(5); // начальный капитал рейнджеров, увеличивается при каждом улучшении",
+              "money = newarray(5); // начальный капитал пиратов, увеличивается при каждом улучшении",
               "LvlHullSize = newarray(5); // размер корпуса",
               "LvlHullAcrin = newarray(5); // качество акрина",
               "LvlEq = newarray(5); // качество оборудки",
@@ -1053,28 +1437,17 @@
               "// rc - ЦР, на котором появится рейнджер",
               "// n - его номер (n=0,1,2,3,4)",
               "function BuyNewRanger(rc, n) {",
-              "    ship = BuyRanger(StarPlanets(ShipStar(rc), Rnd(0, StarPlanets(ShipStar(rc)) - 1)), money[n]);",
+              "    ship = BuyPirate(PlanetPirateClan(), money[n]);",
               "",
               "    str tstr;",
               "",
               "    if (prob(0.25)) {",
-              "        random = Rnd(Maloc, Gaal);",
+              "        random = RndObject(Maloc, Gaal, ship);",
               "        ShipPilotRace(ship, random);",
               "        ShipOwner(ship, random);",
               "        ItemOwner(ShipItems(ship, 0), random);",
               "        Chameleon(ship);",
               "    }",
-              "",
-              "    // Обработка корпуса Таухито ()",
-              "    //if (Chameleon(ship, 'GraphName') == 'Ship.People.RangerOldFag') {",
-              "        //ItemOwner(ShipItems(ship, 0), None);",
-              "        //ShipPilotRace(ship, Maloc); //choice5(1,Maloc,1,Peleng,0,People,1,Fei,1,Gaal));",
-              "        //SFT('!' + Chameleon(ship, 'GraphName'));",
-              "        //Chameleon(ship, 'Ship.Maloc.Ranger');",
-              "        //HullSeries(ShipItems(ship, 0), 80);",
-              "        //SFT('!! ' + Chameleon(ship, 'GraphName'));",
-              "        //SFT('!! ' + HullSeries(ShipItems(ship, 0)));",
-              "    //}",
               "",
               "    // Даем корпус с нужными параметрами",
               "    ItemSize(ShipItems(ship, 0), Rnd(0.75 * HullSize(n), 1.25 * HullSize(n)));",
@@ -1089,56 +1462,54 @@
               "        if(power == 4) {",
               "            admirals_cnt = admirals_cnt + 1;",
               "            ShipMoney(ship, round(6.0 * ShipMoney(ship))); // Повышаем капитал в 6.0 раз",
-              "            while (ShipRank(ship) < 7) { // Повышаем звание до Адмирала",
-              "                ShipRankPoints(ship, ShipNextRankPoints(ship));",
-              "                ShipRaiseRank(ship);",
+              "            while (GetShipPirateRank(ship) < 6) { // Повышаем звание до Хана",
+              "                ShipPirateRankPoints(ship, ShipNextPirateRankPoints(ship));",
+              "                RaisePirateRank(ship);",
               "            }",
               "            ItemSize(ShipItems(ship, 0), round(1.3 * ItemSize(ShipItems(ship, 0)))); // Увеличиваем корпус на 20%",
               "",
-              "            tstr = Format(CT('Script.Cat_ZelRangers.AdmiralNews.'+Rnd(1,CT('Script.Cat_ZelRangers.AdmiralNews.Count'))),'name',ShortName(ship));",
-              "            AddPlanetNews(tstr);",
+              "            //tstr = Format(CT('Script.Cat_ZelPirates.KhanNews.'+Rnd(1,CT('Script.Cat_ZelPirates.KhanNews.Count'))),'name',ShortName(ship));",
+              "            //AddPlanetNews(tstr);",
               "",
-              "            NewsAdd(tstr);",
-              "            Sound('Sound.NewMsg');",
-              "",
-              "            ShipSubType(ship,2);",
+              "            //NewsAdd(tstr);",
+              "            //Sound('Sound.NewMsg');",
               "",
               "            if(Rnd(1,3) == 3) {",
-              "                //Наш адмирал - грозный борец с пиратством",
-              "                int y1 = Rnd(150,300);",
-              "                int y2 = Rnd(20,35);",
-              "                int y4 = Rnd(20,50);",
-              "                ShipStatistic(ship,1,y1);",
+              "                //Наш хан - грозный борец с Коалицией",
+              "                int y1 = Rnd(90,150);",
+              "                int y2 = Rnd(15,30);",
+              "                int y4 = Rnd(20,40);",
+              "                ShipStatistic(ship,5,y1);",
               "                ShipStatistic(ship,2,y2);",
-              "                ShipStatistic(ship,3,Rnd(8,15));",
+              "                ShipStatistic(ship,3,Rnd(6,15));",
               "                ShipStatistic(ship,8,y4);",
               "            }",
               "            else {",
-              "                //А этот адмирал - среднестатистический борец с жомиками",
-              "                y1 = Rnd(30,50);",
-              "                y2 = Rnd(200,500);",
-              "                y4 = Rnd(20,50);",
-              "                ShipStatistic(ship,1,y1);",
+              "                //А этот хан - среднестатистический борец с жомиками",
+              "                y1 = Rnd(20,40);",
+              "                y2 = Rnd(100,200);",
+              "                y4 = Rnd(15,30);",
+              "                ShipStatistic(ship,5,y1);",
               "                ShipStatistic(ship,2,y2);",
-              "                ShipStatistic(ship,3,Rnd(8,15));",
+              "                ShipStatistic(ship,3,Rnd(6,15));",
               "                ShipStatistic(ship,8,y4);",
               "            }",
               "            ShipStatistic(ship,0,ShipStatistic(ship,0)+y1+y2+y4);",
               "            SetShipExpByType(ship,Rnd(300000,400000),0);",
               "",
               "            //Спецбонусы по просьбе заказчика :)",
-              "            ShipSpecialBonuses(ship,bonWEnergy,CT('Script.Cat_ZelRangers.AdmiralBuffs.Energy'));",
-              "            ShipSpecialBonuses(ship,bonWSplinter,CT('Script.Cat_ZelRangers.AdmiralBuffs.Splinter'));",
-              "            ShipSpecialBonuses(ship,bonWMissile,CT('Script.Cat_ZelRangers.AdmiralBuffs.Missile'));",
-              "            ShipSpecialBonuses(ship,bonWRadius,CT('Script.Cat_ZelRangers.AdmiralBuffs.WRadius'));",
-              "            ShipSpecialBonuses(ship,bonMissileSpeed,CT('Script.Cat_ZelRangers.AdmiralBuffs.MiSpeed'));",
-              "            ShipSpecialBonuses(ship,bonAttacks,CT('Script.Cat_ZelRangers.AdmiralBuffs.Attacks'));",
+              "            /*ShipSpecialBonuses(ship,bonWEnergy,CT('Script.Cat_ZelPirates.KhanBuffs.Energy'));",
+              "            ShipSpecialBonuses(ship,bonWSplinter,CT('Script.Cat_ZelPirates.KhanBuffs.Splinter'));",
+              "            ShipSpecialBonuses(ship,bonWMissile,CT('Script.Cat_ZelPirates.KhanBuffs.Missile'));",
+              "            ShipSpecialBonuses(ship,bonWRadius,CT('Script.Cat_ZelPirates.KhanBuffs.WRadius'));",
+              "            ShipSpecialBonuses(ship,bonMissileSpeed,CT('Script.Cat_ZelPirates.KhanBuffs.MiSpeed'));",
+              "            ShipSpecialBonuses(ship,bonAttacks,CT('Script.Cat_ZelPirates.KhanBuffs.Attacks'));",
               "",
-              "            ShipSpecialBonuses(ship,bonHull,CT('Script.Cat_ZelRangers.AdmiralBuffs.Armor'));",
-              "            ShipSpecialBonuses(ship,bonDef,CT('Script.Cat_ZelRangers.AdmiralBuffs.Def'));",
-              "            ShipSpecialBonuses(ship,bonDroid,CT('Script.Cat_ZelRangers.AdmiralBuffs.Droid'));",
+              "            ShipSpecialBonuses(ship,bonHull,CT('Script.Cat_ZelPirates.KhanBuffs.Armor'));",
+              "            ShipSpecialBonuses(ship,bonDef,CT('Script.Cat_ZelPirates.KhanBuffs.Def'));",
+              "            ShipSpecialBonuses(ship,bonDroid,CT('Script.Cat_ZelPirates.KhanBuffs.Droid'));",
               "",
-              "            ShipSpecialBonuses(ship,bonSpeed,CT('Script.Cat_ZelRangers.AdmiralBuffs.Speed'));",
+              "            ShipSpecialBonuses(ship,bonSpeed,CT('Script.Cat_ZelPirates.KhanBuffs.Speed'));*/",
               "        }",
               "",
               "        // Навешиваем акрин на корпус",
@@ -1240,7 +1611,7 @@
               "if (accepted)",
               "    AddDialogInject('Verbovka', '', \"Мне нужен доступ к вашей таблице в Гаалакселе\", 0);",
               "else",
-              "    AddDialogInject('Begin', '', \"Дела на фронте сейчас совсем кислые, как обстоят дела с новобранцами в наши ряды доблестных рейнджеров?\", 0);"          
+              "    AddDialogInject('Begin', '', \"Дела в баре сейчас совсем кислые, не с кем выпить, где все наши бравые бродяги?\", 0);"          
           ]        
         },
         {
@@ -1253,7 +1624,7 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "InjectAnswer('Verbovka', \"Далее\", 0);",
+              "InjectAnswer('Verbovka', \"Даёшь инвестиции в пиратов!\", 0);",
               "accepted = 1;",
               "//Чтобы не сильно напрягать",
               "//LvlFreq = 5;",
@@ -1548,59 +1919,59 @@
               "//СТРОКОВЫЕ ПОДСТАНОВКИ",
               "//",
               "StrLvlFreq = newarray(5);",
-              "StrLvlFreq[0] = \"раздаём листовки с призывом вступать в рейнджеры на главных площадях\";",
-              "StrLvlFreq[1] = \"расклеиваем повсюду плакаты \\\"А ты записался в рейнджеры?\\\"\";",
-              "StrLvlFreq[2] = \"устраиваем парады памяти рейнджеров-героев\";",
-              "StrLvlFreq[3] = \"ведём активную агитационную программу в гааланете\";",
-              "StrLvlFreq[4] = \"устраиваем массовую пропаганду рейнджерского движения, начиная от разбрасывания листовок и заканчивая формированием в литературе образа героя без страха и упрёка - Космического Рейнджера\";",
+              "StrLvlFreq[0] = \"расказываем в барах про \\\"Особое предложение\\\"\";",
+              "StrLvlFreq[1] = \"расклеиваем повсюду плакаты \\\"Мама - анархия, Папа - стакан янвелба\\\"\";",
+              "StrLvlFreq[2] = \"устраиваем тематические сходки почитателей Рачехана\";",
+              "StrLvlFreq[3] = \"ведём активную агитационную программу в пеленгнете\";",
+              "StrLvlFreq[4] = \"устраиваем массовую пропаганду анархического движения, начиная от разбрасывания листовок и заканчивая формированием в литературе образа крутого парня - Бродяги с гиперпространства\";",
               "",
               "StrNRangers = newarray(5);",
-              "StrNRangers[0] = \"только один класс рейнджеров\";",
-              "StrNRangers[1] = \"два класса обучения рейнджеров\";",
-              "StrNRangers[2] = \"целых три класса рейнджеров\";",
-              "StrNRangers[3] = \"четыре класса для обучения рейнджеров\";",
-              "StrNRangers[4] = \"полноценное орбитальное училище вмещающее пять классов рейнджеров\";",
+              "StrNRangers[0] = \"только один класс салаг\";",
+              "StrNRangers[1] = \"два класса обучения салаг\";",
+              "StrNRangers[2] = \"целых три класса салаг\";",
+              "StrNRangers[3] = \"четыре класса для обучения салаг\";",
+              "StrNRangers[4] = \"полноценное орбитальное училище, вмещающее пять классов салаг\";",
               "",
               "StrNItems = newarray(5);",
               "StrNItems[0] = \"минимальный комплект оборудования, с которым возможен космический полёт\";",
-              "StrNItems[1] = \"коплект джентельмена - пушка, дроид и радар! В общем самое необходимое\";",
+              "StrNItems[1] = \"комплект джентельмена - пушка, дроид и радар! В общем, всё самое необходимое\";",
               "StrNItems[2] = \"среднее количество оборудования, практически полноценный комплект\";",
-              "StrNItems[3] = \"большое количество оборудования, наши рейнджеры оснащены не хуже военных\";",
-              "StrNItems[4] = \"полноценный комплект оборудования, вооружения и возможно даже парочку артефактов\";",
+              "StrNItems[3] = \"большое количество оборудования - наши салаги оснащены не хуже военных\";",
+              "StrNItems[4] = \"полноценный комплект оборудования, вооружения и, возможно, даже парочку артефактов\";",
               "",
               "StrLvlSkills = newarray(5);",
-              "StrLvlSkills[0] = \"берем в рейнджеров всех желающих\";",
-              "StrLvlSkills[1] = \"берем в рейнджеров всех прошедших минимальное обучение в симуляторах космического боя\";",
-              "StrLvlSkills[2] = \"берем в рейнджеров всех прошедших экзамены в симуляторах космического, планетарного и гиперпространственного боя\";",
-              "StrLvlSkills[3] = \"берем в рейнджеров исключительно выпускников лётных училищ и проводим с ними углубленные тренировки\";",
-              "StrLvlSkills[4] = \"берем в рейнджеров исключительно профессиональных пилотов и дополнительно обучаем их всевозможным навыкам\";",
+              "StrLvlSkills[0] = \"берем в братство всех желающих\";",
+              "StrLvlSkills[1] = \"берем в братство всех прошедших минимальное обучение на симуляторах космического боя\";",
+              "StrLvlSkills[2] = \"берем в братство всех прошедших испытания на симуляторах космического, планетарного и гиперпространственного боя\";",
+              "StrLvlSkills[3] = \"берем в братство отчаявшихся выпускников лётных училищ или бывших военных и проводим с ними углубленные тренировки\";",
+              "StrLvlSkills[4] = \"берем в братство отчаявшихся профессиональных пилотов и дополнительно обучаем их всевозможным навыкам\";",
               "",
               "StrLvlUpgrade = newarray(5);",
               "StrLvlUpgrade[0] = \"несколько малоков-слесарей\";",
               "StrLvlUpgrade[1] = \"малокско-человеческая группа слесарей пятого разряда\";",
-              "StrLvlUpgrade[2] = \"практиканты технических вузов с Эйпентака\";",
-              "StrLvlUpgrade[3] = \"научная база \\\"Наяна\\\"\";",
-              "StrLvlUpgrade[4] = \"лучшие специалисты с Гаалдока\";",
+              "StrLvlUpgrade[2] = \"практиканты технических вузов с Рахиша\";",
+              "StrLvlUpgrade[3] = \"Доминион \\\"Черная Жемчужина\\\"\";",
+              "StrLvlUpgrade[4] = \"Величайшие безумные учёные со всей галактики\";",
               "",
               "StrLvlHullSize = newarray(5);",
               "StrLvlHullSize[0] = \"корпус минимального размера, сравнимый с гражданской авиацией\";",
-              "StrLvlHullSize[1] = \"корпус маленького размера, как и у вас когда-то в начале вашей карьеры\";",
-              "StrLvlHullSize[2] = \"корпус среднего размера, оптимальный вариант для начинающего героя\";",
-              "StrLvlHullSize[3] = \"корпус большого размера, такие размеры обычно у торговых судов, но наши рейнджеры достойны лучшего\";",
-              "StrLvlHullSize[4] = \"корпус огромного размера, больше только у флагманов и то не всегда\";",
+              "StrLvlHullSize[1] = \"корпус маленького размера, как и Васи с соседней базы\";",
+              "StrLvlHullSize[2] = \"корпус среднего размера - оптимальный вариант для начинающего разбойника\";",
+              "StrLvlHullSize[3] = \"корпус большого размера - такие размеры обычно у торговых судов, но нашим нужно транспортировать рэкетированный груз\";",
+              "StrLvlHullSize[4] = \"корпус огромного размера - больше только у флагманов, и то не всегда\";",
               "",
               "StrLvlHullAcrin = newarray(5);",
-              "StrLvlHullAcrin[0] = \"приглашёнными специалистами без лицензии, только никому не говорите\";",
-              "StrLvlHullAcrin[1] = \"лицензированными специалистами, их не взяли в пилоты по состоянию здоровья но они могут помочь нашему общему делу\";",
-              "StrLvlHullAcrin[2] = \"в одной из лабораторий Центра Рейнджеров под добровольным надзором учёных\";",
-              "StrLvlHullAcrin[3] = \"на специально построенном предприятии по акринации\";",
-              "StrLvlHullAcrin[4] = \"лучшими специалистами галактики на одной из научных баз\";",
+              "StrLvlHullAcrin[0] = \"частниками без лицухи, ну так нам же и дешевле\";",
+              "StrLvlHullAcrin[1] = \"частники, бывшие лицензенты, перешедшие на нашу сторону\";",
+              "StrLvlHullAcrin[2] = \"в одной нарко-лабе под присмотром спецов - у них явно есть какой-то \\\"план\\\"\";",
+              "StrLvlHullAcrin[3] = \"на специально захваченом предприятии по акринации\";",
+              "StrLvlHullAcrin[4] = \"лучшими безумцами галактики на одном из доминионов\";",
               "",
               "StrLvlEq = newarray(5);",
               "StrLvlEq[0] = \"скупаем оптом на распродажах в бизнец-центрах\";",
               "StrLvlEq[1] = \"покупаем б/у хорошего качества у бывших боевых пилотов \";",
-              "StrLvlEq[2] = \"создаем своими силами закупая детали на планетах\";",
-              "StrLvlEq[3] = \"скупаем лучший массмаркет с индустриальных планет\";",
+              "StrLvlEq[2] = \"создаем своими силами, закупая детали на черном рынке\";",
+              "StrLvlEq[3] = \"рэкетируем лучший массмаркет с индустриальных планет\";",
               "StrLvlEq[4] = \"производим на специализированных заводах под заказ\";"          
           ]        
         },
@@ -1997,10 +2368,10 @@
               "    }",
               "",
               "    if (cnt > 100 && debug) {",
-              "        SFT('[ZelRangers.RandomAcryn] В какой-то из категорий мало акринов (или вам не повезло).');",
+              "        SFT('[ZelPirates.RandomAcryn] В какой-то из категорий мало акринов (или вам не повезло).');",
               "    }",
               "    if ((result == -1 || result == 0) && debug) {",
-              "        SFT('[ZelRangers.RandomAcryn] Произошло что-то странное и акрин не выдался.');",
+              "        SFT('[ZelPirates.RandomAcryn] Произошло что-то странное и акрин не выдался.');",
               "    }",
               "}"          
           ]        
@@ -2058,6 +2429,541 @@
               "//    branch_money_bonus[8] - бонус к капиталу от каждого улучшения",
               "//    branch_cost[8] - множитель стоимости каждого улучшения",
               "//    branch_cost_multiplier_inc[8] - приращение cost_multiplier при каждом улучшении"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1010,
+          "Pos.y":  200,
+          "Parent":  -1,
+          "#":  151,
+          "Code.Type":  "DialogBegin",
+          "Code":          
+          [
+              "if(GetShipPirateRank(Player()) == 7) AddDialogInject('Baron', '', \"Всем внимание - на вашу халупу прибыл сам Верховный Барон! Всем ко стойке бара - наливать за мой счёт!\", 5);"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  250,
+          "Pos.y":  60,
+          "Parent":  -1,
+          "#":  157,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "OrderJump(CurShip,PlanetToStar(PlanetPirateClan()));"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  280,
+          "Pos.y":  30,
+          "Parent":  -1,
+          "#":  160,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "OrderTakeOff(CurShip);"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  130,
+          "Pos.y":  20,
+          "Parent":  -1,
+          "#":  165,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "OrderLanding(CurShip,NearCivilPlanet(CurShip))"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  170,
+          "Pos.y":  20,
+          "Parent":  -1,
+          "#":  168,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player(),ShipMoney(Player())+ShipMoney(CurShip));",
+              "NewsAdd(\"Экипаж корабля\"+' '+Name(CurShip)+' '+\"сошёл на берег на планете\"+' '+Name(GetShipPlanet(CurShip))+' '+\", перечислив в общак\"+' '+ShipMoney(CurShip)+' '+\"cr.\");",
+              "OrderNone(CurShip);",
+              "OrderLock(CurShip);",
+              "ShipDestroy(CurShip);"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  750,
+          "Pos.y":  230,
+          "Parent":  -1,
+          "#":  171,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(LandState == 2) {",
+              "    if(LandCD) LandCD = LandCD - 1;",
+              "    else LandState = 0;",
+              "}",
+              "if(AttackState == 1) {",
+              "    if(AttackCD) AttackCD = AttackCD - 1;",
+              "    else {",
+              "        Sound('Sound.NewMsg');",
+              "        NewsAdd(\"Пираты созваны, Барон. Мы готовы штурмовать.\");",
+              "        AttackState = 2;",
+              "    }",
+              "",
+              "    for(i=0;GalaxyStars()>i;i=i+1) {",
+              "        item = GalaxyStar(i);",
+              "        if(StarOwner(item) != 2) continue;",
+              "        if(StarOwner(item) == 2 && StarBattle(item)) continue;",
+              "        int g = 0;",
+              "        for(j=0;StarShips(item)>j;j=j+1) {",
+              "            ship = StarShips(item,j);",
+              "            if(ShipOwner(ship) != 7) continue;",
+              "            if(ShipTypeN(ship) != t_Warrior || ShipTypeN(ship) != t_Pirate) continue;",
+              "            if(ShipInScript(ship)) continue;",
+              "            ShipJoin(GroupPirates,ship);",
+              "        }",
+              "    }",
+              "}",
+              "if(CustodCD) CustodCD = CustodCD - 1;",
+              "",
+              "if(!GroupCount(GroupLand) && LandState == 1) LandState = 2;"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1200,
+          "Pos.y":  710,
+          "Parent":  -1,
+          "#":  179,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(CoalitionDefeated()) {",
+              "    NewsAdd(\"Верховный Барон отдал приказ о ликвидации половины нашего флота с целью ликвидации пропойц и бездельников. Ударим по тем, кто порочит славное имя пирата беспробудным алкоголизмом и трусостью!\");",
+              "    AddPlanetNews(\"Верховный Барон отдал приказ о ликвидации половины нашего флота с целью ликвидации пропойц и бездельников. Ударим по тем, кто порочит славное имя пирата беспробудным алкоголизмом и трусостью!\",87);",
+              "}",
+              "else {",
+              "    NewsAdd(\"Дзухаллагу удалось перехватить новый приказ Верховного Барона - ввиду недостачи в финансах он отдал приказ о ликвидации половины состава пиратских кораблей. Это отличная возможность для наших сил, чтобы освободить несколько систем.\");",
+              "    AddPlanetNews(\"Дзухаллагу удалось перехватить новый приказ Верховного Барона - ввиду недостачи в финансах он отдал приказ о ликвидации половины состава пиратских кораблей. Это отличная возможность для наших сил, чтобы освободить несколько систем.\",87);",
+              "}",
+              "Sound('Sound.NewMsg');",
+              "",
+              "for(i=0;GalaxyStars()>i;i=i+1) {",
+              "    item = GalaxyStar(i);",
+              "    if(StarOwner(item) != 2) continue;",
+              "    if(StarOwner(item) == 2 && StarBattle(item)) continue;",
+              "    int g = 0;",
+              "    for(j=0;StarShips(item)>j;j=j+1) {",
+              "        ship = StarShips(item,j);",
+              "        if(ShipOwner(ship) != 7) continue;",
+              "        if(ShipTypeN(ship) != t_Warrior || ShipTypeN(ship) != t_Pirate) continue;",
+              "        if(ShipInScript(ship)) continue;",
+              "        if(!g) {",
+              "            g = 1;",
+              "            continue;",
+              "        }",
+              "        if(g) {",
+              "            ShipJoin(GroupLand,ship);",
+              "            g = 0;",
+              "            continue;",
+              "        }",
+              "    }",
+              "}",
+              "",
+              "LandState = 1;",
+              "LandCD = RndObject(200,350,PlanetPirateClan());"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  830,
+          "Parent":  -1,
+          "#":  188,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "for(i=0;i<5;i=i+1) {",
+              "    BuyNewCustodies(PlanetPirateClan(), 1);",
+              "}",
+              "",
+              "ShipMoney(Player(),ShipMoney(Player())-5000000);",
+              "Sound('Sound.Buy');",
+              "",
+              "if(!CoalitionDefeated()) {",
+              "    AddPlanetNews(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\",87);",
+              "    NewsAdd(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\");",
+              "    Sound('Sound.NewMsg');",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1370,
+          "Pos.y":  830,
+          "Parent":  -1,
+          "#":  198,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "for(i=0;i<10;i=i+1) {",
+              "    BuyNewCustodies(PlanetPirateClan(), 1);",
+              "}",
+              "",
+              "ShipMoney(Player(),ShipMoney(Player())-10000000);",
+              "Sound('Sound.Buy');",
+              "",
+              "if(!CoalitionDefeated()) {",
+              "    AddPlanetNews(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\",87);",
+              "    NewsAdd(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\");",
+              "    Sound('Sound.NewMsg');",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1410,
+          "Pos.y":  830,
+          "Parent":  -1,
+          "#":  199,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "for(i=0;i<25;i=i+1) {",
+              "    BuyNewCustodies(PlanetPirateClan(), 1);",
+              "}",
+              "",
+              "ShipMoney(Player(),ShipMoney(Player())-25000000);",
+              "Sound('Sound.Buy');",
+              "",
+              "if(!CoalitionDefeated()) {",
+              "    AddPlanetNews(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\",87);",
+              "    NewsAdd(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\");",
+              "    Sound('Sound.NewMsg');",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1450,
+          "Pos.y":  830,
+          "Parent":  -1,
+          "#":  200,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "for(i=0;i<50;i=i+1) {",
+              "    BuyNewCustodies(PlanetPirateClan(), 1);",
+              "}",
+              "",
+              "ShipMoney(Player(),ShipMoney(Player())-50000000);",
+              "Sound('Sound.Buy');",
+              "",
+              "if(!CoalitionDefeated()) {",
+              "    AddPlanetNews(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\",87);",
+              "    NewsAdd(\"Настаёт чёрный день для Коалиции - Верховный Барон проспонсировал постройку отряда могучих пиратов Кустодиес. Все спецподразделения КВСМК подняты по тревоге.\");",
+              "    Sound('Sound.NewMsg');",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  430,
+          "Pos.y":  -280,
+          "Parent":  -1,
+          "#":  209,
+          "Code.Type":  "Init",
+          "Code":          
+          [
+              "function BuyNewCustodies(rc, n) {",
+              "    n=0;",
+              "    ship = BuyPirate(PlanetPirateClan(), 2000);",
+              "",
+              "    str tstr;",
+              "",
+              "    if (prob(0.25)) {",
+              "        random = RndObject(Maloc, Gaal, ship);",
+              "        ShipPilotRace(ship, random);",
+              "        ShipOwner(ship, random);",
+              "        ItemOwner(ShipItems(ship, 0), random);",
+              "        Chameleon(ship);",
+              "    }",
+              "",
+              "    // Даем корпус с нужными параметрами",
+              "    ItemSize(ShipItems(ship, 0), Rnd(0.9 * 5, 1.4 * 5));",
+              "    power = RandomAcrynPower(4); //сила акрина от 0 (нет акрина) до 4 (уникальный акрин)",
+              "    //if (test) power = 4;",
+              "    if (power != 0) {",
+              "        acryn = RandomAcryn(power, ship, ShipOwner(ship));",
+              "",
+              "        //if (power == 1) {}",
+              "        //if (power == 2) {}",
+              "        //if (power == 3) {}",
+              "        if(power == 4) {",
+              "            ShipMoney(ship, round(6.0 * ShipMoney(ship))); // Повышаем капитал в 6.0 раз",
+              "            while (GetShipPirateRank(ship) < 6) { // Повышаем звание до Хана",
+              "                ShipPirateRankPoints(ship, ShipNextPirateRankPoints(ship));",
+              "                RaisePirateRank(ship);",
+              "            }",
+              "            ItemSize(ShipItems(ship, 0), round(1.3 * ItemSize(ShipItems(ship, 0)))); // Увеличиваем корпус на 20%",
+              "",
+              "            tstr = Format(CT('Script.Cat_ZelPirates.CustodiesNews.'+Rnd(1,CT('Script.Cat_ZelPirates.CustodiesNews.Count'))),'name',ShortName(ship));",
+              "            AddPlanetNews(tstr);",
+              "",
+              "            NewsAdd(tstr);",
+              "            Sound('Sound.NewMsg');",
+              "",
+              "            if(Rnd(1,3) == 3) {",
+              "                //Наш хан - грозный борец с Коалицией",
+              "                int y1 = Rnd(90,150);",
+              "                int y2 = Rnd(15,30);",
+              "                int y4 = Rnd(20,40);",
+              "                ShipStatistic(ship,5,y1);",
+              "                ShipStatistic(ship,2,y2);",
+              "                ShipStatistic(ship,3,Rnd(6,15));",
+              "                ShipStatistic(ship,8,y4);",
+              "            }",
+              "            else {",
+              "                //А этот хан - среднестатистический борец с жомиками",
+              "                y1 = Rnd(20,40);",
+              "                y2 = Rnd(100,200);",
+              "                y4 = Rnd(15,30);",
+              "                ShipStatistic(ship,5,y1);",
+              "                ShipStatistic(ship,2,y2);",
+              "                ShipStatistic(ship,3,Rnd(6,15));",
+              "                ShipStatistic(ship,8,y4);",
+              "            }",
+              "            ShipStatistic(ship,0,ShipStatistic(ship,0)+y1+y2+y4);",
+              "            SetShipExpByType(ship,Rnd(300000,400000),0);",
+              "",
+              "            //Спецбонусы по просьбе заказчика :)",
+              "            ShipSpecialBonuses(ship,bonWEnergy,CT('Script.Cat_ZelPirates.CustodiesBuffs.Energy'));",
+              "            ShipSpecialBonuses(ship,bonWSplinter,CT('Script.Cat_ZelPirates.CustodiesBuffs.Splinter'));",
+              "            ShipSpecialBonuses(ship,bonWMissile,CT('Script.Cat_ZelPirates.CustodiesBuffs.Missile'));",
+              "            ShipSpecialBonuses(ship,bonWRadius,CT('Script.Cat_ZelPirates.CustodiesBuffs.WRadius'));",
+              "            ShipSpecialBonuses(ship,bonMissileSpeed,CT('Script.Cat_ZelPirates.CustodiesBuffs.MiSpeed'));",
+              "            ShipSpecialBonuses(ship,bonAttacks,CT('Script.Cat_ZelPirates.CustodiesBuffs.Attacks'));",
+              "",
+              "            ShipSpecialBonuses(ship,bonHull,CT('Script.Cat_ZelPirates.CustodiesBuffs.Armor'));",
+              "            ShipSpecialBonuses(ship,bonDef,CT('Script.Cat_ZelPirates.CustodiesBuffs.Def'));",
+              "            ShipSpecialBonuses(ship,bonDroid,CT('Script.Cat_ZelPirates.CustodiesBuffs.Droid'));",
+              "",
+              "            ShipSpecialBonuses(ship,bonSpeed,CT('Script.Cat_ZelPirates.CustodiesBuffs.Speed'));",
+              "        }",
+              "",
+              "        // Навешиваем акрин на корпус",
+              "        if(acryn != -1 && acryn != 0) {",
+              "            SpecialToEquipment(acryn, ShipItems(ship, 0));",
+              "        }",
+              "    }",
+              "    HullHP(ship, ItemSize(ShipItems(ship, 0)));",
+              "    Chameleon(ship);",
+              "",
+              "    if(HullSeries(ShipEqInSlot(ship,t_Hull)) == 'HullOldfag') {",
+              "        HullSeries(ShipEqInSlot(ship,t_Hull),-1);",
+              "        HullSeries(ShipEqInSlot(ship,t_Hull),99);",
+              "    }",
+              "",
+              "    // Удаляем всю оборудку",
+              "    for (i = ShipItems(ship) - 1; i > 0; i = i - 1) FreeItem(GetItemFromShip(ship, i));",
+              "",
+              "    // Даем новую оборудку",
+              "    GiveAllEq(ship, 5, toDiap(5, 1, 5));",
+              "    ArrangeItems(ship);",
+              "",
+              "    // Улучшаем и тренируем рейнджера в соответствии с общими улучшениями отраслей",
+              "    UpgradeShip(ship, toDiap(5, 1, 5));",
+              "    TrainShip(ship, toDiap(5, 1, 5));",
+              "    /*int k = 0;",
+              "    if(LvlUpgrade == 1) k = 4;",
+              "    if(LvlUpgrade == 2) k = 6;",
+              "    if(LvlUpgrade == 3) k = 8;",
+              "    if(LvlUpgrade == 4) k = 10;",
+              "    if(LvlUpgrade == 5) k = 8;",
+              "",
+              "    for(i=0;i<k;i=i+1) {",
+              "        AcrynEquip(ship);",
+              "    }*/",
+              "",
+              "    ShipRefit(ship); //рефитаем после выдачи и улучшения оборудки",
+              "    for(i=0;ShipItems(ship)>i;i=i+1) {",
+              "        if(!ItemIsInUse(ShipItems(ship,i))) continue;",
+              "        if(ItemType(ShipItems(ship,i)) < t_Hull) continue;",
+              "",
+              "        if(ItemLevel(ShipItems(ship,i)) < GalaxyTechLevel() - 1) ItemLevel(ShipItems(ship,i),max(1,GalaxyTechLevel() - Rnd(0,2)));",
+              "    }",
+              "    for(i=0;ShipItems(ship)>i;i=i+1) {",
+              "        if(!ItemIsInUse(ShipItems(ship,i))) continue;",
+              "        if(ItemType(ShipItems(ship,i)) < t_Hull) continue;",
+              "",
+              "        if(ItemLevel(ShipItems(ship,i)) < GalaxyTechLevel() - 1) ItemLevel(ShipItems(ship,i),max(1,GalaxyTechLevel() - Rnd(0,2)));",
+              "    }",
+              "    for(i=0;ShipItems(ship)>i;i=i+1) {",
+              "        if(!ItemIsInUse(ShipItems(ship,i))) continue;",
+              "        if(ItemType(ShipItems(ship,i)) < t_Hull) continue;",
+              "",
+              "        if(ItemLevel(ShipItems(ship,i)) < GalaxyTechLevel() - 1) ItemLevel(ShipItems(ship,i),max(1,GalaxyTechLevel() - Rnd(0,2)));",
+              "    }",
+              "    for(i=0;ShipItems(ship)>i;i=i+1) {",
+              "        if(!ItemIsInUse(ShipItems(ship,i))) continue;",
+              "        if(ItemType(ShipItems(ship,i)) < t_Hull) continue;",
+              "",
+              "        if(ItemLevel(ShipItems(ship,i)) < GalaxyTechLevel() - 1) ItemLevel(ShipItems(ship,i),max(1,GalaxyTechLevel() - Rnd(0,2)));",
+              "    }",
+              "",
+              "    if(1) {",
+              "        for(i=0;ShipSlots(ship,2)>i;i=i+1) {",
+              "            if(ShipEqInSlot(ship,t_Artefact,i)) continue;",
+              "            if(Rnd(1,5) == 5) {",
+              "                dword arte=CreateArt(Rnd(t_ArtefactHull,t_ArtFastRacks),ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtefactTransmitter) arte=CreateArt(t_ArtefactHull,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtefactBomb) arte=CreateArt(t_ArtefactSpeed,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtefactTranclucator) arte=CreateArt(t_ArtPDTurret,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtBlackHole) arte=CreateArt(t_ArtefactAntigrav,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtDefToArms1) arte=CreateArt(t_ArtefactDroid,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtDefToArms2) arte=CreateArt(t_ArtefactNano,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtWeaponToSpeed) arte=CreateArt(t_ArtEnergyDef,ShipPilotRace(ship));",
+              "                if(ItemType(arte) == t_ArtArtefactor) arte=CreateArt(t_ArtForsage,ShipPilotRace(ship));",
+              "                ItemDurability(arte,100);",
+              "                NoDropItem(arte,1);",
+              "                AddItemToShip(ship,arte);",
+              "                ItemIsInUse(arte,ship,1);",
+              "            }",
+              "        }",
+              "    }",
+              "",
+              "    // Перемещаем рейнджера в ЦР",
+              "    TransferShip(ship, rc);",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1590,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  221,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(CoalitionDefeated()) {",
+              "    NewsAdd(\"Верховный Барон отдал приказ о сборе всех свободных братков! Всем прибыть на Роджерию!\");",
+              "    AddPlanetNews(\"Верховный Барон отдал приказ о сборе всех свободных братков! Всем прибыть на Роджерию!\",87);",
+              "}",
+              "else {",
+              "    NewsAdd(\"Дзухаллагу удалось перехватить новый приказ Верховного Барона - он собирает все силы Клана на одной из секретных баз для нанесения удара. Это - отличная возможность для наших сил, чтобы освободить несколько систем.\");",
+              "    AddPlanetNews(\"Дзухаллагу удалось перехватить новый приказ Верховного Барона - он собирает все силы Клана на одной из секретных баз для нанесения удара. Это - отличная возможность для наших сил, чтобы освободить несколько систем.\",87);",
+              "}",
+              "Sound('Sound.NewMsg');",
+              "",
+              "AttackStage = 1;",
+              "AttackCD = 60;"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  250,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  223,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "OrderLanding(CurShip,PlanetPirateClan());"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  320,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  225,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "OrderNone(CurShip);"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1550,
+          "Pos.y":  510,
+          "Parent":  -1,
+          "#":  229,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "for(i=0;GalaxyStars()>i;i=i+1) {",
+              "    item = GalaxyStar(i);",
+              "    if(StarOwner(item) != 2) continue;",
+              "    InjectAnswer('DialogOk',\"Атакуйте систему\"+' '+Name(item)+' '+\"(сектор\"+' '+Name(StarToCon(item))+')',i);",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1690,
+          "Pos.y":  370,
+          "Parent":  -1,
+          "#":  233,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "AttackID = Id(GalaxyStar(GAnswerData));"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  360,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  238,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipOut(CurShip);",
+              "if(ShipSpecialBonuses(CurShip,bonNull)) {",
+              "    ShipSpecialBonuses(CurShip,bonNull,0);",
+              "    ShipSpecialBonuses(CurShip,bonFuel,ShipSpecialBonuses(CurShip,bonFuel)+5000000);",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  320,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  239,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipSpecialBonuses(CurShip,bonNull,1);",
+              "ShipSpecialBonuses(CurShip,bonFuel,ShipSpecialBonuses(CurShip,bonFuel)-5000000);"          
           ]        
         }      
       ],
@@ -2135,7 +3041,7 @@
           "Code.Type":  "DialogBegin",
           "Code":          
           [
-              "ShipType(GetShipRuins(Player())) == 'RC'"          
+              "ShipType(GetShipRuins(Player())) == 'PB'"          
           ]        
         },
         {
@@ -2421,7 +3327,358 @@
           "Code.Type":  "DialogBegin",
           "Code":          
           [
-              "!ShipOnSidePirateClan(Player())"          
+              "ShipOnSidePirateClan(Player())"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  950,
+          "Pos.y":  200,
+          "Parent":  -1,
+          "#":  149,
+          "Code.Type":  "DialogBegin",
+          "Code":          
+          [
+              "GetShipPlanet(Player())"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  980,
+          "Pos.y":  200,
+          "Parent":  -1,
+          "#":  150,
+          "Code.Type":  "DialogBegin",
+          "Code":          
+          [
+              "GetShipPlanet(Player()) == PlanetPirateClan()"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  250,
+          "Pos.y":  -10,
+          "Parent":  -1,
+          "#":  158,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipInNormalSpace(CurShip)"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  280,
+          "Pos.y":  -10,
+          "Parent":  -1,
+          "#":  159,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "GetShipPlanet(CurShip) || GetShipRuins(CurShip)"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  130,
+          "Pos.y":  -10,
+          "Parent":  -1,
+          "#":  166,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipInNormalSpace(CurShip)"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  170,
+          "Pos.y":  -10,
+          "Parent":  -1,
+          "#":  167,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "GetShipPlanet(CurShip)"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1200,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  172,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "!LandState"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1240,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  174,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "LandState"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  181,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "CustodCD"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1370,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  182,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "!CustodCD"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1330,
+          "Pos.y":  750,
+          "Parent":  -1,
+          "#":  194,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) >= 5000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1370,
+          "Pos.y":  750,
+          "Parent":  -1,
+          "#":  195,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) >= 10000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1410,
+          "Pos.y":  750,
+          "Parent":  -1,
+          "#":  196,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) >= 25000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1450,
+          "Pos.y":  750,
+          "Parent":  -1,
+          "#":  197,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) >= 50000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1350,
+          "Pos.y":  770,
+          "Parent":  -1,
+          "#":  201,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) < 5000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1390,
+          "Pos.y":  770,
+          "Parent":  -1,
+          "#":  203,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) < 10000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1430,
+          "Pos.y":  770,
+          "Parent":  -1,
+          "#":  204,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) < 25000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1470,
+          "Pos.y":  770,
+          "Parent":  -1,
+          "#":  205,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipMoney(Player()) < 50000000"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1440,
+          "Pos.y":  550,
+          "Parent":  -1,
+          "#":  210,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "!AttackState"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1440,
+          "Pos.y":  510,
+          "Parent":  -1,
+          "#":  211,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "AttackState == 2"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  250,
+          "Pos.y":  30,
+          "Parent":  -1,
+          "#":  214,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipStar(CurShip) != PlanetToStar(PlanetPirateClan())"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  220,
+          "Pos.y":  60,
+          "Parent":  -1,
+          "#":  216,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipStar(CurShip) == PlanetToStar(PlanetPirateClan())"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  220,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  222,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "!GetShipPlanet(CurShip)"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  290,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  224,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "GetShipPlanet(CurShip)"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  320,
+          "Pos.y":  180,
+          "Parent":  -1,
+          "#":  226,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "AttackState == 3"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  320,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  236,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipInStar(CurShip,GalaxyStar(AttackID-1)) && StarOwner(GalaxyStar(AttackID-1)) != 2"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  360,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  237,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "StarOwner(GalaxyStar(AttackID-1)) == 2"          
           ]        
         }      
       ],
@@ -2435,6 +3692,78 @@
           "Parent":  -1,
           "#":  5,
           "Move":  0,
+          "MoveObj":  -1,
+          "Attack.Count":  0,
+          "TakeItem":  -1,
+          "TakeAllItem":  false,
+          "OnTalk":  "",
+          "OnActCode":  "",
+          "EType":  1,
+          "EUnique":  "",
+          "EMsg":  ""        
+        },
+        {
+          "Type":  "TState",
+          "Name":  "State1",
+          "Pos.x":  250,
+          "Pos.y":  -40,
+          "Parent":  -1,
+          "#":  156,
+          "Move":  5,
+          "MoveObj":  -1,
+          "Attack.Count":  0,
+          "TakeItem":  -1,
+          "TakeAllItem":  false,
+          "OnTalk":  "",
+          "OnActCode":  "",
+          "EType":  1,
+          "EUnique":  "",
+          "EMsg":  ""        
+        },
+        {
+          "Type":  "TState",
+          "Name":  "StateLand",
+          "Pos.x":  130,
+          "Pos.y":  -40,
+          "Parent":  -1,
+          "#":  164,
+          "Move":  5,
+          "MoveObj":  -1,
+          "Attack.Count":  0,
+          "TakeItem":  -1,
+          "TakeAllItem":  false,
+          "OnTalk":  "",
+          "OnActCode":  "",
+          "EType":  1,
+          "EUnique":  "",
+          "EMsg":  ""        
+        },
+        {
+          "Type":  "TState",
+          "Name":  "StateLand",
+          "Pos.x":  220,
+          "Pos.y":  100,
+          "Parent":  -1,
+          "#":  215,
+          "Move":  5,
+          "MoveObj":  -1,
+          "Attack.Count":  0,
+          "TakeItem":  -1,
+          "TakeAllItem":  false,
+          "OnTalk":  "",
+          "OnActCode":  "",
+          "EType":  1,
+          "EUnique":  "",
+          "EMsg":  ""        
+        },
+        {
+          "Type":  "TState",
+          "Name":  "StateAttack",
+          "Pos.x":  320,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  230,
+          "Move":  5,
           "MoveObj":  -1,
           "Attack.Count":  0,
           "TakeItem":  -1,
@@ -2875,6 +4204,72 @@
           "#":  145,
           "Var.Type":  "Int",
           "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "AttackState",
+          "Pos.x":  1460,
+          "Pos.y":  370,
+          "Parent":  -1,
+          "#":  161,
+          "Var.Type":  "Int",
+          "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "AttackCD",
+          "Pos.x":  1460,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  162,
+          "Var.Type":  "Int",
+          "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "LandCD",
+          "Pos.x":  1460,
+          "Pos.y":  400,
+          "Parent":  -1,
+          "#":  169,
+          "Var.Type":  "Int",
+          "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "LandState",
+          "Pos.x":  1460,
+          "Pos.y":  430,
+          "Parent":  -1,
+          "#":  170,
+          "Var.Type":  "Int",
+          "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "CustodCD",
+          "Pos.x":  1460,
+          "Pos.y":  460,
+          "Parent":  -1,
+          "#":  180,
+          "Var.Type":  "Int",
+          "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "AttackID",
+          "Pos.x":  1570,
+          "Pos.y":  370,
+          "Parent":  -1,
+          "#":  231,
+          "Var.Type":  "Dword",
+          "Init":  "",
           "Global":  false        
         }      
       ]    
@@ -3721,6 +5116,615 @@
       "End":  38,
       "Nom":  0,
       "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  148,
+      "End":  149,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  149,
+      "End":  150,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  150,
+      "End":  24,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  150,
+      "End":  151,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  152,
+      "End":  153,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  154,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  155,
+      "End":  3,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  155,
+      "End":  156,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  156,
+      "End":  158,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  156,
+      "End":  159,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  159,
+      "End":  160,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  163,
+      "End":  3,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  163,
+      "End":  164,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  164,
+      "End":  166,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  164,
+      "End":  167,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  166,
+      "End":  165,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  165,
+      "End":  167,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  167,
+      "End":  168,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  172,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  174,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  172,
+      "End":  173,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  174,
+      "End":  175,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  173,
+      "End":  176,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  176,
+      "End":  178,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  176,
+      "End":  177,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  177,
+      "End":  179,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  181,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  182,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  182,
+      "End":  184,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  181,
+      "End":  183,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  183,
+      "End":  185,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  185,
+      "End":  186,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  185,
+      "End":  187,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  187,
+      "End":  189,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  194,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  195,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  196,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  197,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  197,
+      "End":  193,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  193,
+      "End":  200,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  196,
+      "End":  192,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  192,
+      "End":  199,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  195,
+      "End":  190,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  190,
+      "End":  198,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  194,
+      "End":  191,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  191,
+      "End":  188,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  186,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  201,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  203,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  204,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  189,
+      "End":  205,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  205,
+      "End":  208,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  204,
+      "End":  207,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  203,
+      "End":  206,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  201,
+      "End":  202,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  210,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  153,
+      "End":  211,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  210,
+      "End":  212,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  211,
+      "End":  213,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  158,
+      "End":  214,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  214,
+      "End":  157,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  157,
+      "End":  216,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  156,
+      "End":  216,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  216,
+      "End":  215,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  212,
+      "End":  217,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  217,
+      "End":  186,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  217,
+      "End":  218,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  218,
+      "End":  221,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  221,
+      "End":  219,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  219,
+      "End":  220,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  215,
+      "End":  222,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  222,
+      "End":  223,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  215,
+      "End":  224,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  223,
+      "End":  224,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  224,
+      "End":  225,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  213,
+      "End":  227,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  227,
+      "End":  229,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  227,
+      "End":  228,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  225,
+      "End":  226,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  226,
+      "End":  230,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  232,
+      "End":  233,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  233,
+      "End":  234,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  234,
+      "End":  235,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  230,
+      "End":  237,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  237,
+      "End":  238,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  230,
+      "End":  236,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  236,
+      "End":  239,
+      "Nom":  0,
+      "Arrow":  true    
     }  
   ],
   "Rect.Text":  
@@ -3841,16 +5845,16 @@
       "fsUnderline":  false    
     }  
   ],
-  "BlockPar.EC.Total.Strings":  90,
+  "BlockPar.EC.Total.Strings":  96,
   "BlockPar.EC":  
   [
     {
       "#":  "11",
-      "String":  "Хорошо, я согласен! Сколько вам нужно?"    
+      "String":  "Так у тебя всё готово?! Так это же другое дело! Yу чё там, сколько кредитов стоит закупить пару-тройку подержаных звездолётов?"    
     },
     {
       "#":  "12",
-      "String":  "Ага, еще чего? Я свои кровно заработанные денюжки никому не отдам."    
+      "String":  "Не, идея здравая, но мне мои деньги явно важней."    
     },
     {
       "#":  "13",
@@ -3866,23 +5870,47 @@
     },
     {
       "#":  "135",
-      "String":  "Обратно к параметрам текущего рейнджера"    
+      "String":  "Обратно к параметрам текущего салаги"    
+    },
+    {
+      "#":  "136",
+      "String":  "Акулёнок"    
+    },
+    {
+      "#":  "137",
+      "String":  "Пантера"    
+    },
+    {
+      "#":  "138",
+      "String":  "Ястреб"    
+    },
+    {
+      "#":  "139",
+      "String":  "Кабан"    
+    },
+    {
+      "#":  "140",
+      "String":  "Бамберга"    
+    },
+    {
+      "#":  "141",
+      "String":  "Ара"    
     },
     {
       "#":  "15",
-      "String":  "Информация о параметрах корабля, для первого класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для первого класса салаг"    
     },
     {
       "#":  "151",
-      "String":  "У нас есть таблица в Гаалакселе. В ней указаны все статьи расходов и что мы можем на них позволить, если вы сможете пожертвовать нам неободимые суммы, мы успешно сможем их распределить на нужды новых рейнджеров - ваших будущих боевых товарищей!"    
+      "String":  "Да я третьего дня сидел кумекал с проверенными братками, сколько чё стоить будет, если бароном стану или ему просто идею закинуть, короче, таблицу расходов в Гаалакселе наваял.<br>Если интересно, то могу показать а там уже если чё - и браткам закинешь на новую ласточку."    
     },
     {
       "#":  "152",
-      "String":  "Надо напомнить этим воякам, кто выйграл клисанскую войну... Могу ли я чем-нибудь помочь?"    
+      "String":  "Не, ну, я, конечно, не барон, пока что, но ты дело говоришь."    
     },
     {
       "#":  "153",
-      "String":  "Да я знаю, чем вы занимаетесь у вас в брошуре написано, но что вы конкретно имеете ввиду?"    
+      "String":  "Не, ну, как бы, да... а к чему ты это?"    
     },
     {
       "#":  "154",
@@ -3890,7 +5918,7 @@
     },
     {
       "#":  "16",
-      "String":  "Информация о параметрах корабля, для второго класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для второго класса салаг"    
     },
     {
       "#":  "160",
@@ -3914,7 +5942,7 @@
     },
     {
       "#":  "17",
-      "String":  "Информация о параметрах корабля, для третьего класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для третьего класса салаг"    
     },
     {
       "#":  "170",
@@ -3954,7 +5982,7 @@
     },
     {
       "#":  "18",
-      "String":  "Информация о параметрах корабля, для четвертого класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для четвертого класса салаг"    
     },
     {
       "#":  "180",
@@ -3977,6 +6005,10 @@
       "String":  "корпус среднего размера, оптимальный вариант для начинающего героя"    
     },
     {
+      "#":  "185",
+      "String":  "корпус маленького размера, как и вы когда-то в начале вашей карьеры"    
+    },
+    {
       "#":  "186",
       "String":  "корпус минимального размера, сравнимый с гражданской авиацией"    
     },
@@ -3994,7 +6026,15 @@
     },
     {
       "#":  "19",
-      "String":  "Информация о параметрах корабля, для пятого класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для пятого класса салаг"    
+    },
+    {
+      "#":  "190",
+      "String":  "берем в рейнджеров всех прошедших экзамены в симуляторах космического, планетрного и гиперпространственного боя"    
+    },
+    {
+      "#":  "191",
+      "String":  "берем в рейнджеров всех прошедших минимальное обучение в симуляторах космеческого боя"    
     },
     {
       "#":  "194",
@@ -4058,31 +6098,19 @@
     },
     {
       "#":  "21",
-      "String":  "Меня интересует количество классов для обучения новых рейнджеров<br>"    
+      "String":  "Меня интересует количество классов для обучения салаг<br>"    
     },
     {
       "#":  "210",
       "String":  "ведём активную агитационную программу в гааланете"    
     },
     {
-      "#":  "211",
-      "String":  "корпус маленького размера, как и у вас когда-то в начале вашей карьеры"    
-    },
-    {
-      "#":  "212",
-      "String":  "берем в рейнджеров всех прошедших экзамены в симуляторах космического, планетарного и гиперпространственного боя"    
-    },
-    {
-      "#":  "213",
-      "String":  "берем в рейнджеров всех прошедших минимальное обучение в симуляторах космического боя"    
-    },
-    {
       "#":  "22",
-      "String":  "Меня интересует скорость обучения рейнджеров<br>"    
+      "String":  "Меня интересует скорость обучения салаг<br>"    
     },
     {
       "#":  "23",
-      "String":  "Меня интересует количество выдаваемого оборудования новым рейнджерам"    
+      "String":  "Меня интересует количество выдаваемого оборудования новым салагам"    
     },
     {
       "#":  "26",
@@ -4090,11 +6118,11 @@
     },
     {
       "#":  "27",
-      "String":  "Мы постоянно работаем над привлечением новых гуманоидов в рейнджерское движение. Прямо сейчас мы <0>."    
+      "String":  "Мы постоянно работаем над привлечением новых гуманоидов в пиратское движение. Прямо сейчас мы <0>."    
     },
     {
       "#":  "28",
-      "String":  "Следующим рейнджерам мы будем выдавать <0>."    
+      "String":  "Следующим салагам мы будем выдавать <0>."    
     },
     {
       "#":  "29",
@@ -4102,7 +6130,7 @@
     },
     {
       "#":  "3",
-      "String":  "Знаете, ведь именно наша организация позволяет вам беспрепятственно торговать и осуществлять оперативные действия на всех планетах галактического содружества, вся бюрократия лежит на нас, и если правительство не всилах поднять субсидирование - это можете сделать вы! свободные и лихие герои галактики!"    
+      "String":  "Слушай, можешь не отвечать, конечно, но это же про тебя постоянно статьи в галанете пишут, да и корабль твой в ангаре самый навороченный из всех - явно же при деньгах..."    
     },
     {
       "#":  "30",
@@ -4110,27 +6138,27 @@
     },
     {
       "#":  "31",
-      "String":  "В параметры корабля рейнджера входит:<br>1. Размер корпуса<br>2. Акрин корпуса<br>3. Уровень экипировки"    
+      "String":  "В параметры корабля салаги входит:<br>1. Размер корпуса<br>2. Акрин корпуса<br>3. Уровень экипировки"    
     },
     {
       "#":  "32",
-      "String":  "Этот класс рейнджеров получит <0>."    
+      "String":  "Этот класс салаг получит <0>."    
     },
     {
       "#":  "33",
-      "String":  "Акринацию корпуса для этого класса рейнджеров производят <0>."    
+      "String":  "Акринацию корпуса для этого класса салаг производят <0>."    
     },
     {
       "#":  "34",
-      "String":  "Оборудование для этого класса рейнджеров мы <0>."    
+      "String":  "Оборудование для этого класса салаг мы <0>."    
     },
     {
       "#":  "35",
-      "String":  "Меня интересует программа обучения новых рейнджеров"    
+      "String":  "Меня интересует программа обучения новых салаг"    
     },
     {
       "#":  "36",
-      "String":  "Меня интересует улучшение оборудования рейнджеров"    
+      "String":  "Меня интересует улучшение оборудования салаг"    
     },
     {
       "#":  "38",
@@ -4146,11 +6174,11 @@
     },
     {
       "#":  "43",
-      "String":  "Да, вы абсолютно правы. В последнее время центрам рейнджеров сильно урезали бюджет в связи с тяжелым положением на фронтах. Доминаторы захватывают систему за системой и все доступные средства Коалиции уходят на постройку и содержание большого военного флота. Тех крох, которые перепадают нам, едва хватает на обучение и экипировку новых рейджеров. У нас банально не хватает денег на совершенствование оборудования для наших бравых добровольцев."    
+      "String":  "Ну, братух, сам понимаешь - мы ребята вольные, да и ремесло наше непростое. Сейчас, когда с одной стороны жестянки, а с другой - псы Коалиции, совсем грусно стало. Был бы я Бароном - всем новичкам раздавал бы по кораблю и оборудки не жалел бы."    
     },
     {
       "#":  "46",
-      "String":  "Спасибо рейнджер, ваш вклад в общее дело неоценим, благодаря таким как вы, мы точно восстановим мир в галактике!"    
+      "String":  "Спасибо братуха, твоя жертва не оценима, давай налью бесплатно! Обмоем. Только благодаря таким как ты мы ещё на плаву."    
     },
     {
       "#":  "47",
@@ -4166,7 +6194,7 @@
     },
     {
       "#":  "5",
-      "String":  "Эх... ну, ничего страшного, будем надеятся, что военные смогут победить..."    
+      "String":  "Да... Я всё понимаю, братух, но как захочишь че-нить в мире поменять, то ты знаешь, где меня найти."    
     },
     {
       "#":  "50",
@@ -4194,7 +6222,7 @@
     },
     {
       "#":  "60",
-      "String":  "В общие параметры входит:<br>1. Количество классов для обучения новых рейнджеров<br>2. Скорость обучения рейнджеров<br>3. Количество выдаваемого оборудования рейнджерам<br>4. Качество программы обучения новых рейнджеров<br>5. Степерь дополнительного улучшения оборудования рейнджеров<br>"    
+      "String":  "В общие параметры входит:<br>1. Количество баров для экскурса салаг<br>2. Скорость обучения рейнджеров<br>3. Количество выдаваемого оборудования рейнджерам<br>4. Качество программы обучения новых рейнджеров<br>5. Степерь дополнительного улучшения оборудования рейнджеров<br>"    
     },
     {
       "#":  "61",
@@ -4202,7 +6230,7 @@
     },
     {
       "#":  "7",
-      "String":  "Не торопитесь. Столько денег у вас наверняка нету. Развитие разных направлений требует разного количества вложений. Нашего бюджета хватает на то, чтобы снаряжать и обучать новых рейнджеров, но на улучшение инфраструктуры у нас денег нет. Давайте я вам расскажу о текущем положении дел."    
+      "String":  "Ха, вот это по-нашему, держи доступ!<br>Таблица интерактивная - сама подскажет, что имеем и что можно подтянуть: глядишь, если все статьи закроем, то и Коалицию победим."    
     }  
   ]
 }

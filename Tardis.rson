@@ -1,0 +1,1859 @@
+{
+  "FileID":  573785173,
+  "FileVersion":  8,
+  "ViewPos.x":  4,
+  "ViewPos.y":  -291,
+  "ScriptName":  "Cat_Tardis",
+  "ScriptFileOut":  "C:\\Users\\DmitB\\Downloads\\Cat_Tardis.scr",
+  "ScriptTextOut":  "C:\\Users\\DmitB\\Downloads\\Cat_Tardis.txt",
+  "Visual.Objects":  
+  [
+    {
+      "DialogAnswers":      
+      [
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  440,
+          "Pos.y":  180,
+          "Parent":  -1,
+          "#":  10,
+          "Msg":  "Вы уверены, что это безопасно? Когда они рядом, я слышу странные голоса и вижу непонятные образы в голове, такие родные и знакомые, но в тоже время я ничего не понимаю.",
+          "AMsg.Num":  "0"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  480,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  26,
+          "Msg":  "[Отдать часы]",
+          "AMsg.Num":  "1"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  440,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  30,
+          "Msg":  "Хорошо",
+          "AMsg.Num":  "2"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  610,
+          "Pos.y":  180,
+          "Parent":  -1,
+          "#":  39,
+          "Msg":  "Убер-Гипер-Перемещение",
+          "AMsg.Num":  "3"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  650,
+          "Pos.y":  180,
+          "Parent":  -1,
+          "#":  40,
+          "Msg":  "Управление неуязвимостью ",
+          "AMsg.Num":  "4"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "",
+          "Pos.x":  920,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  41,
+          "Msg":  "Управление энергией",
+          "AMsg.Num":  "5"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  960,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  47,
+          "Msg":  "Активировать Энергосберегающий Режим",
+          "AMsg.Num":  "6"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  1000,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  48,
+          "Msg":  "Активировать обычный режим",
+          "AMsg.Num":  "7"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  920,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  49,
+          "Msg":  "Активировать Защитный Режим",
+          "AMsg.Num":  "8"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  960,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  53,
+          "Msg":  "Вернуться на мостик",
+          "AMsg.Num":  "9"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  650,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  54,
+          "Msg":  "Вернутся на мостик",
+          "AMsg.Num":  "10"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  650,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  66,
+          "Msg":  "Включить Режим Скалы",
+          "AMsg.Num":  "11"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  680,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  67,
+          "Msg":  "Отключить Режим Скалы",
+          "AMsg.Num":  "12"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  710,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  68,
+          "Msg":  "Вернуться на мостик",
+          "AMsg.Num":  "13"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  780,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  69,
+          "Msg":  "Включить Режим Скалы",
+          "AMsg.Num":  "14"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  810,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  70,
+          "Msg":  "Отключить Режим Скалы",
+          "AMsg.Num":  "15"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  730,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  71,
+          "Msg":  "Включить Режим Скалы",
+          "AMsg.Num":  "16"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  710,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  72,
+          "Msg":  "Отключить Режим Скалы",
+          "AMsg.Num":  "17"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  880,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  73,
+          "Msg":  "Отключить Режим Скалы",
+          "AMsg.Num":  "18"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  850,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  74,
+          "Msg":  "Включить Режим Скалы",
+          "AMsg.Num":  "19"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  580,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  76,
+          "Msg":  "Совершить гиперскачок",
+          "AMsg.Num":  "20"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "restart",
+          "Pos.x":  580,
+          "Pos.y":  200,
+          "Parent":  -1,
+          "#":  77,
+          "Msg":  "Вернуться на мостик",
+          "AMsg.Num":  "21"        
+        },
+        {
+          "Type":  "TDialogAnswer",
+          "Name":  "block",
+          "Pos.x":  610,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  81,
+          "Msg":  "Совершить гиперскачок",
+          "AMsg.Num":  "22"        
+        }      
+      ],
+      "DialogMessages":      
+      [
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  440,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  8,
+          "Msg":  "<ShipName(Player())> вы что, ещё не открывали их?\r\nНу что же вы, миссию выполнили, а воспоминания ещё не вернули. Открывайте скорее - ваши знания уникальны, вселенная нуждается в них!",
+          "DMsg.Num":  "0"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  440,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  11,
+          "Msg":  "Это часы, которыми древняя раса запечатывала свои воспоминания, а вы - один из последних представителей своей расы.\r\n\r\nДа, вы не совсем человек, вы просто похожи на этот вид, <ShipName(Player())>\r\n\r\nЧто? Откуда я это знаю? Вы же нам это и рассказали с убедительными доказательствами, а потом как раз и запечатали свои воспоминания в этот механизм, который строго-настрого запретили изучать и попросили запрятать так, чтобы никто его не нашёл.\r\nНо, видимо, владелец своих воспоминаний всегда тянется к тому, чтобы их обрести вновь.\r\n\r\nЧто, ещё не вернули?\r\n<Player>, давайте быстрее, ваш корабль, который вы оставили на сохранение, вот-вот доставят на склад.\r\nВремя-Шремя, как говорил один знаменитый Лекарь.\r\n",
+          "DMsg.Num":  "1"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  480,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  25,
+          "Msg":  "Вы не тот, кого мы ожидали увидеть с этими, кхм, \"часами\", так что немедленно отдайте их нам - у вас нет выбора!",
+          "DMsg.Num":  "2"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  610,
+          "Pos.y":  140,
+          "Parent":  -1,
+          "#":  38,
+          "Msg":  "ТАРДИС внимательно слушает вас\r\n\r\nЭнергия: <temp>/1000\r\nТекущий прирост: +<tempup>\r\n\r\nСпособности ТАРДИС:\r\n  Режим Скалы:\r\nПеренаправление поток энергии, предназначенный для двигателя, на защитный экран для полной неуязвимости\r\n -Требует <clr>500<clrEnd> энергии\r\n  Гиперскачок:\r\nПочти моментально перемещает в любую точку Галактики\r\n -Требует <clr>800<clrEnd> энергии\r\n\r\nРежимы накопления энергии:\r\n\r\n Энергосберегающий режим\r\n Обычный режим \r\n Защитный режим\r\n\r\nСейчас корабль в режиме: <tempstr>\r\nРежим Скалы: <tempstra>\r\n \r\n\r\n",
+          "DMsg.Num":  "3"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  650,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  45,
+          "Msg":  "Корабль в обычном режиме\r\n\r\nДля включения режима Скалы потребуется 500 енергии",
+          "DMsg.Num":  "4"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  920,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  46,
+          "Msg":  "<tstr1>Энергосберегающий</color> режим\r\n + Удвоение выработки энергии\r\n - отключение ГЗП\r\n\r\n<tstr2>Обычный</color> режим\r\n +- Обычная выработка энергии\r\n +- ГЗП работает в обычном режиме\r\n\r\n<tstr3>Защитный</color> режим\r\n - Выработка снижена на 50%\r\n + ГЗП усилен на 30%",
+          "DMsg.Num":  "5"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  780,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  61,
+          "Msg":  "Сейчас корабль в режиме Скалы\r\n\r\nДля отключения режима Скалы потребуется <clr>100<clrEnd> энергии",
+          "DMsg.Num":  "6"        
+        },
+        {
+          "Type":  "TDialogMsg",
+          "Name":  "",
+          "Pos.x":  610,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  75,
+          "Msg":  "Этот корабль может совершать <clr>гиперскачки<clrEnd> - моментально перенестись в другую точку пространства. Всё что нужно - большой объём энергии и пункт назначения. ",
+          "DMsg.Num":  "7"        
+        }      
+      ],
+      "Dialogs":      
+      [
+        {
+          "Type":  "TDialog",
+          "Name":  "ActivateClockTardis",
+          "Pos.x":  440,
+          "Pos.y":  60,
+          "Parent":  -1,
+          "#":  6        
+        },
+        {
+          "Type":  "TDialog",
+          "Name":  "TardisControl",
+          "Pos.x":  610,
+          "Pos.y":  60,
+          "Parent":  -1,
+          "#":  37        
+        }      
+      ],
+      "Groups":      
+      [
+        {
+          "Type":  "TGroup",
+          "Name":  "GroupNew",
+          "Pos.x":  250,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  5,
+          "Owner":  62,
+          "Group.Type":  126,
+          "CntShipMin":  1,
+          "CntShipMax":  1,
+          "SpeedMin":  100,
+          "SpeedMax":  10000,
+          "Weapon":  0,
+          "CargoHook":  0,
+          "EmptySpace":  0,
+          "AddPlayer":  true,
+          "StatusTraderMin":  0,
+          "StatusTraderMax":  100,
+          "StatusWarriorMin":  0,
+          "StatusWarriorMax":  100,
+          "StatusPirateMin":  0,
+          "StatusPirateMax":  100,
+          "DistSearch":  10000,
+          "Dialog":  -1,
+          "StrengthMin":  "0",
+          "StrengthMax":  "0",
+          "Ruins":  ""        
+        }      
+      ],
+      "Items":      
+      [
+        {
+          "Type":  "TItem",
+          "Name":  "clock",
+          "Pos.x":  250,
+          "Pos.y":  110,
+          "Parent":  -1,
+          "#":  4,
+          "Class":  5,
+          "Item.Type":  0,
+          "Size":  10,
+          "Level":  1,
+          "Radius":  150,
+          "Owner":  6,
+          "Useless":  ""        
+        },
+        {
+          "Type":  "TItem",
+          "Name":  "tardis",
+          "Pos.x":  250,
+          "Pos.y":  70,
+          "Parent":  -1,
+          "#":  86,
+          "Class":  5,
+          "Item.Type":  0,
+          "Size":  10,
+          "Level":  1,
+          "Radius":  150,
+          "Owner":  6,
+          "Useless":  ""        
+        }      
+      ],
+      "Operations":      
+      [
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  320,
+          "Pos.y":  160,
+          "Parent":  -1,
+          "#":  0,
+          "Code.Type":  "Global",
+          "Code":          
+          [
+              "GRun();"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  340,
+          "Pos.y":  160,
+          "Parent":  -1,
+          "#":  1,
+          "Code.Type":  "Init",
+          "Code":          
+          [
+              "state = 1;",
+              "planets_needed = CT('Script.Cat_Tardis.Settings.PlanetsCount');",
+              "quest_created = 0;",
+              "chance = 0;",
+              "",
+              "function g_LinkTardis(hull) {",
+              "    LinkItemToScript(hull,tardis);",
+              "    ItemOnActCode(hull,GenerateCodeStringFromBlock('ActCodeBlocksList.CatTardisActCode'));",
+              "}",
+              "",
+              "function g_GenerateGift() {",
+              "    dword item;",
+              "    int rand;",
+              "    int coun;",
+              "",
+              "    //Найдёт ли игрок что-нибудь на складе?",
+              "    rand = RndObject(1,1000,ShipEqInSlot(Player(),t_Hull));",
+              "    if(rand < 3 + GalaxyDiffLevels(7)/50) {",
+              "        //Определяем тип \"награды\"",
+              "        rand = RndObject(1,3,ShipEqInSlot(Player(),t_Hull));",
+              "        if(rand == 1) {",
+              "            //Выдают оборудку",
+              "            item = CreateEquipment(RndObject(t_FuelTanks,t_Weapon18,ShipEqInSlot(Player(),t_Hull)),RndObject(15,30,ShipEqInSlot(Player(),t_Hull)),RndObject(1,8,ShipEqInSlot(Player(),t_Hull)),RndObject(Maloc,PirateClan,ShipEqInSlot(Player(),t_Hull)));",
+              "            ItemSubrace(item,RndObject(0,2,ShipEqInSlot(Player(),t_Hull)));",
+              "            AddItemToShip(Player(),item);",
+              "        }",
+              "        else {",
+              "            //Выдают сыпучие",
+              "            rand = RndObject(1,4,ShipEqInSlot(Player(),t_Hull));",
+              "            if(rand == 1) {",
+              "                AddItemToShip(Player(),CreateNodes(RndObject(5,200,ShipEqInSlot(Player(),t_Hull)),RndObject(0,2,ShipEqInSlot(Player(),t_Hull))));",
+              "            }",
+              "            else {",
+              "                rand = RndObject(t_Food,t_Narcotics,ShipEqInSlot(Player(),t_Hull));",
+              "                if(rand == t_Food) AddItemToShip(Player(),CreateGoods(rand,RndObject(150,400,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Medicine) AddItemToShip(Player(),CreateGoods(rand,RndObject(30,100,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Technics) AddItemToShip(Player(),CreateGoods(rand,RndObject(90,200,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Luxury) AddItemToShip(Player(),CreateGoods(rand,RndObject(20,75,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Minerals) AddItemToShip(Player(),CreateGoods(rand,RndObject(400,1000,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Alcohol) AddItemToShip(Player(),CreateGoods(rand,RndObject(120,250,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Arms) AddItemToShip(Player(),CreateGoods(rand,RndObject(15,50,ShipEqInSlot(Player(),t_Hull))));",
+              "                if(rand == t_Narcotics) AddItemToShip(Player(),CreateGoods(rand,RndObject(5,20,ShipEqInSlot(Player(),t_Hull))));",
+              "            }",
+              "        }",
+              "        ",
+              "        Sound('Sound.NewMsg');",
+              "        NewsAdd(\"Какие тайны могут скрывать почти что бесконечные склады ТАРДИС? По крайней мере, кое-что интересное попало в ваши руки\");",
+              "    }",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  360,
+          "Pos.y":  160,
+          "Parent":  -1,
+          "#":  12,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(state==3) {",
+              "    if(!quest_created) {",
+              "        if(ItemExist(clock)){",
+              "            if(ItemIn(clock, Player())){",
+              "                ether_iden = 'tardis_activate_quest';",
+              "                Ether(3,'tardis_activate_quest',\"Активировать часы и вспомнить всё\");",
+              "                quest_created = 1;",
+              "",
+              "            }",
+              "        }",
+              "    }",
+              "}",
+              "//Проверяем игрок на планете или нет",
+              "if(GetShipPlanet(Player())) {",
+              "    //Проверяем не заспавнены ли часы уже",
+              "    if(!clock_create){",
+              "        //Проверяем незаселёнка ли это",
+              "        /*if(PlanetOwner(GetShipPlanet(Player()))==6){",
+              "            //Проверяем есть ли уже планета в списке посещенных",
+              "            if(ArrayFind(planets_visited,Id(GetShipPlanet(Player())))<0){",
+              "                //Добавляем планету в список посещённых",
+              "                ArrayAdd(planets_visited,Id(GetShipPlanet(Player())));*/",
+              "                //Проверяем количество планет",
+              "                if(ArrayDim(GPlanetsVisited)>planets_needed) {",
+              "                    //Проверяем ГТУ",
+              "                    if(state < 2) {",
+              "                        if(GalaxyTechLevel()>=5) {",
+              "                            state = 2;",
+              "                            chance = 50;",
+              "                        }",
+              "                    }",
+              "                    else",
+              "                    {",
+              "                        if(chance <=100) {",
+              "                            chance = chance + 5;",
+              "                        }",
+              "",
+              "                    }",
+              "                    if(Rnd(1,100)<=chance) {",
+              "                        item = CreateQuestItem('Clock');",
+              "                        ItemSize(item,1);",
+              "                        LinkItemToScript(item,clock);",
+              "                        star = StarNearbyStars(PlanetToStar(GetShipHomePlanet(Player())), Rnd(10, 30));",
+              "                        while(StarToCon(star) == StarToCon(PlanetToStar(PlanetPirateClan()))) star = StarNearbyStars(PlanetToStar(GetShipHomePlanet(Player())), Rnd(10, 30));",
+              "                        for(i = 0; i < StarPlanets(star); i = i + 1)",
+              "                        {",
+              "                            spawn_planet = StarPlanets(star, i);",
+              "                            if(PlanetOwner(spawn_planet) != 6) continue;",
+              "                            ArrayAdd(array_spawn_planets, spawn_planet);",
+              "                            planetgen = planetgen+ 1;",
+              "                        }",
+              "                        if(planetgen) {",
+              "                            spawn_planet = array_spawn_planets[Rnd(1, planetgen)];",
+              "                            AddItemToPlanet(spawn_planet, item);",
+              "",
+              "                            state = 3;",
+              "                            clock_create = 1;",
+              "",
+              "                        }",
+              "",
+              "                    }",
+              "                }",
+              "//            }",
+              "//        }",
+              "    }",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  480,
+          "Pos.y":  180,
+          "Parent":  -1,
+          "#":  27,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "EtherDelete(ether_iden);",
+              "Ether(5,'tardis_activate_quest','');",
+              "FreeItem(GetItemFromShip(Player(), FindItemInShip(Player(), clock)));"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  440,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  28,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "state=4;"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  380,
+          "Pos.y":  160,
+          "Parent":  -1,
+          "#":  36,
+          "Code.Type":  "DialogBegin",
+          "Code":          
+          [
+              "if(PlayerBridge() == 3) {",
+              "    if(~ShipFindCustomShipInfoByType(Player(),'Tardis')) {",
+              "        if(ShipCustomShipInfoData(Player(),'Tardis',1)) {",
+              "            AddDialogInject('TardisControl','', \"Управление способностями ТАРДИС\", 1);",
+              "        }",
+              "    }",
+              "}",
+              "if(GetShipRuins(Player())) {",
+              "    if(ShipType(GetShipRuins(Player())) == 'SB') {",
+              "        if(ItemExist(clock)) {",
+              "            if(ItemIn(clock, Player())) {",
+              "                AddDialogInject('ActivateClockTardis', '', \"Я обнаружил тут странную вещицу. Не подскажете, что это?\", 1);",
+              "            }",
+              "        }",
+              "    }",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  580,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  42,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(ShipInNormalSpace(Player())) {",
+              "    RunChildForm('Galaxy');",
+              "    if(ShipOrder(Player()) == 7) {",
+              "        if(PlayerBridge()) PlayerBridge(0);",
+              "        ShipOrderData1(Player(), 1);",
+              "        ShipCustomShipInfoData(Player(),'TardisEnergy',1,ShipCustomShipInfoData(Player(),'TardisEnergy',1)-800);",
+              "        ForceNextDay();",
+              "        exit;",
+              "    }",
+              "}",
+              "else {",
+              "    MessageBox(\"Для совершения скачка в целях безопасности необходимо быть в открытом космосе\");",
+              "    exit;",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  880,
+          "Pos.y":  380,
+          "Parent":  -1,
+          "#":  43,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(ShipInNormalSpace(Player())) {",
+              "    defstat = 0;",
+              "    ShipCustomShipInfoData(Player(),'TardisEnergy',1,ShipCustomShipInfoData(Player(),'TardisEnergy',1)-100);",
+              "}",
+              "else {",
+              "    MessageBox(\"Для применения способности необходимо быть в открытом космосе\");",
+              "    exit;",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  1000,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  44,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(energymod == 1) ShipSpecialBonuses(Player(),bonDef,ShipSpecialBonuses(Player(),bonDef)-30);",
+              "if(energymod == 3) ShipSpecialBonuses(Player(),bonSlotDef,ShipSpecialBonuses(Player(),bonSlotDef)+1000);",
+              "energymod = 2;"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  960,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  57,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(energymod == 1) ShipSpecialBonuses(Player(),bonDef,ShipSpecialBonuses(Player(),bonDef)-30);",
+              "energymod = 3;",
+              "ShipSpecialBonuses(Player(),bonSlotDef,ShipSpecialBonuses(Player(),bonSlotDef)-1000);"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  920,
+          "Pos.y":  340,
+          "Parent":  -1,
+          "#":  58,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(energymod == 3) ShipSpecialBonuses(Player(),bonSlotDef,ShipSpecialBonuses(Player(),bonSlotDef)+1000);",
+              "energymod = 1;",
+              "ShipSpecialBonuses(Player(),bonDef,ShipSpecialBonuses(Player(),bonDef)+30);"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  650,
+          "Pos.y":  380,
+          "Parent":  -1,
+          "#":  78,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "if(ShipInNormalSpace(Player())) {",
+              "    defstat = 1;",
+              "    ShipCustomShipInfoData(Player(),'TardisEnergy',1,ShipCustomShipInfoData(Player(),'TardisEnergy',1)-500);",
+              "}",
+              "else {",
+              "    MessageBox(\"Для применения способности необходимо быть в открытом космосе\");",
+              "    exit;",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  610,
+          "Pos.y":  100,
+          "Parent":  -1,
+          "#":  82,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "temp = ShipCustomShipInfoData(Player(),'TardisEnergy',1);",
+              "if(energymod==1){",
+              "    tempstr= \"Защиный\";",
+              "    tempup= ShipSkill(Player(),2)*10/2;",
+              "}",
+              "else if(energymod==2) {",
+              "    tempstr= \"Обычный\";",
+              "    tempup= ShipSkill(Player(),2)*10;",
+              "}",
+              "else {",
+              "    tempstr= \"Энергосбережение\";",
+              "    tempup= ShipSkill(Player(),2)*10*2;",
+              "}",
+              "if(defstat==0){",
+              "    tempstra = \"Выключен\";",
+              "}",
+              "else {",
+              "    tempstra = \"Включен\";",
+              "}"          
+          ]        
+        },
+        {
+          "Type":  "Top",
+          "Name":  "",
+          "Pos.x":  920,
+          "Pos.y":  180,
+          "Parent":  -1,
+          "#":  87,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "tstr1 = '<color=70,130,180>';",
+              "tstr2 = '<color=70,130,180>';",
+              "tstr3 = '<color=70,130,180>';",
+              "if(energymod == 1) tstr3 = '<color=50,255,50>';",
+              "if(energymod == 2) tstr1 = '<color=50,255,50>';",
+              "if(energymod == 3) tstr2 = '<color=50,255,50>';"          
+          ]        
+        }      
+      ],
+      "Planets":      
+      [
+        {
+          "Type":  "TPlanet",
+          "Name":  "PlanetNew",
+          "Pos.x":  250,
+          "Pos.y":  230,
+          "Parent":  -1,
+          "#":  3,
+          "Race":  62,
+          "Owner":  62,
+          "Economy":  14,
+          "Goverment":  62,
+          "RangeMin":  0,
+          "RangeMax":  100,
+          "Dialog":  -1        
+        }      
+      ],
+      "Ships":      
+      [
+        {
+          "Type":  "TStarShip",
+          "Name":  "",
+          "Pos.x":  250,
+          "Pos.y":  170,
+          "Parent":  -1,
+          "#":  7,
+          "Count":  1,
+          "Owner":  62,
+          "Ship.Type":  126,
+          "Player":  true,
+          "SpeedMin":  0,
+          "SpeedMax":  10000,
+          "Weapon":  0,
+          "CargoHook":  0,
+          "EmptySpace":  0,
+          "StatusTraderMin":  0,
+          "StatusTraderMax":  100,
+          "StatusWarriorMin":  0,
+          "StatusWarriorMax":  100,
+          "StatusPirateMin":  0,
+          "StatusPirateMax":  100,
+          "StrengthMin":  "0",
+          "StrengthMax":  "0",
+          "Ruins":  ""        
+        }      
+      ],
+      "Stars":      
+      [
+        {
+          "Type":  "TStar",
+          "Name":  "StarNew",
+          "Pos.x":  250,
+          "Pos.y":  200,
+          "Parent":  -1,
+          "#":  2,
+          "Constellation":  1,
+          "Priority":  0,
+          "NoKling":  false,
+          "NoComeKling":  false        
+        }      
+      ],
+      "Statements":      
+      [
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  440,
+          "Pos.y":  100,
+          "Parent":  -1,
+          "#":  33,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipPilotRace(Player())==People"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  480,
+          "Pos.y":  100,
+          "Parent":  -1,
+          "#":  34,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipPilotRace(Player())!=People"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  960,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  50,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "energymod != 3"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  1000,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  51,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "energymod != 2"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  920,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  52,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "energymod != 1"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  680,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  59,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "defstat==1"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  650,
+          "Pos.y":  220,
+          "Parent":  -1,
+          "#":  60,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "defstat==0"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  650,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  62,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipCustomShipInfoData(Player(),'TardisEnergy',1)>=500"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  850,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  63,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipCustomShipInfoData(Player(),'TardisEnergy',1)>=100"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  710,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  64,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipCustomShipInfoData(Player(),'TardisEnergy',1)<500"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  780,
+          "Pos.y":  300,
+          "Parent":  -1,
+          "#":  65,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipCustomShipInfoData(Player(),'TardisEnergy',1)<100"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  580,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  79,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipCustomShipInfoData(Player(),'TardisEnergy',1)>=800"          
+          ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  610,
+          "Pos.y":  260,
+          "Parent":  -1,
+          "#":  80,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "ShipCustomShipInfoData(Player(),'TardisEnergy',1)<800"          
+          ]        
+        }      
+      ],
+      "States":      
+      [
+        {
+          "Type":  "TState",
+          "Name":  "StateNew",
+          "Pos.x":  250,
+          "Pos.y":  290,
+          "Parent":  -1,
+          "#":  9,
+          "Move":  0,
+          "MoveObj":  -1,
+          "Attack.Count":  0,
+          "TakeItem":  -1,
+          "TakeAllItem":  false,
+          "OnTalk":  "",
+          "OnActCode":  "",
+          "EType":  1,
+          "EUnique":  "",
+          "EMsg":  ""        
+        }      
+      ],
+      "Variables":      
+      [
+        {
+          "Type":  "TVar",
+          "Name":  "state",
+          "Pos.x":  400,
+          "Pos.y":  -180,
+          "Parent":  -1,
+          "#":  13,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "cost",
+          "Pos.x":  400,
+          "Pos.y":  -160,
+          "Parent":  -1,
+          "#":  14,
+          "Var.Type":  "Int",
+          "Init":  "100",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "size",
+          "Pos.x":  400,
+          "Pos.y":  -140,
+          "Parent":  -1,
+          "#":  15,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "chance",
+          "Pos.x":  400,
+          "Pos.y":  -120,
+          "Parent":  -1,
+          "#":  16,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "planets_visited",
+          "Pos.x":  400,
+          "Pos.y":  -100,
+          "Parent":  -1,
+          "#":  17,
+          "Var.Type":  "Array",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "planets_needed",
+          "Pos.x":  400,
+          "Pos.y":  -80,
+          "Parent":  -1,
+          "#":  18,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "clock_create",
+          "Pos.x":  400,
+          "Pos.y":  -40,
+          "Parent":  -1,
+          "#":  19,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "item",
+          "Pos.x":  400,
+          "Pos.y":  -60,
+          "Parent":  -1,
+          "#":  20,
+          "Var.Type":  "Dword",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "spawn_planet",
+          "Pos.x":  400,
+          "Pos.y":  -20,
+          "Parent":  -1,
+          "#":  21,
+          "Var.Type":  "Dword",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "planetgen",
+          "Pos.x":  520,
+          "Pos.y":  -180,
+          "Parent":  -1,
+          "#":  22,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "array_spawn_planets",
+          "Pos.x":  520,
+          "Pos.y":  -160,
+          "Parent":  -1,
+          "#":  23,
+          "Var.Type":  "Array",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "star",
+          "Pos.x":  520,
+          "Pos.y":  -140,
+          "Parent":  -1,
+          "#":  24,
+          "Var.Type":  "Dword",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "ether_iden",
+          "Pos.x":  520,
+          "Pos.y":  -120,
+          "Parent":  -1,
+          "#":  29,
+          "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "quest_created",
+          "Pos.x":  520,
+          "Pos.y":  -100,
+          "Parent":  -1,
+          "#":  31,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "i",
+          "Pos.x":  520,
+          "Pos.y":  -80,
+          "Parent":  -1,
+          "#":  32,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "energymod",
+          "Pos.x":  520,
+          "Pos.y":  -60,
+          "Parent":  -1,
+          "#":  35,
+          "Var.Type":  "Int",
+          "Init":  "2",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "defstat",
+          "Pos.x":  520,
+          "Pos.y":  -40,
+          "Parent":  -1,
+          "#":  55,
+          "Var.Type":  "Int",
+          "Init":  "0",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "temp",
+          "Pos.x":  520,
+          "Pos.y":  -20,
+          "Parent":  -1,
+          "#":  56,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "tempstr",
+          "Pos.x":  400,
+          "Pos.y":  0,
+          "Parent":  -1,
+          "#":  83,
+          "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "tempup",
+          "Pos.x":  520,
+          "Pos.y":  0,
+          "Parent":  -1,
+          "#":  84,
+          "Var.Type":  "Int",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "tempstra",
+          "Pos.x":  400,
+          "Pos.y":  20,
+          "Parent":  -1,
+          "#":  85,
+          "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "tstr1",
+          "Pos.x":  700,
+          "Pos.y":  -180,
+          "Parent":  -1,
+          "#":  88,
+          "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "tstr2",
+          "Pos.x":  700,
+          "Pos.y":  -160,
+          "Parent":  -1,
+          "#":  89,
+          "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "tstr3",
+          "Pos.x":  700,
+          "Pos.y":  -140,
+          "Parent":  -1,
+          "#":  90,
+          "Var.Type":  "Str",
+          "Init":  "",
+          "Global":  false        
+        }      
+      ]    
+    }  
+  ],
+  "Visual.Links":  
+  [
+    {
+      "Type":  "TGraphLink",
+      "Begin":  3,
+      "End":  2,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  7,
+      "End":  2,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  5,
+      "End":  3,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  5,
+      "End":  9,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  8,
+      "End":  10,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  25,
+      "End":  27,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  27,
+      "End":  26,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  10,
+      "End":  28,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  28,
+      "End":  11,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  11,
+      "End":  30,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  6,
+      "End":  33,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  33,
+      "End":  8,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  6,
+      "End":  34,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  34,
+      "End":  25,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  38,
+      "End":  40,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  38,
+      "End":  39,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  38,
+      "End":  41,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  46,
+      "End":  50,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  46,
+      "End":  51,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  46,
+      "End":  52,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  50,
+      "End":  47,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  51,
+      "End":  48,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  52,
+      "End":  49,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  46,
+      "End":  53,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  38,
+      "End":  54,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  47,
+      "End":  57,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  48,
+      "End":  44,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  49,
+      "End":  58,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  40,
+      "End":  60,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  40,
+      "End":  59,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  60,
+      "End":  45,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  59,
+      "End":  61,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  45,
+      "End":  62,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  61,
+      "End":  63,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  45,
+      "End":  64,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  61,
+      "End":  65,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  45,
+      "End":  68,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  61,
+      "End":  68,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  62,
+      "End":  66,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  62,
+      "End":  67,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  64,
+      "End":  71,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  64,
+      "End":  72,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  65,
+      "End":  69,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  65,
+      "End":  70,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  63,
+      "End":  74,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  63,
+      "End":  73,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  39,
+      "End":  75,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  75,
+      "End":  77,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  75,
+      "End":  79,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  75,
+      "End":  80,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  79,
+      "End":  76,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  80,
+      "End":  81,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  76,
+      "End":  42,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  66,
+      "End":  78,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  73,
+      "End":  43,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  37,
+      "End":  82,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  82,
+      "End":  38,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  41,
+      "End":  87,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  87,
+      "End":  46,
+      "Nom":  0,
+      "Arrow":  true    
+    }  
+  ],
+  "BlockPar.EC.Total.Strings":  33,
+  "BlockPar.EC":  
+  [
+    {
+      "#":  "112",
+      "String":  "Хорошо"    
+    },
+    {
+      "#":  "162",
+      "String":  "<0> вы что, ещё не открывали их?<br>Ну что же вы, миссию выполнили, а воспоминания ещё не вернули. Открывайте скорее - ваши знания уникальны, вселенная нуждается в них!"    
+    },
+    {
+      "#":  "182",
+      "String":  "Это часы, которыми древняя раса запечатывала свои воспоминания, а вы - один из последних представителей своей расы.<br><br>Да, вы не совсем человек, вы просто похожи на этот вид, <0><br><br>Что? Откуда я это знаю? Вы же нам это и рассказали с убедительными доказательствами, а потом как раз и запечатали свои воспоминания в этот механизм, который строго-настрого запретили изучать и попросили запрятать так, чтобы никто его не нашёл.<br>Но, видимо, владелец своих воспоминаний всегда тянется к тому, чтобы их обрести вновь.<br><br>Что, ещё не вернули?<br><Player>, давайте быстрее, ваш корабль, который вы оставили на сохранение, вот-вот доставят на склад.<br>Время-Шремя, как говорил один знаменитый Лекарь.<br>"    
+    },
+    {
+      "#":  "188",
+      "String":  "Вы не тот, кого мы ожидали увидеть с этими, кхм, \"часами\", так что немедленно отдайте их нам - у вас нет выбора!"    
+    },
+    {
+      "#":  "189",
+      "String":  "Вы уверены, что это безопасно? Когда они рядом, я слышу странные голоса и вижу непонятные образы в голове, такие родные и знакомые, но в тоже время я ничего не понимаю."    
+    },
+    {
+      "#":  "190",
+      "String":  "[Отдать часы]"    
+    },
+    {
+      "#":  "192",
+      "String":  "ТАРДИС внимательно слушает вас<br><br>Энергия: <0>/1000<br>Текущий прирост: +<1><br><br>Способности ТАРДИС:<br>  Режим Скалы:<br>Перенаправление поток энергии, предназначенный для двигателя, на защитный экран для полной неуязвимости<br> -Требует <clr>500<clrEnd> энергии<br>  Гиперскачок:<br>Почти моментально перемещает в любую точку Галактики<br> -Требует <clr>800<clrEnd> энергии<br><br>Режимы накопления энергии:<br><br> Энергосберегающий режим<br> Обычный режим <br> Защитный режим<br><br>Сейчас корабль в режиме: <2><br>Режим Скалы: <3><br> <br><br>"    
+    },
+    {
+      "#":  "193",
+      "String":  "Корабль в обычном режиме<br><br>Для включения режима Скалы потребуется 500 енергии"    
+    },
+    {
+      "#":  "194",
+      "String":  "<0>Энергосберегающий</color> режим<br> + Удвоение выработки энергии<br> - отключение ГЗП<br><br><1>Обычный</color> режим<br> +- Обычная выработка энергии<br> +- ГЗП работает в обычном режиме<br><br><2>Защитный</color> режим<br> - Выработка снижена на 50%<br> + ГЗП усилен на 30%"    
+    },
+    {
+      "#":  "195",
+      "String":  "Сейчас корабль в режиме Скалы<br><br>Для отключения режима Скалы потребуется <clr>100<clrEnd> энергии"    
+    },
+    {
+      "#":  "196",
+      "String":  "Этот корабль может совершать <clr>гиперскачки<clrEnd> - моментально перенестись в другую точку пространства. Всё что нужно - большой объём энергии и пункт назначения. "    
+    },
+    {
+      "#":  "197",
+      "String":  "Убер-Гипер-Перемещение"    
+    },
+    {
+      "#":  "198",
+      "String":  "Управление неуязвимостью "    
+    },
+    {
+      "#":  "199",
+      "String":  "Управление энергией"    
+    },
+    {
+      "#":  "200",
+      "String":  "Активировать Энергосберегающий Режим"    
+    },
+    {
+      "#":  "201",
+      "String":  "Активировать обычный режим"    
+    },
+    {
+      "#":  "202",
+      "String":  "Активировать Защитный Режим"    
+    },
+    {
+      "#":  "203",
+      "String":  "Вернуться на мостик"    
+    },
+    {
+      "#":  "204",
+      "String":  "Вернутся на мостик"    
+    },
+    {
+      "#":  "205",
+      "String":  "Включить Режим Скалы"    
+    },
+    {
+      "#":  "206",
+      "String":  "Отключить Режим Скалы"    
+    },
+    {
+      "#":  "207",
+      "String":  "Совершить гиперскачок"    
+    },
+    {
+      "#":  "209",
+      "String":  "Включен"    
+    },
+    {
+      "#":  "210",
+      "String":  "Выключен"    
+    },
+    {
+      "#":  "211",
+      "String":  "Энергосбережение"    
+    },
+    {
+      "#":  "212",
+      "String":  "Обычный"    
+    },
+    {
+      "#":  "213",
+      "String":  "Защиный"    
+    },
+    {
+      "#":  "216",
+      "String":  "Какие тайны могут скрывать почти что бесконечные склады ТАРДИС? По крайней мере, кое-что интересное попало в ваши руки"    
+    },
+    {
+      "#":  "217",
+      "String":  "Активировать часы и вспомнить всё"    
+    },
+    {
+      "#":  "218",
+      "String":  "Я обнаружил тут странную вещицу. Не подскажете, что это?"    
+    },
+    {
+      "#":  "219",
+      "String":  "Управление способностями ТАРДИС"    
+    },
+    {
+      "#":  "220",
+      "String":  "Для применения способности необходимо быть в открытом космосе"    
+    },
+    {
+      "#":  "221",
+      "String":  "Для совершения скачка в целях безопасности необходимо быть в открытом космосе"    
+    }  
+  ]
+}

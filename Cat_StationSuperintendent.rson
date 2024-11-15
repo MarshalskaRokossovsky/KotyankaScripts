@@ -4,8 +4,8 @@
   "ViewPos.x":  -537,
   "ViewPos.y":  -597,
   "ScriptName":  "Cat_StationSuperintendent",
-  "ScriptFileOut":  "D:\\Games\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\Kotyanka\\Cat_StantionSuperintendent\\DATA\\Script\\Cat_StantionSuperintendent.scr",
-  "ScriptTextOut":  "D:\\Games\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\Kotyanka\\Cat_StantionSuperintendent\\DATA\\Script\\Cat_StantionSuperintendent.txt",
+  "ScriptFileOut":  "C:\\Users\\DmitB\\Downloads\\Cat_StationSuperintendent.scr",
+  "ScriptTextOut":  "C:\\Users\\DmitB\\Downloads\\Cat_StationSuperintendent.txt",
   "Visual.Objects":  
   [
     {
@@ -615,6 +615,10 @@
               "    ShipJoin(BuildersGroup,tdwd2,'',Id(ruin));",
               "    SetName(tdwd2,\"Строитель\"+' '+\"Б\"+'-'+Rnd(200,600)+\"ДК\");",
               "    NoTalkToShip(tdwd2,1);",
+              "    dword tdwd3 = BuyWarrior(NearCivilPlanet(ruin));",
+              "    OrderNone(tdwd3);",
+              "    OrderLock(tdwd3);",
+              "    TranclucatorData(tdwd2,'Proprietor',tdwd3);",
               "}"          
           ]        
         },
@@ -1457,7 +1461,7 @@
       "Arrow":  true    
     }  
   ],
-  "BlockPar.EC.Total.Strings":  23,
+  "BlockPar.EC.Total.Strings":  27,
   "BlockPar.EC":  
   [
     {
@@ -1523,6 +1527,22 @@
     {
       "#":  "22",
       "String":  "Хочу установить улучшение \"Цитадель\""    
+    },
+    {
+      "#":  "23",
+      "String":  "Система захвачена пиратами, часть станций построить невозможно!"    
+    },
+    {
+      "#":  "24",
+      "String":  "Система захвачена, постройка невозможна!"    
+    },
+    {
+      "#":  "25",
+      "String":  "В системе слишком много станций! Постройка невозможна!"    
+    },
+    {
+      "#":  "26",
+      "String":  " (Вы здесь)"    
     },
     {
       "#":  "3",
