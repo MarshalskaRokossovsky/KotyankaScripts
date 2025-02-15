@@ -1,8 +1,8 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -241,
-  "ViewPos.y":  -501,
+  "ViewPos.x":  301,
+  "ViewPos.y":  -354,
   "ScriptName":  "Cat_ZelRangers",
   "ScriptFileOut":  "D:\\Games\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_ZelRangers\\DATA\\Script\\Cat_ZelRangers.scr",
   "ScriptTextOut":  "D:\\Games\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_ZelRangers\\DATA\\Script\\Cat_ZelRangers.txt",
@@ -18,7 +18,7 @@
           "Pos.y":  320,
           "Parent":  -1,
           "#":  27,
-          "Msg":  "Надо напомнить этим воякам, кто выйграл клисанскую войну... Могу ли я чем-нибудь помочь?",
+          "Msg":  "Не, ну я конечно не барон, пока что, но ты дело говоришь.",
           "AMsg.Num":  "0"        
         },
         {
@@ -28,7 +28,7 @@
           "Pos.y":  380,
           "Parent":  -1,
           "#":  29,
-          "Msg":  "Да я знаю, чем вы занимаетесь у вас в брошуре написано, но что вы конкретно имеете ввиду?",
+          "Msg":  "Не, ну как бы да... а к чему ты это?",
           "AMsg.Num":  "1"        
         },
         {
@@ -38,7 +38,7 @@
           "Pos.y":  440,
           "Parent":  -1,
           "#":  31,
-          "Msg":  "Хорошо, я согласен! Сколько вам нужно?",
+          "Msg":  "Так у тебя всё готово?! Так это же другое дело, ну чё там, сколько кредитов стоит закупить пару тройку подержаных звездолётов?",
           "AMsg.Num":  "2"        
         },
         {
@@ -48,7 +48,7 @@
           "Pos.y":  410,
           "Parent":  -1,
           "#":  32,
-          "Msg":  "Ага, еще чего? Я свои кровно заработанные денюжки никому не отдам.",
+          "Msg":  "Не, идея здравая но мне мои деньги явно важней.",
           "AMsg.Num":  "3"        
         },
         {
@@ -68,7 +68,7 @@
           "Pos.y":  190,
           "Parent":  -1,
           "#":  40,
-          "Msg":  "Информация о параметрах корабля, для первого класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для первого класса салаг",
           "AMsg.Num":  "5"        
         },
         {
@@ -78,7 +78,7 @@
           "Pos.y":  210,
           "Parent":  -1,
           "#":  46,
-          "Msg":  "Информация о параметрах корабля, для второго класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для второго класса салаг",
           "AMsg.Num":  "6"        
         },
         {
@@ -88,7 +88,7 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  47,
-          "Msg":  "Информация о параметрах корабля, для третьего класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для третьего класса салаг",
           "AMsg.Num":  "7"        
         },
         {
@@ -98,7 +98,7 @@
           "Pos.y":  250,
           "Parent":  -1,
           "#":  48,
-          "Msg":  "Информация о параметрах корабля, для четвертого класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для четвертого класса салаг",
           "AMsg.Num":  "8"        
         },
         {
@@ -108,7 +108,7 @@
           "Pos.y":  270,
           "Parent":  -1,
           "#":  49,
-          "Msg":  "Информация о параметрах корабля, для пятого класса рейнджеров",
+          "Msg":  "Информация о параметрах корабля, для пятого класса салаг",
           "AMsg.Num":  "9"        
         },
         {
@@ -128,7 +128,7 @@
           "Pos.y":  -80,
           "Parent":  -1,
           "#":  52,
-          "Msg":  "Меня интересует количество классов для обучения новых рейнджеров\r\n",
+          "Msg":  "Меня интересует количество классов для обучения салаг\r\n",
           "AMsg.Num":  "11"        
         },
         {
@@ -138,7 +138,7 @@
           "Pos.y":  -60,
           "Parent":  -1,
           "#":  53,
-          "Msg":  "Меня интересует скорость обучения рейнджеров\r\n",
+          "Msg":  "Меня интересует скорость обучения салаг\r\n",
           "AMsg.Num":  "12"        
         },
         {
@@ -148,7 +148,7 @@
           "Pos.y":  -40,
           "Parent":  -1,
           "#":  54,
-          "Msg":  "Меня интересует количество выдаваемого оборудования новым рейнджерам",
+          "Msg":  "Меня интересует количество выдаваемого оборудования новым салагам",
           "AMsg.Num":  "13"        
         },
         {
@@ -158,7 +158,7 @@
           "Pos.y":  -20,
           "Parent":  -1,
           "#":  55,
-          "Msg":  "Меня интересует программа обучения новых рейнджеров",
+          "Msg":  "Меня интересует программа обучения новых салаг",
           "AMsg.Num":  "14"        
         },
         {
@@ -168,7 +168,7 @@
           "Pos.y":  0,
           "Parent":  -1,
           "#":  56,
-          "Msg":  "Меня интересует улучшение оборудования рейнджеров",
+          "Msg":  "Меня интересует улучшение оборудования салаг",
           "AMsg.Num":  "15"        
         },
         {
@@ -248,7 +248,7 @@
           "Pos.y":  280,
           "Parent":  -1,
           "#":  103,
-          "Msg":  "Обратно к параметрам текущего рейнджера",
+          "Msg":  "Обратно к параметрам текущего салаги",
           "AMsg.Num":  "23"        
         },
         {
@@ -321,7 +321,7 @@
           "Pos.y":  290,
           "Parent":  -1,
           "#":  26,
-          "Msg":  "Да, вы абсолютно правы. В последнее время центрам рейнджеров сильно урезали бюджет в связи с тяжелым положением на фронтах. Доминаторы захватывают систему за системой и все доступные средства Коалиции уходят на постройку и содержание большого военного флота. Тех крох, которые перепадают нам, едва хватает на обучение и экипировку новых рейджеров. У нас банально не хватает денег на совершенствование оборудования для наших бравых добровольцев.",
+          "Msg":  "Ну братух, сам понимаешь мы ребята вольные, да и ремесло наше не простое. Сейчас когда с одной стороны жестянки а с другой псы Коалиции, совсем грусно стало. Был бы я Бароном всем новичкам раздавал бы по кораблю и оборудки не жалел бы.",
           "DMsg.Num":  "0"        
         },
         {
@@ -331,7 +331,7 @@
           "Pos.y":  350,
           "Parent":  -1,
           "#":  28,
-          "Msg":  "Знаете, ведь именно наша организация позволяет вам беспрепятственно торговать и осуществлять оперативные действия на всех планетах галактического содружества, вся бюрократия лежит на нас, и если правительство не всилах поднять субсидирование - это можете сделать вы! свободные и лихие герои галактики!",
+          "Msg":  "Слушай, можешь не отвечать конечно, но это же про тебя постоянно статьи в галанете пишут, да и корабль твой в ангаре самый навароченный из всех, явно же при деньгах.",
           "DMsg.Num":  "1"        
         },
         {
@@ -341,7 +341,7 @@
           "Pos.y":  410,
           "Parent":  -1,
           "#":  30,
-          "Msg":  "У нас есть таблица в Гаалакселе. В ней указаны все статьи расходов и что мы можем на них позволить, если вы сможете пожертвовать нам неободимые суммы, мы успешно сможем их распределить на нужды новых рейнджеров - ваших будущих боевых товарищей!",
+          "Msg":  "Да я третьего дня, сидел кумекал сколько чё стоить будет если бароном стану или ему просто идею закинуть, короче таблицу расходов в Гаалакселе навоял.\r\nЕсли интересно то могу показать а там уже если чё и браткам закинешь на новую ласточку.",
           "DMsg.Num":  "2"        
         },
         {
@@ -351,7 +351,7 @@
           "Pos.y":  410,
           "Parent":  -1,
           "#":  33,
-          "Msg":  "Эх... ну, ничего страшного, будем надеятся, что военные смогут победить...",
+          "Msg":  "Да... Я всё понимаю братух но как захочишь ченить в мире поменять, ты знаешь где меня найти.",
           "DMsg.Num":  "3"        
         },
         {
@@ -361,7 +361,7 @@
           "Pos.y":  470,
           "Parent":  -1,
           "#":  35,
-          "Msg":  "Не торопитесь. Столько денег у вас наверняка нету. Развитие разных направлений требует разного количества вложений. Нашего бюджета хватает на то, чтобы снаряжать и обучать новых рейнджеров, но на улучшение инфраструктуры у нас денег нет. Давайте я вам расскажу о текущем положении дел.",
+          "Msg":  "Ха, вот это по нашему, держи доступ таблица интерактивная, сама подскажет что имеем и что можно подтянуть, глядишь если все статьи закроем, то и Каолов победим.",
           "DMsg.Num":  "4"        
         },
         {
@@ -381,7 +381,7 @@
           "Pos.y":  -40,
           "Parent":  -1,
           "#":  51,
-          "Msg":  "В общие параметры входит:\r\n1. Количество классов для обучения новых рейнджеров\r\n2. Скорость обучения рейнджеров\r\n3. Количество выдаваемого оборудования рейнджерам\r\n4. Качество программы обучения новых рейнджеров\r\n5. Степерь дополнительного улучшения оборудования рейнджеров\r\n",
+          "Msg":  "В общие параметры входит:\r\n1. Количество баров для экскурса салаг\r\n2. Скорость обучения рейнджеров\r\n3. Количество выдаваемого оборудования рейнджерам\r\n4. Качество программы обучения новых рейнджеров\r\n5. Степерь дополнительного улучшения оборудования рейнджеров\r\n",
           "DMsg.Num":  "6"        
         },
         {
@@ -401,7 +401,7 @@
           "Pos.y":  -60,
           "Parent":  -1,
           "#":  69,
-          "Msg":  "Мы постоянно работаем над привлечением новых гуманоидов в рейнджерское движение. Прямо сейчас мы <StrLvlFreq[LvlFreq-1]>.",
+          "Msg":  "Мы постоянно работаем над привлечением новых гуманоидов в пиратское движение. Прямо сейчас мы <StrLvlFreq[LvlFreq-1]>.",
           "DMsg.Num":  "8"        
         },
         {
@@ -411,7 +411,7 @@
           "Pos.y":  -40,
           "Parent":  -1,
           "#":  70,
-          "Msg":  "Следующим рейнджерам мы будем выдавать <StrNItems[NItems-1]>.",
+          "Msg":  "Следующим салагам мы будем выдавать <StrNItems[NItems-1]>.",
           "DMsg.Num":  "9"        
         },
         {
@@ -441,7 +441,7 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  73,
-          "Msg":  "В параметры корабля рейнджера входит:\r\n1. Размер корпуса\r\n2. Акрин корпуса\r\n3. Уровень экипировки",
+          "Msg":  "В параметры корабля салаги входит:\r\n1. Размер корпуса\r\n2. Акрин корпуса\r\n3. Уровень экипировки",
           "DMsg.Num":  "12"        
         },
         {
@@ -451,7 +451,7 @@
           "Pos.y":  210,
           "Parent":  -1,
           "#":  82,
-          "Msg":  "Этот класс рейнджеров получит <StrLvlHullSize[LvlHullSize[current_ranger]-1]>.",
+          "Msg":  "Этот класс салаг получит <StrLvlHullSize[LvlHullSize[current_ranger]-1]>.",
           "DMsg.Num":  "13"        
         },
         {
@@ -461,7 +461,7 @@
           "Pos.y":  230,
           "Parent":  -1,
           "#":  83,
-          "Msg":  "Акринацию корпуса для этого класса рейнджеров производят <StrLvlHullAcrin[LvlHullAcrin[current_ranger]-1]>.",
+          "Msg":  "Акринацию корпуса для этого класса салаг производят <StrLvlHullAcrin[LvlHullAcrin[current_ranger]-1]>.",
           "DMsg.Num":  "14"        
         },
         {
@@ -471,7 +471,7 @@
           "Pos.y":  250,
           "Parent":  -1,
           "#":  84,
-          "Msg":  "Оборудование для этого класса рейнджеров мы <StrLvlEq[LvlEq[current_ranger]-1]>.",
+          "Msg":  "Оборудование для этого класса салаг мы <StrLvlEq[LvlEq[current_ranger]-1]>.",
           "DMsg.Num":  "15"        
         },
         {
@@ -491,7 +491,7 @@
           "Pos.y":  140,
           "Parent":  -1,
           "#":  97,
-          "Msg":  "Спасибо рейнджер, ваш вклад в общее дело неоценим, благодаря таким как вы, мы точно восстановим мир в галактике!",
+          "Msg":  "Спасибо братуха, твоя жертва не оценима, давай налью бесплатно! Обмоем. Только благодаря таким как ты мы ещё на плаву.",
           "DMsg.Num":  "17"        
         },
         {
@@ -1227,7 +1227,7 @@
               "if (accepted)",
               "    AddDialogInject('Verbovka', '', \"Мне нужен доступ к вашей таблице в Гаалакселе\", 0);",
               "else",
-              "    AddDialogInject('Begin', '', \"Дела на фронте сейчас совсем кислые, как обстоят дела с новобранцами в наши ряды доблестных рейнджеров?\", 0);"          
+              "    AddDialogInject('Begin', '', \"Дела в баре сейчас совсем кислые, нескем выпить, где все наши бравые бродяги?\", 0);"          
           ]        
         },
         {
@@ -1535,59 +1535,59 @@
               "//СТРОКОВЫЕ ПОДСТАНОВКИ",
               "//",
               "StrLvlFreq = newarray(5);",
-              "StrLvlFreq[0] = \"раздаём листовки с призывом вступать в рейнджеры на главных площадях\";",
-              "StrLvlFreq[1] = \"расклеиваем повсюду плакаты \\\"А ты записался в рейнджеры?\\\"\";",
-              "StrLvlFreq[2] = \"устраиваем парады памяти рейнджеров-героев\";",
-              "StrLvlFreq[3] = \"ведём активную агитационную программу в гааланете\";",
-              "StrLvlFreq[4] = \"устраиваем массовую пропаганду рейнджерского движения, начиная от разбрасывания листовок и заканчивая формированием в литературе образа героя без страха и упрёка - Космического Рейнджера\";",
+              "StrLvlFreq[0] = \"расказываем в барак про \\\"Особое предложение\\\"\";",
+              "StrLvlFreq[1] = \"расклеиваем повсюду плакаты \\\"Мама-анархрия, Папа-стакан янвелба\\\"\";",
+              "StrLvlFreq[2] = \"устраиваем тематические сходки, почитателей Рачехана\";",
+              "StrLvlFreq[3] = \"ведём активную агитационную программу в пеленгнете\";",
+              "StrLvlFreq[4] = \"устраиваем массовую пропаганду анархического движения, начиная от разбрасывания листовок и заканчивая формированием в литературе образа крутого парня - Бродяги с гиперпространства\";",
               "",
               "StrNRangers = newarray(5);",
-              "StrNRangers[0] = \"только один класс рейнджеров\";",
-              "StrNRangers[1] = \"два класса обучения рейнджеров\";",
-              "StrNRangers[2] = \"целых три класса рейнджеров\";",
-              "StrNRangers[3] = \"четыре класса для обучения рейнджеров\";",
-              "StrNRangers[4] = \"полноценное орбитальное училище вмещающее пять классов рейнджеров\";",
+              "StrNRangers[0] = \"только один класс салаг\";",
+              "StrNRangers[1] = \"два класса обучения салаг\";",
+              "StrNRangers[2] = \"целых три класса салаг\";",
+              "StrNRangers[3] = \"четыре класса для обучения салаг\";",
+              "StrNRangers[4] = \"полноценное орбитальное училище вмещающее пять классов салаг\";",
               "",
               "StrNItems = newarray(5);",
               "StrNItems[0] = \"минимальный комплект оборудования, с которым возможен космический полёт\";",
               "StrNItems[1] = \"коплект джентельмена - пушка, дроид и радар! В общем самое необходимое\";",
               "StrNItems[2] = \"среднее количество оборудования, практически полноценный комплект\";",
-              "StrNItems[3] = \"большое количество оборудования, наши рейнджеры оснащены не хуже военных\";",
+              "StrNItems[3] = \"большое количество оборудования, наши салаги оснащены не хуже военных\";",
               "StrNItems[4] = \"полноценный комплект оборудования, вооружения и возможно даже парочку артефактов\";",
               "",
               "StrLvlSkills = newarray(5);",
-              "StrLvlSkills[0] = \"берем в рейнджеров всех желающих\";",
-              "StrLvlSkills[1] = \"берем в рейнджеров всех прошедших минимальное обучение в симуляторах космеческого боя\";",
-              "StrLvlSkills[2] = \"берем в рейнджеров всех прошедших экзамены в симуляторах космического, планетрного и гиперпространственного боя\";",
-              "StrLvlSkills[3] = \"берем в рейнджеров исключительно выпускников лётных училищ и проводим с ними углубленные тренировки\";",
-              "StrLvlSkills[4] = \"берем в рейнджеров исключительно профессиональных пилотов и дополнительно обучаем их всевозможным навыкам\";",
+              "StrLvlSkills[0] = \"берем в братство всех желающих\";",
+              "StrLvlSkills[1] = \"берем в братство всех прошедших минимальное обучение в симуляторах космеческого боя\";",
+              "StrLvlSkills[2] = \"берем в братство всех прошедших испытания в симуляторах космического, планетрного и гиперпространственного боя\";",
+              "StrLvlSkills[3] = \"берем в братство отчаявшихся выпускников лётных училищ или бывших военных и проводим с ними углубленные тренировки\";",
+              "StrLvlSkills[4] = \"берем в братство отчаявшихся профессиональных пилотов и дополнительно обучаем их всевозможным навыкам\";",
               "",
               "StrLvlUpgrade = newarray(5);",
               "StrLvlUpgrade[0] = \"несколько малоков-слесарей\";",
               "StrLvlUpgrade[1] = \"малокско-человеческая группа слесарей пятого разряда\";",
-              "StrLvlUpgrade[2] = \"практиканты технических вузов с Эйпентака\";",
-              "StrLvlUpgrade[3] = \"научная база \\\"Наяна\\\"\";",
-              "StrLvlUpgrade[4] = \"лучшие специалисты с Гаалдока\";",
+              "StrLvlUpgrade[2] = \"практиканты технических вузов с Рахиша\";",
+              "StrLvlUpgrade[3] = \"Доминион \\\"Черная Жемчужина\\\"\";",
+              "StrLvlUpgrade[4] = \"Величайшие безумные учёные со всей галактики\";",
               "",
               "StrLvlHullSize = newarray(5);",
               "StrLvlHullSize[0] = \"корпус минимального размера, сравнимый с гражданской авиацией\";",
-              "StrLvlHullSize[1] = \"корпус маленького размера, как и у вас когда-то в начале вашей карьеры\";",
-              "StrLvlHullSize[2] = \"корпус среднего размера, оптимальный вариант для начинающего героя\";",
-              "StrLvlHullSize[3] = \"корпус большого размера, такие размеры обычно у торговых судов, но наши рейнджеры достойны лучшего\";",
+              "StrLvlHullSize[1] = \"корпус маленького размера, как и Васи с соседней базы\";",
+              "StrLvlHullSize[2] = \"корпус среднего размера, оптимальный вариант для начинающего разбойника\";",
+              "StrLvlHullSize[3] = \"корпус большого размера, такие размеры обычно у торговых судов, но нашим нужно транспортировать рэкетированный груз\";",
               "StrLvlHullSize[4] = \"корпус огромного размера, больше только у флагманов и то не всегда\";",
               "",
               "StrLvlHullAcrin = newarray(5);",
-              "StrLvlHullAcrin[0] = \"приглашёнными специалистами без лицензии, только никому не говорите\";",
-              "StrLvlHullAcrin[1] = \"лицензированными специалистами, их не взяли в пилоты по состоянию здоровья но они могут помочь нашему общему делу\";",
-              "StrLvlHullAcrin[2] = \"в одной из лабораторий Центра Рейнджеров под добровольным надзором учёных\";",
-              "StrLvlHullAcrin[3] = \"на специально построенном предприятии по акринации\";",
-              "StrLvlHullAcrin[4] = \"лучшими специалистами галактики на одной из научных баз\";",
+              "StrLvlHullAcrin[0] = \"частниками без лицухи, ну так нам же дешевле\";",
+              "StrLvlHullAcrin[1] = \"частники, бывшие лицензенты, перешедшие на нашу сторону\";",
+              "StrLvlHullAcrin[2] = \"в одной нарко-лабе, подприсмотром спецов, у них явно есть какой-то \\\"план\\\"\";",
+              "StrLvlHullAcrin[3] = \"на специально захваченом предприятии по акринации\";",
+              "StrLvlHullAcrin[4] = \"лучшими безумцами галактики на одном из доминионов\";",
               "",
               "StrLvlEq = newarray(5);",
               "StrLvlEq[0] = \"скупаем оптом на распродажах в бизнец-центрах\";",
               "StrLvlEq[1] = \"покупаем б/у хорошего качества у бывших боевых пилотов \";",
-              "StrLvlEq[2] = \"создаем своими силами закупая детали на планетах\";",
-              "StrLvlEq[3] = \"скупаем лучший массмаркет с индустриальных планет\";",
+              "StrLvlEq[2] = \"создаем своими силами закупая детали на черном рынке\";",
+              "StrLvlEq[3] = \"рэкетируем лучший массмаркет с индустриальных планет\";",
               "StrLvlEq[4] = \"производим на специализированных заводах под заказ\";"          
           ]        
         },
@@ -1820,166 +1820,178 @@
               "        if (cnt > 100) break;",
               "",
               "        if (power == 1) {",
-              "            random = Rnd(1, 34);",
+              "            random = Rnd(1, 31);",
               "            if ((random == 1)) result = FindBonusByNameInCfg('353'); //Быстрый корпус I",
               "            if ((random == 2)) result = FindBonusByNameInCfg('357'); //Неуязвимый корпус I",
-              "            if ((random == 3)) result = FindBonusByNameInCfg('361'); //Ремонтный корпус I",
-              "            if ((random == 4)) result = FindBonusByNameInCfg('365'); //Миоплазменный корпус I",
-              "            if ((random == 5)) result = FindBonusByNameInCfg('369'); //Пигамарный корпус I",
-              "            if ((random == 6)) result = FindBonusByNameInCfg('472'); //Корпус \"Молния\" I",
-              "            if ((random == 7)) result = FindBonusByNameInCfg('476'); //Корпус \"Броненосец\" I",
-              "            if ((random == 8) && (race == Gaal)) result = FindBonusByNameInCfg('468'); //Корпус \"Честный ренегал\" I",
-              "            if ((random == 9) && (race == Peleng)) result = FindBonusByNameInCfg('460'); //Корпус \"Добрый лякуша\" I",
-              "            if ((random == 10) && (race == People)) result = FindBonusByNameInCfg('464'); //Корпус \"Мирный корсар\" I",
-              "            if ((random == 11) && (race == People)) result = FindBonusByNameInCfg('480'); //Корпус \"Ушастик\" I",
-              "            if ((random == 12)) result = FindBonusByNameInCfg('352'); // Болид",
+              "            //if ((random == 3)) result = FindBonusByNameInCfg('361'); //Ремонтный корпус I",
+              "            if ((random == 3)) result = FindBonusByNameInCfg('365'); //Миоплазменный корпус I",
+              "            if ((random == 4)) result = FindBonusByNameInCfg('369'); //Пигамарный корпус I",
+              "            //if ((random == 6)) result = FindBonusByNameInCfg('472'); //Корпус \"Молния\" I",
+              "            //if ((random == 7)) result = FindBonusByNameInCfg('476'); //Корпус \"Броненосец\" I",
+              "            if ((random == 5) && (race == Gaal)) result = FindBonusByNameInCfg('468'); //Корпус \"Честный ренегал\" I",
+              "            if ((random == 6) && (race == Peleng)) result = FindBonusByNameInCfg('460'); //Корпус \"Добрый лякуша\" I",
+              "            if ((random == 7) && (race == People)) result = FindBonusByNameInCfg('464'); //Корпус \"Мирный корсар\" I",
+              "            if ((random == 8) && (race == People)) result = FindBonusByNameInCfg('480'); //Корпус \"Ушастик\" I",
+              "            if ((random == 9)) result = FindBonusByNameInCfg('352'); // Болид",
               "",
-              "            if ((random == 13) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_1_Hull'); // Гиперион I",
-              "            if ((random == 14)) result = FindBonusByCustomTag('LEOLastHulls_G2_Hull'); // Черный призрак",
-              "            if ((random == 15)) result = FindBonusByCustomTag('LEOLastHulls_G5_Hull'); // Цербер",
+              "            if ((random == 10) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_1_Hull'); // Гиперион I",
+              "            if ((random == 11)) result = FindBonusByCustomTag('LEOLastHulls_G2_Hull'); // Черный призрак",
+              "            if ((random == 12)) result = FindBonusByCustomTag('LEOLastHulls_G5_Hull'); // Цербер",
               "",
-              "            if ((random == 16) && (race == Peleng)) result = FindBonusByName('Ара' + ' I');",
-              "            if ((random == 17) && (race == People || race == Maloc)) result = FindBonusByName('Бамберга' + ' I');",
-              "            if ((random == 18) && (race == Maloc)) result = FindBonusByName('Кабан' + ' I');",
-              "            if ((random == 19) && (race == Fei)) result = FindBonusByName('Ястреб' + ' I');",
-              "            if ((random == 20) && (race == Gaal)) result = FindBonusByName('Пантера' + ' I');",
-              "            if ((random == 21) && (race == People || race == Peleng)) result = FindBonusByName('Акулёнок' + ' I');",
-              "            if ((random == 22) && (race == Maloc)) result = FindBonusByNameInCfg('EvoGkvan_GkvanHull');",
-              "            if ((random == 23) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Shegramer');",
-              "            if ((random == 24) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Vyhr');",
-              "            if ((random == 25) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Beshraflac');",
-              "            if ((random == 26) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Ellentanda');",
-              "            if ((random == 27)) result = FindBonusByNameInCfg('Cat_Ships_Bongrabar');",
-              "            if ((random == 28) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Chipshush');",
-              "            if ((random == 29)) result = FindBonusByNameInCfg('Cat_Ships_Sharcun');",
-              "            if ((random == 30) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Horizont');",
-              "            if ((random == 31) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Trackvagn');",
-              "            if ((random == 32) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Mishravec');",
-              "            if ((random == 33) && (race == People || race == Fei)) result = FindBonusByName('Cat_Ships_Unsorted_Transport');",
-              "            if ((random == 34) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_StarShip');",
+              "            if ((random == 13) && (race == Peleng)) result = FindBonusByName('Ара' + ' I');",
+              "            if ((random == 14) && (race == People || race == Maloc)) result = FindBonusByName('Бамберга' + ' I');",
+              "            if ((random == 15) && (race == Maloc)) result = FindBonusByName('Кабан' + ' I');",
+              "            if ((random == 16) && (race == Fei)) result = FindBonusByName('Ястреб' + ' I');",
+              "            if ((random == 17) && (race == Gaal)) result = FindBonusByName('Пантера' + ' I');",
+              "            if ((random == 18) && (race == People || race == Peleng)) result = FindBonusByName('Акулёнок' + ' I');",
+              "            if ((random == 19) && (race == Maloc)) result = FindBonusByNameInCfg('EvoGkvan_GkvanHull');",
+              "            if ((random == 20) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Shegramer');",
+              "            if ((random == 21) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Vyhr');",
+              "            if ((random == 22) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Beshraflac');",
+              "            if ((random == 23) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Ellentanda');",
+              "            if ((random == 24)) result = FindBonusByNameInCfg('Cat_Ships_Bongrabar');",
+              "            if ((random == 25) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Chipshush');",
+              "            if ((random == 26)) result = FindBonusByNameInCfg('Cat_Ships_Sharcun');",
+              "            if ((random == 27) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Horizont');",
+              "            if ((random == 28) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Trackvagn');",
+              "            if ((random == 29) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Mishravec');",
+              "            if ((random == 30) && (race == People || race == Fei)) result = FindBonusByName('Cat_Ships_Unsorted_Transport');",
+              "            if ((random == 31) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_StarShip');",
               "",
               "        }",
               "",
               "        if (power == 2) {",
-              "            random = Rnd(1, 35);",
+              "            random = Rnd(1, 32);",
               "            if ((random == 1)) result = FindBonusByNameInCfg('354'); //Быстрый корпус II",
               "            if ((random == 2)) result = FindBonusByNameInCfg('358'); //Неуязвимый корпус II",
-              "            if ((random == 3)) result = FindBonusByNameInCfg('362'); //Ремонтный корпус II",
-              "            if ((random == 4)) result = FindBonusByNameInCfg('366'); //Миоплазменный корпус II",
-              "            if ((random == 5)) result = FindBonusByNameInCfg('370'); //Пигамарный корпус II",
-              "            if ((random == 6)) result = FindBonusByNameInCfg('473'); //Корпус \"Молния\" II",
-              "            if ((random == 7)) result = FindBonusByNameInCfg('477'); //Корпус \"Броненосец\" II",
-              "            if ((random == 8) && (race == Gaal)) result = FindBonusByNameInCfg('469'); //Корпус \"Честный ренегал\" II",
-              "            if ((random == 9) && (race == Peleng)) result = FindBonusByNameInCfg('461'); //Корпус \"Добрый лякуша\" II",
-              "            if ((random == 10) && (race == People)) result = FindBonusByNameInCfg('465'); //Корпус \"Мирный корсар\" II",
-              "            if ((random == 11) && (race == People)) result = FindBonusByNameInCfg('481'); //Корпус \"Ушастик\" II",
-              "            if ((random == 12)) result = FindBonusByNameInCfg('351'); // Скала",
+              "            //if ((random == 3)) result = FindBonusByNameInCfg('362'); //Ремонтный корпус II",
+              "            if ((random == 3)) result = FindBonusByNameInCfg('366'); //Миоплазменный корпус II",
+              "            if ((random == 4)) result = FindBonusByNameInCfg('370'); //Пигамарный корпус II",
+              "            //if ((random == 6)) result = FindBonusByNameInCfg('473'); //Корпус \"Молния\" II",
+              "            //if ((random == 7)) result = FindBonusByNameInCfg('477'); //Корпус \"Броненосец\" II",
+              "            if ((random == 5) && (race == Gaal)) result = FindBonusByNameInCfg('469'); //Корпус \"Честный ренегал\" II",
+              "            if ((random == 6) && (race == Peleng)) result = FindBonusByNameInCfg('461'); //Корпус \"Добрый лякуша\" II",
+              "            if ((random == 7) && (race == People)) result = FindBonusByNameInCfg('465'); //Корпус \"Мирный корсар\" II",
+              "            if ((random == 8) && (race == People)) result = FindBonusByNameInCfg('481'); //Корпус \"Ушастик\" II",
+              "            if ((random == 9)) result = FindBonusByNameInCfg('351'); // Скала",
               "",
               "",
-              "            if ((random == 13) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_2_Hull'); // Гиперион II",
-              "            if ((random == 14) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_3_Hull'); // Гиперион III",
-              "            if ((random == 15)) result = FindBonusByCustomTag('LEOLastHulls_G1_Hull'); // Горизонт",
+              "            if ((random == 10) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_2_Hull'); // Гиперион II",
+              "            if ((random == 11) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_3_Hull'); // Гиперион III",
+              "            if ((random == 12)) result = FindBonusByCustomTag('LEOLastHulls_G1_Hull'); // Горизонт",
               "",
-              "            if ((random == 16) && (race == Peleng)) result = FindBonusByName('Ара' + ' II');",
-              "            if ((random == 17) && (race == People || race == Maloc)) result = FindBonusByName('Бамберга' + ' II');",
-              "            if ((random == 18) && (race == Maloc)) result = FindBonusByName('Кабан' + ' II');",
-              "            if ((random == 19) && (race == Fei)) result = FindBonusByName('Ястреб' + ' II');",
-              "            if ((random == 20) && (race == Gaal)) result = FindBonusByName('Пантера' + ' II');",
-              "            if ((random == 21) && (race == People || race == Peleng)) result = FindBonusByName('Акулёнок' + ' II');",
-              "            if ((random == 22) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Vyhr');",
-              "            if ((random == 23) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Bigrabyrba');",
-              "            if ((random == 24) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Ellentanda');",
-              "            if ((random == 25) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Gromodryn');",
-              "            if ((random == 26)) result = FindBonusByNameInCfg('Cat_Ships_Hramgerb');",
-              "            if ((random == 27) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Casholdsha');",
-              "            if ((random == 28) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Chipshush');",
-              "            if ((random == 29)) result = FindBonusByNameInCfg('Cat_Ships_Cvahonda');",
-              "            if ((random == 30)) result = FindBonusByNameInCfg('Cat_Ships_Zvedavar');",
-              "            if ((random == 31)) result = FindBonusByNameInCfg('Cat_Ships_Hellcat');",
-              "            if ((random == 32)) result = FindBonusByNameInCfg('Cat_Ships_Piranha');",
-              "            if ((random == 33)) result = FindBonusByNameInCfg('Cat_Enterprise');",
-              "            if ((random == 34)) result = FindBonusByNameInCfg('Cat_Ships_Lucrehulk');",
-              "            if ((random == 35) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_StarShip');",
+              "            if ((random == 13) && (race == Peleng)) result = FindBonusByName('Ара' + ' II');",
+              "            if ((random == 14) && (race == People || race == Maloc)) result = FindBonusByName('Бамберга' + ' II');",
+              "            if ((random == 15) && (race == Maloc)) result = FindBonusByName('Кабан' + ' II');",
+              "            if ((random == 16) && (race == Fei)) result = FindBonusByName('Ястреб' + ' II');",
+              "            if ((random == 17) && (race == Gaal)) result = FindBonusByName('Пантера' + ' II');",
+              "            if ((random == 18) && (race == People || race == Peleng)) result = FindBonusByName('Акулёнок' + ' II');",
+              "            if ((random == 19) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Vyhr');",
+              "            if ((random == 20) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Bigrabyrba');",
+              "            if ((random == 21) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Ellentanda');",
+              "            if ((random == 22) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Gromodryn');",
+              "            if ((random == 23)) result = FindBonusByNameInCfg('Cat_Ships_Hramgerb');",
+              "            if ((random == 24) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Casholdsha');",
+              "            if ((random == 25) && (race == Peleng)) result = FindBonusByNameInCfg('Cat_Ships_Chipshush');",
+              "            if ((random == 26)) result = FindBonusByNameInCfg('Cat_Ships_Cvahonda');",
+              "            if ((random == 27)) result = FindBonusByNameInCfg('Cat_Ships_Zvedavar');",
+              "            if ((random == 28)) result = FindBonusByNameInCfg('Cat_Ships_Hellcat');",
+              "            if ((random == 29)) result = FindBonusByNameInCfg('Cat_Ships_Piranha');",
+              "            if ((random == 30)) result = FindBonusByNameInCfg('Cat_Enterprise');",
+              "            if ((random == 31)) result = FindBonusByNameInCfg('Cat_Ships_Lucrehulk');",
+              "            if ((random == 32) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_StarShip');",
               "        }",
               "",
               "        if (power == 3) {",
-              "            random = Rnd(1, 49);",
+              "            random = Rnd(1, 45);",
               "            if ((random == 1)) result = FindBonusByNameInCfg('355'); //Быстрый корпус III",
               "            if ((random == 2)) result = FindBonusByNameInCfg('359'); //Неуязвимый корпус III",
-              "            if ((random == 3)) result = FindBonusByNameInCfg('363'); //Ремонтный корпус III",
-              "            if ((random == 4)) result = FindBonusByNameInCfg('367'); //Миоплазменный корпус III",
-              "            if ((random == 5)) result = FindBonusByNameInCfg('371'); //Пигамарный корпус III",
-              "            if ((random == 6)) result = FindBonusByNameInCfg('474'); //Корпус \"Молния\" III",
-              "            if ((random == 7)) result = FindBonusByNameInCfg('478'); //Корпус \"Броненосец\" III",
-              "            if ((random == 8) && (race == Gaal)) result = FindBonusByNameInCfg('470'); //Корпус \"Честный ренегал\" III",
-              "            if ((random == 9) && (race == Peleng)) result = FindBonusByNameInCfg('462'); //Корпус \"Добрый лякуша\" III",
-              "            if ((random == 10) && (race == People)) result = FindBonusByNameInCfg('466'); //Корпус \"Мирный корсар\" III",
-              "            if ((random == 11) && prob(0.33)) result = FindBonusByNameInCfg('356'); //Быстрый корпус IV",
-              "            if ((random == 12) && prob(0.33)) result = FindBonusByNameInCfg('360'); //Неуязвимый корпус IV",
-              "            if ((random == 13) && prob(0.33)) result = FindBonusByNameInCfg('364'); //Ремонтный корпус IV",
-              "            if ((random == 14) && prob(0.33)) result = FindBonusByNameInCfg('368'); //Миоплазменный корпус IV",
-              "            if ((random == 15) && prob(0.33)) result = FindBonusByNameInCfg('372'); //Пигамарный корпус IV",
-              "            if ((random == 16) && prob(0.33)) result = FindBonusByNameInCfg('475'); //Корпус \"Молния\" IV",
-              "            if ((random == 17) && prob(0.33)) result = FindBonusByNameInCfg('479'); //Корпус \"Броненосец\" IV",
-              "            if ((random == 18) && prob(0.33) && (race == Gaal)) result = FindBonusByNameInCfg('471'); //Корпус \"Честный ренегал\" IV",
-              "            if ((random == 19) && prob(0.33) && (race == Peleng)) result = FindBonusByNameInCfg('463'); //Корпус \"Добрый лякуша\" IV",
-              "            if ((random == 20) && prob(0.33) && (race == People)) result = FindBonusByNameInCfg('467'); //Корпус \"Мирный корсар\" IV",
-              "            if ((random == 21) && (race == People)) result = FindBonusByNameInCfg('482'); //Корпус \"Ушастик\" III\"",
-              "            if ((random == 22) && prob(0.33) && (race == People)) result = FindBonusByNameInCfg('483'); //Корпус \"Ушастик\" IV\"",
-              "            if ((random == 23)) result = FindBonusByNameInCfg('350'); // Убийца",
+              "            //if ((random == 3)) result = FindBonusByNameInCfg('363'); //Ремонтный корпус III",
+              "            if ((random == 3)) result = FindBonusByNameInCfg('367'); //Миоплазменный корпус III",
+              "            if ((random == 4)) result = FindBonusByNameInCfg('371'); //Пигамарный корпус III",
+              "            //if ((random == 6)) result = FindBonusByNameInCfg('474'); //Корпус \"Молния\" III",
+              "            //if ((random == 7)) result = FindBonusByNameInCfg('478'); //Корпус \"Броненосец\" III",
+              "            if ((random == 5) && (race == Gaal)) result = FindBonusByNameInCfg('470'); //Корпус \"Честный ренегал\" III",
+              "            if ((random == 6) && (race == Peleng)) result = FindBonusByNameInCfg('462'); //Корпус \"Добрый лякуша\" III",
+              "            if ((random == 7) && (race == People)) result = FindBonusByNameInCfg('466'); //Корпус \"Мирный корсар\" III",
+              "            if ((random == 8) && prob(0.33)) result = FindBonusByNameInCfg('356'); //Быстрый корпус IV",
+              "            if ((random == 9) && prob(0.33)) result = FindBonusByNameInCfg('360'); //Неуязвимый корпус IV",
+              "            //if ((random == 13) && prob(0.33)) result = FindBonusByNameInCfg('364'); //Ремонтный корпус IV",
+              "            if ((random == 10) && prob(0.33)) result = FindBonusByNameInCfg('368'); //Миоплазменный корпус IV",
+              "            if ((random == 11) && prob(0.33)) result = FindBonusByNameInCfg('372'); //Пигамарный корпус IV",
+              "            //if ((random == 16) && prob(0.33)) result = FindBonusByNameInCfg('475'); //Корпус \"Молния\" IV",
+              "            //if ((random == 17) && prob(0.33)) result = FindBonusByNameInCfg('479'); //Корпус \"Броненосец\" IV",
+              "            if ((random == 12) && prob(0.33) && (race == Gaal)) result = FindBonusByNameInCfg('471'); //Корпус \"Честный ренегал\" IV",
+              "            if ((random == 13) && prob(0.33) && (race == Peleng)) result = FindBonusByNameInCfg('463'); //Корпус \"Добрый лякуша\" IV",
+              "            if ((random == 14) && prob(0.33) && (race == People)) result = FindBonusByNameInCfg('467'); //Корпус \"Мирный корсар\" IV",
+              "            if ((random == 15) && (race == People)) result = FindBonusByNameInCfg('482'); //Корпус \"Ушастик\" III\"",
+              "            if ((random == 16) && prob(0.33) && (race == People)) result = FindBonusByNameInCfg('483'); //Корпус \"Ушастик\" IV\"",
+              "            if ((random == 17)) result = FindBonusByNameInCfg('350'); // Убийца",
               "",
-              "            if ((random == 24)) result = FindBonusByCustomTag('ExpScienceRanks_TickSpeedMode'); // Клещ #Скоростной",
-              "            if ((random == 25)) result = FindBonusByCustomTag('ExpScienceRanks_TickDefenseMode'); // Клещ #Защитный",
-              "            if ((random == 26)) result = FindBonusByCustomTag('ExpScienceRanks_TickAttackMode'); // Клещ #Атакующий",
+              "            if ((random == 18)) result = FindBonusByCustomTag('ExpScienceRanks_TickSpeedMode'); // Клещ #Скоростной",
+              "            if ((random == 19)) result = FindBonusByCustomTag('ExpScienceRanks_TickDefenseMode'); // Клещ #Защитный",
+              "            if ((random == 20)) result = FindBonusByCustomTag('ExpScienceRanks_TickAttackMode'); // Клещ #Атакующий",
               "",
-              "            if ((random == 27) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_4_Hull'); // Гиперион IV",
-              "            if ((random == 28)) result = FindBonusByCustomTag('LEOContentMod_Wraith_Hull'); // Мираж",
-              "            if ((random == 29)) result = FindBonusByCustomTag('LEOContentMod_WraithJunker_Hull'); // Мираж (модифицированный)",
-              "            if ((random == 30)) result = FindBonusByCustomTag('LEOLastHulls_G3_Hull'); // Приговор",
-              "            if ((random == 31)) result = FindBonusByCustomTag('LEOLastHulls_G4_Hull'); // Колокол",
-              "            if ((random == 32)) result = FindBonusByCustomTag('LEOContentMod_Viking_Hull'); // Викинг",
+              "            if ((random == 21) && prob(0.33)) result = FindBonusByCustomTag('LEOContentMod_Giperion_4_Hull'); // Гиперион IV",
+              "            if ((random == 22)) result = FindBonusByCustomTag('LEOContentMod_Wraith_Hull'); // Мираж",
+              "            if ((random == 23)) result = FindBonusByCustomTag('LEOContentMod_WraithJunker_Hull'); // Мираж (модифицированный)",
+              "            if ((random == 24)) result = FindBonusByCustomTag('LEOLastHulls_G3_Hull'); // Приговор",
+              "            if ((random == 25)) result = FindBonusByCustomTag('LEOLastHulls_G4_Hull'); // Колокол",
+              "            if ((random == 26)) result = FindBonusByCustomTag('LEOContentMod_Viking_Hull'); // Викинг",
               "",
-              "            if ((random == 33) && (race == Peleng)) result = FindBonusByName('Ара' + ' III');",
-              "            if ((random == 34) && (race == People || race == Maloc)) result = FindBonusByName('Бамберга' + ' III');",
-              "            if ((random == 35) && (race == Maloc)) result = FindBonusByName('Кабан' + ' III');",
-              "            if ((random == 36) && (race == Fei)) result = FindBonusByName('Ястреб' + ' III');",
-              "            if ((random == 37) && (race == Gaal)) result = FindBonusByName('Пантера' + ' III');",
-              "            if ((random == 38) && (race == People || race == Peleng)) result = FindBonusByName('Акулёнок' + ' III');",
-              "            if ((random == 39) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Bigrabyrba');",
-              "            if ((random == 40)) result = FindBonusByNameInCfg('Cat_Ships_BlackCrow');",
-              "            if ((random == 41)) result = FindBonusByNameInCfg('Cat_Ships_BlackRipper');",
-              "            if ((random == 42)) result = FindBonusByNameInCfg('Cat_Ships_Cvahonda');",
-              "            if ((random == 43)) result = FindBonusByNameInCfg('Cat_Ships_Hellcat');",
-              "            if ((random == 44)) result = FindBonusByNameInCfg('Cat_Ships_Starfury');",
-              "            if ((random == 45) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Starhammer');",
-              "            if ((random == 46) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Spectr');",
-              "            if ((random == 47) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Ares');",
-              "            if ((random == 48)) result = FindBonusByNameInCfg('Cat_Gollandec');",
-              "            if ((random == 49) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Slave');",
-              "            if ((random == 19) && (race == Peleng || race == Gaal)) result = FindBonusByNameInCfg('Cat_Ships_Daminikov');",
+              "            if ((random == 27) && (race == Peleng)) result = FindBonusByName('Ара' + ' III');",
+              "            if ((random == 28) && (race == People || race == Maloc)) result = FindBonusByName('Бамберга' + ' III');",
+              "            if ((random == 29) && (race == Maloc)) result = FindBonusByName('Кабан' + ' III');",
+              "            if ((random == 30) && (race == Fei)) result = FindBonusByName('Ястреб' + ' III');",
+              "            if ((random == 31) && (race == Gaal)) result = FindBonusByName('Пантера' + ' III');",
+              "            if ((random == 32) && (race == People || race == Peleng)) result = FindBonusByName('Акулёнок' + ' III');",
+              "            if ((random == 33) && (race == Maloc)) result = FindBonusByNameInCfg('Cat_Ships_Bigrabyrba');",
+              "            if ((random == 34)) result = FindBonusByNameInCfg('Cat_Ships_BlackCrow');",
+              "            if ((random == 35)) result = FindBonusByNameInCfg('Cat_Ships_BlackRipper');",
+              "            if ((random == 36)) result = FindBonusByNameInCfg('Cat_Ships_Cvahonda');",
+              "            if ((random == 37)) result = FindBonusByNameInCfg('Cat_Ships_Hellcat');",
+              "            if ((random == 38)) result = FindBonusByNameInCfg('Cat_Ships_Starfury');",
+              "            if ((random == 39) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Starhammer');",
+              "            if ((random == 40) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Spectr');",
+              "            if ((random == 41) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Ares');",
+              "            if ((random == 42)) result = FindBonusByNameInCfg('Cat_Gollandec');",
+              "            if ((random == 43) && (race == People)) result = FindBonusByNameInCfg('Cat_Ships_Slave');",
+              "            if ((random == 44) && (race == Peleng || race == Gaal)) result = FindBonusByNameInCfg('Cat_Ships_Daminikov');",
+              "            if ((random == 45)) result = FindBonusByNameInCfg('Cat_Mandalorec');",
               "        }",
               "",
               "        if (power == 4) {",
-              "            random = Rnd(1, 17);",
-              "            if ((random == 1)) result = FindBonusByNameInCfg('487'); // Корпус \"Молния\" V",
-              "            if ((random == 2)) result = FindBonusByNameInCfg('488'); // Корпус \"Броненосец\" V",
-              "            if ((random == 3) && (race == Gaal)) result = FindBonusByNameInCfg('486'); // Корпус \"Честнейший ренегал\"",
-              "            if ((random == 4) && (race == Peleng)) result = FindBonusByNameInCfg('484'); // Корпус \"Добрейший лякуша\"",
-              "            if ((random == 5) && (race == People)) result = FindBonusByNameInCfg('485'); // Корпус \"Безобиднейший корсар\"",
-              "            if ((random == 6)) result = FindBonusByNameInCfg('489'); // Корпус \"Ушастик\" V",
-              "            if ((random == 7)) result = FindBonusByNameInCfg('490'); // Тень Империи",
+              "            random = Rnd(1, 23);",
+              "            //if ((random == 1)) result = FindBonusByNameInCfg('487'); // Корпус \"Молния\" V",
+              "            //if ((random == 2)) result = FindBonusByNameInCfg('488'); // Корпус \"Броненосец\" V",
+              "            if ((random == 1) && (race == Gaal)) result = FindBonusByNameInCfg('486'); // Корпус \"Честнейший ренегал\"",
+              "            if ((random == 2) && (race == Peleng)) result = FindBonusByNameInCfg('484'); // Корпус \"Добрейший лякуша\"",
+              "            if ((random == 3) && (race == People)) result = FindBonusByNameInCfg('485'); // Корпус \"Безобиднейший корсар\"",
+              "            //if ((random == 6)) result = FindBonusByNameInCfg('489'); // Корпус \"Ушастик\" V",
+              "            //if ((random == 7)) result = FindBonusByNameInCfg('490'); // Тень Империи",
               "",
-              "            if ((random == 8) && (race == Fei)) result = FindBonusByCustomTag('LEOContentMod_HullFei_PC5_Hull'); // Крутейший фантом",
-              "            if ((random == 9) && (race == Maloc)) result = FindBonusByCustomTag('LEOContentMod_HullMaloc_PC5_Hull'); // Злейший бамбай",
-              "            if ((random == 10)) result = FindBonusByCustomTag('UnionNovaX3'); // Нова",
-              "            if ((random == 11) && (race == Peleng)) result = FindBonusByCustomTag('UnionRachehan'); // Рачехан",
-              "            if ((random == 12)) result = FindBonusByCustomTag('NormandyRM'); // Нормандия #1",
-              "            if ((random == 13)) result = FindBonusByCustomTag('NormandyBM'); // Нормандия #2",
+              "            if ((random == 4) && (race == Fei)) result = FindBonusByCustomTag('LEOContentMod_HullFei_PC5_Hull'); // Крутейший фантом",
+              "            if ((random == 5) && (race == Maloc)) result = FindBonusByCustomTag('LEOContentMod_HullMaloc_PC5_Hull'); // Злейший бамбай",
+              "            if ((random == 6)) result = FindBonusByCustomTag('UnionNovaX3'); // Нова",
+              "            if ((random == 7) && (race == Peleng)) result = FindBonusByCustomTag('UnionRachehan'); // Рачехан",
+              "            if ((random == 8)) result = FindBonusByCustomTag('NormandyRM'); // Нормандия #1",
+              "            if ((random == 9)) result = FindBonusByCustomTag('NormandyBM'); // Нормандия #2",
               "",
-              "            if ((random == 14) && (race == People)) result = FindBonusByNameInCfg('Cat_Yamato_Upgraded');",
-              "            if ((random == 15)) result = FindBonusByNameInCfg('Cat_Asteroid');",
-              "            if ((random == 16) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Keller');",
-              "            if ((random == 17)) result = FindBonusByNameInCfg('Cat_StarWanderer');",
+              "            if ((random == 10) && (race == People)) result = FindBonusByNameInCfg('Cat_Yamato_Upgraded');",
+              "            if ((random == 11)) result = FindBonusByNameInCfg('Cat_Asteroid');",
+              "            if ((random == 12) && (race == Fei)) result = FindBonusByNameInCfg('Cat_Ships_Keller');",
+              "            if ((random == 13)) result = FindBonusByNameInCfg('Cat_StarWanderer');",
+              "            if ((random == 14)) result = FindBonusByNameInCfg('Cat_Blazer');",
+              "            if ((random == 15)) result = FindBonusByNameInCfg('Cat_Excalibur');",
+              "            if ((random == 16)) result = FindBonusByNameInCfg('Cat_Terron');",
+              "",
+              "            if ((random == 17)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_BulwarkHull');",
+              "            if ((random == 18)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_FriendHull');",
+              "            if ((random == 19)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_TechnotronHull');",
+              "            if ((random == 20)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_TornadoHullNormal');",
+              "            if ((random == 21)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_TornadoHullEnergy');",
+              "            if ((random == 22)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_TornadoHullMissile');",
+              "            if ((random == 23)) result = FindBonusByNameInCfg('ArtiUniqueShipsPack_TornadoHullSplinter');",
               "        }",
               "    }",
               "",
@@ -3833,11 +3845,11 @@
   [
     {
       "#":  "11",
-      "String":  "Хорошо, я согласен! Сколько вам нужно?"    
+      "String":  "Так у тебя всё готово?! Так это же другое дело, ну чё там, сколько кредитов стоит закупить пару тройку подержаных звездолётов?"    
     },
     {
       "#":  "12",
-      "String":  "Ага, еще чего? Я свои кровно заработанные денюжки никому не отдам."    
+      "String":  "Не, идея здравая но мне мои деньги явно важней."    
     },
     {
       "#":  "13",
@@ -3853,7 +3865,7 @@
     },
     {
       "#":  "135",
-      "String":  "Обратно к параметрам текущего рейнджера"    
+      "String":  "Обратно к параметрам текущего салаги"    
     },
     {
       "#":  "136",
@@ -3881,19 +3893,19 @@
     },
     {
       "#":  "15",
-      "String":  "Информация о параметрах корабля, для первого класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для первого класса салаг"    
     },
     {
       "#":  "151",
-      "String":  "У нас есть таблица в Гаалакселе. В ней указаны все статьи расходов и что мы можем на них позволить, если вы сможете пожертвовать нам неободимые суммы, мы успешно сможем их распределить на нужды новых рейнджеров - ваших будущих боевых товарищей!"    
+      "String":  "Да я третьего дня, сидел кумекал сколько чё стоить будет если бароном стану или ему просто идею закинуть, короче таблицу расходов в Гаалакселе навоял.<br>Если интересно то могу показать а там уже если чё и браткам закинешь на новую ласточку."    
     },
     {
       "#":  "152",
-      "String":  "Надо напомнить этим воякам, кто выйграл клисанскую войну... Могу ли я чем-нибудь помочь?"    
+      "String":  "Не, ну я конечно не барон, пока что, но ты дело говоришь."    
     },
     {
       "#":  "153",
-      "String":  "Да я знаю, чем вы занимаетесь у вас в брошуре написано, но что вы конкретно имеете ввиду?"    
+      "String":  "Не, ну как бы да... а к чему ты это?"    
     },
     {
       "#":  "154",
@@ -3901,7 +3913,7 @@
     },
     {
       "#":  "16",
-      "String":  "Информация о параметрах корабля, для второго класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для второго класса салаг"    
     },
     {
       "#":  "160",
@@ -3925,7 +3937,7 @@
     },
     {
       "#":  "17",
-      "String":  "Информация о параметрах корабля, для третьего класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для третьего класса салаг"    
     },
     {
       "#":  "170",
@@ -3965,7 +3977,7 @@
     },
     {
       "#":  "18",
-      "String":  "Информация о параметрах корабля, для четвертого класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для четвертого класса салаг"    
     },
     {
       "#":  "180",
@@ -4009,7 +4021,7 @@
     },
     {
       "#":  "19",
-      "String":  "Информация о параметрах корабля, для пятого класса рейнджеров"    
+      "String":  "Информация о параметрах корабля, для пятого класса салаг"    
     },
     {
       "#":  "190",
@@ -4081,7 +4093,7 @@
     },
     {
       "#":  "21",
-      "String":  "Меня интересует количество классов для обучения новых рейнджеров<br>"    
+      "String":  "Меня интересует количество классов для обучения салаг<br>"    
     },
     {
       "#":  "210",
@@ -4089,11 +4101,11 @@
     },
     {
       "#":  "22",
-      "String":  "Меня интересует скорость обучения рейнджеров<br>"    
+      "String":  "Меня интересует скорость обучения салаг<br>"    
     },
     {
       "#":  "23",
-      "String":  "Меня интересует количество выдаваемого оборудования новым рейнджерам"    
+      "String":  "Меня интересует количество выдаваемого оборудования новым салагам"    
     },
     {
       "#":  "26",
@@ -4101,11 +4113,11 @@
     },
     {
       "#":  "27",
-      "String":  "Мы постоянно работаем над привлечением новых гуманоидов в рейнджерское движение. Прямо сейчас мы <0>."    
+      "String":  "Мы постоянно работаем над привлечением новых гуманоидов в пиратское движение. Прямо сейчас мы <0>."    
     },
     {
       "#":  "28",
-      "String":  "Следующим рейнджерам мы будем выдавать <0>."    
+      "String":  "Следующим салагам мы будем выдавать <0>."    
     },
     {
       "#":  "29",
@@ -4113,7 +4125,7 @@
     },
     {
       "#":  "3",
-      "String":  "Знаете, ведь именно наша организация позволяет вам беспрепятственно торговать и осуществлять оперативные действия на всех планетах галактического содружества, вся бюрократия лежит на нас, и если правительство не всилах поднять субсидирование - это можете сделать вы! свободные и лихие герои галактики!"    
+      "String":  "Слушай, можешь не отвечать конечно, но это же про тебя постоянно статьи в галанете пишут, да и корабль твой в ангаре самый навароченный из всех, явно же при деньгах."    
     },
     {
       "#":  "30",
@@ -4121,27 +4133,27 @@
     },
     {
       "#":  "31",
-      "String":  "В параметры корабля рейнджера входит:<br>1. Размер корпуса<br>2. Акрин корпуса<br>3. Уровень экипировки"    
+      "String":  "В параметры корабля салаги входит:<br>1. Размер корпуса<br>2. Акрин корпуса<br>3. Уровень экипировки"    
     },
     {
       "#":  "32",
-      "String":  "Этот класс рейнджеров получит <0>."    
+      "String":  "Этот класс салаг получит <0>."    
     },
     {
       "#":  "33",
-      "String":  "Акринацию корпуса для этого класса рейнджеров производят <0>."    
+      "String":  "Акринацию корпуса для этого класса салаг производят <0>."    
     },
     {
       "#":  "34",
-      "String":  "Оборудование для этого класса рейнджеров мы <0>."    
+      "String":  "Оборудование для этого класса салаг мы <0>."    
     },
     {
       "#":  "35",
-      "String":  "Меня интересует программа обучения новых рейнджеров"    
+      "String":  "Меня интересует программа обучения новых салаг"    
     },
     {
       "#":  "36",
-      "String":  "Меня интересует улучшение оборудования рейнджеров"    
+      "String":  "Меня интересует улучшение оборудования салаг"    
     },
     {
       "#":  "38",
@@ -4157,11 +4169,11 @@
     },
     {
       "#":  "43",
-      "String":  "Да, вы абсолютно правы. В последнее время центрам рейнджеров сильно урезали бюджет в связи с тяжелым положением на фронтах. Доминаторы захватывают систему за системой и все доступные средства Коалиции уходят на постройку и содержание большого военного флота. Тех крох, которые перепадают нам, едва хватает на обучение и экипировку новых рейджеров. У нас банально не хватает денег на совершенствование оборудования для наших бравых добровольцев."    
+      "String":  "Ну братух, сам понимаешь мы ребята вольные, да и ремесло наше не простое. Сейчас когда с одной стороны жестянки а с другой псы Коалиции, совсем грусно стало. Был бы я Бароном всем новичкам раздавал бы по кораблю и оборудки не жалел бы."    
     },
     {
       "#":  "46",
-      "String":  "Спасибо рейнджер, ваш вклад в общее дело неоценим, благодаря таким как вы, мы точно восстановим мир в галактике!"    
+      "String":  "Спасибо братуха, твоя жертва не оценима, давай налью бесплатно! Обмоем. Только благодаря таким как ты мы ещё на плаву."    
     },
     {
       "#":  "47",
@@ -4177,7 +4189,7 @@
     },
     {
       "#":  "5",
-      "String":  "Эх... ну, ничего страшного, будем надеятся, что военные смогут победить..."    
+      "String":  "Да... Я всё понимаю братух но как захочишь ченить в мире поменять, ты знаешь где меня найти."    
     },
     {
       "#":  "50",
@@ -4205,7 +4217,7 @@
     },
     {
       "#":  "60",
-      "String":  "В общие параметры входит:<br>1. Количество классов для обучения новых рейнджеров<br>2. Скорость обучения рейнджеров<br>3. Количество выдаваемого оборудования рейнджерам<br>4. Качество программы обучения новых рейнджеров<br>5. Степерь дополнительного улучшения оборудования рейнджеров<br>"    
+      "String":  "В общие параметры входит:<br>1. Количество баров для экскурса салаг<br>2. Скорость обучения рейнджеров<br>3. Количество выдаваемого оборудования рейнджерам<br>4. Качество программы обучения новых рейнджеров<br>5. Степерь дополнительного улучшения оборудования рейнджеров<br>"    
     },
     {
       "#":  "61",
@@ -4213,7 +4225,7 @@
     },
     {
       "#":  "7",
-      "String":  "Не торопитесь. Столько денег у вас наверняка нету. Развитие разных направлений требует разного количества вложений. Нашего бюджета хватает на то, чтобы снаряжать и обучать новых рейнджеров, но на улучшение инфраструктуры у нас денег нет. Давайте я вам расскажу о текущем положении дел."    
+      "String":  "Ха, вот это по нашему, держи доступ таблица интерактивная, сама подскажет что имеем и что можно подтянуть, глядишь если все статьи закроем, то и Каолов победим."    
     }  
   ]
 }
