@@ -1,11 +1,11 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -178,
-  "ViewPos.y":  -314,
+  "ViewPos.x":  -137,
+  "ViewPos.y":  -230,
   "ScriptName":  "Mod_Casino",
-  "ScriptFileOut":  "F:\\Mod_Casino.scr",
-  "ScriptTextOut":  "F:\\Mod_Casino.txt",
+  "ScriptFileOut":  "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Casino\\DATA\\Script\\Mod_Casino.scr",
+  "ScriptTextOut":  "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Casino\\DATA\\Script\\Mod_Casino.txt",
   "Visual.Objects":  
   [
     {
@@ -2725,7 +2725,7 @@
       "fsUnderline":  false    
     }  
   ],
-  "BlockPar.EC.Total.Strings":  55,
+  "BlockPar.EC.Total.Strings":  64,
   "BlockPar.EC":  
   [
     {
@@ -2807,6 +2807,42 @@
     {
       "#":  "131",
       "String":  "Давай ещё разок на <0> cr."    
+    },
+    {
+      "#":  "132",
+      "String":  "1 термидора"    
+    },
+    {
+      "#":  "133",
+      "String":  "1 июля"    
+    },
+    {
+      "#":  "134",
+      "String":  "1 плювиоза"    
+    },
+    {
+      "#":  "135",
+      "String":  "1 января"    
+    },
+    {
+      "#":  "136",
+      "String":  "<br>Если у тебя завалялись лишнее бабло, то обязательно загляни в наше казино <0>! <br>"    
+    },
+    {
+      "#":  "137",
+      "String":  "<br>Желаете спустить немного денег? Тогда посетите наше казино <0>! <br>"    
+    },
+    {
+      "#":  "138",
+      "String":  "Ваша ставка?"    
+    },
+    {
+      "#":  "139",
+      "String":  "Твоя ставка?"    
+    },
+    {
+      "#":  "140",
+      "String":  "Жадюги!"    
     },
     {
       "#":  "3",

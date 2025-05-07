@@ -1,11 +1,11 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -161,
-  "ViewPos.y":  -413,
+  "ViewPos.x":  252,
+  "ViewPos.y":  -210,
   "ScriptName":  "Cat_ZelPirates",
-  "ScriptFileOut":  "C:\\Users\\DmitB\\Downloads\\Cat_ZelPirates.scr",
-  "ScriptTextOut":  "C:\\Users\\DmitB\\Downloads\\Cat_ZelPirates.txt",
+  "ScriptFileOut":  "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Pirates\\DATA\\Script\\Cat_ZelPirates.scr",
+  "ScriptTextOut":  "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Pirates\\DATA\\Script\\Cat_ZelPirates.txt",
   "Visual.Objects":  
   [
     {
@@ -2499,7 +2499,11 @@
           "Code.Type":  "DialogBegin",
           "Code":          
           [
-              "if(GetShipPirateRank(Player()) == 7) AddDialogOverride('Baron', 99);"          
+              "if(GetShipPirateRank(Player()) == 7) {",
+              "    if(!CurrentMods('ShusRangers\\ShuRG')) {",
+              "        AddDialogOverride('Baron', 99);",
+              "    }",
+              "}"          
           ]        
         },
         {

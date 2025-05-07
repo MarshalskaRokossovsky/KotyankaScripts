@@ -2187,8 +2187,8 @@
               "{",
               "    cur_ruin = GetShipPlanet(Player());",
               "",
-              "    if(CurrentMods('KotyankaPlus\\ArtiUniqueShipsPack'))",
-              "    {",
+              "    //if(CurrentMods('KotyankaPlus\\ArtiUniqueShipsPack'))",
+              "    //{",
               "        //Планета Гаалдок",
               "        if(Name(cur_ruin) == CT('PlanetName.Gaal.02'))",
               "        {",
@@ -2226,7 +2226,7 @@
               "                }",
               "            }",
               "        }",
-              "    }",
+              "    //}",
               "}"          
           ]        
         },

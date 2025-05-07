@@ -588,7 +588,8 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "state=4;"          
+              "state=4;",
+              "UselessItemData(clock,1,1);"          
           ]        
         },
         {

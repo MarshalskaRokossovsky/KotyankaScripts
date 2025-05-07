@@ -9,17 +9,6 @@
   "Visual.Objects":  
   [
     {
-      "Dialogs":      
-      [
-        {
-          "Type":  "TDialog",
-          "Name":  "Question",
-          "Pos.x":  150,
-          "Pos.y":  -190,
-          "Parent":  -1,
-          "#":  7        
-        }      
-      ],
       "Groups":      
       [
         {
@@ -60,7 +49,7 @@
           "Pos.x":  -100,
           "Pos.y":  -180,
           "Parent":  -1,
-          "#":  10,
+          "#":  9,
           "Class":  5,
           "Item.Type":  0,
           "Size":  10,
@@ -104,7 +93,7 @@
           "Pos.x":  -50,
           "Pos.y":  -130,
           "Parent":  -1,
-          "#":  8,
+          "#":  7,
           "Code.Type":  "Turn",
           "Code":          
           [
@@ -154,17 +143,17 @@
               "                else if(tdwd2 && Rnd(1,4) == 4) ItemImprovement(tdwd2,3);",
               "",
               "                //Теперь - Уберы",
-              "                for(j=0;ShopItems(cur_ruin)>j;j=j+1) {",
+              "                /*for(j=0;ShopItems(cur_ruin)>j;j=j+1) {",
               "                    item = ShopItems(cur_ruin,j);",
               "                    if(ItemType(item) != t_CustomWeapon) continue;",
               "                    if(CustomWeaponType(item) != 'uber') continue;",
               "",
               "                    coun = coun + 1;",
               "                    if(!ItemImprovement(item)) tdwd2 = item;",
-              "                }",
+              "                }*/",
               "",
               "                //Чтобы Уьеры спавнились не гарантированно, а с шансом",
-              "                if(coun < 2) {",
+              "                /*if(coun < 2) {",
               "                    if(Rnd(1,4) == 4) {",
               "                        SpawnUber(cur_ruin);",
               "                        if(coun < 1 && Rnd(1,4) == 4) {",
@@ -175,7 +164,7 @@
               "                        }",
               "                    }",
               "                }",
-              "                else if(tdwd2 && Rnd(1,4) == 4) ItemImprovement(tdwd2,3);",
+              "                else if(tdwd2 && Rnd(1,4) == 4) ItemImprovement(tdwd2,3);*/",
               "",
               "                coun = 0;",
               "                for(j=0;ShipSlots(cur_ruin,1)>j;j=j+1) {",
@@ -208,7 +197,7 @@
               "                if((ShipSubType(tdwd2) == 1 && ShipTypeN(tdwd2) == 4) || ShipType(tdwd2) == 'Dreadnought') {",
               "                    if(GetShipPlanet(tdwd2)) {",
               "                        g_UpdateForBSO(tdwd2);",
-              "                        if(RndObject(1,100,tShip) > 60) g_UpdateForUber(tdwd2);",
+              "                        //if(RndObject(1,100,tShip) > 60) g_UpdateForUber(tdwd2);",
               "                        continue;",
               "                    }",
               "                    else {",
@@ -238,7 +227,7 @@
               "                    tStr=ShipType(tShip);",
               "                    if((tStr == 'Warrior' && ShipSubType(tShip) == 1) || tStr == 'Dreadnought' || ShipTypeN(tShip) > t_Tranclucator) {",
               "                        g_UpdateForBSO(tShip);",
-              "                        if(RndObject(1,100,tShip) > 80) g_UpdateForUber(tShip);",
+              "                        //if(RndObject(1,100,tShip) > 80) g_UpdateForUber(tShip);",
               "                    }",
               "                }",
               "            }",
@@ -254,7 +243,7 @@
           "Pos.x":  30,
           "Pos.y":  -90,
           "Parent":  -1,
-          "#":  9,
+          "#":  8,
           "Code.Type":  "Init",
           "Code":          
           [
@@ -387,7 +376,9 @@
               "    unknown dub = newarray(1);",
               "    unknown dub2 = newarray(1);",
               "    ArrayClear(dub);",
+              "    ArrayDelete(dub,0);",
               "    ArrayClear(dub2);",
+              "    ArrayDelete(dub2,0);",
               "",
               "    if(ShipFindCustomShipInfoByType(ship,'CatGuns_HaveBSO')>0) exit;",
               "",
@@ -447,7 +438,9 @@
               "    unknown dub = newarray(1);",
               "    unknown dub2 = newarray(1);",
               "    ArrayClear(dub);",
+              "    ArrayDelete(dub,0);",
               "    ArrayClear(dub2);",
+              "    ArrayDelete(dub2,0);",
               "",
               "    if(ShipFindCustomShipInfoByType(ship,'CatGuns_HaveUber')>0) exit;",
               "",
@@ -501,7 +494,7 @@
           "Pos.x":  -10,
           "Pos.y":  -130,
           "Parent":  -1,
-          "#":  29,
+          "#":  28,
           "Code.Type":  "Turn",
           "Code":          
           [
@@ -585,7 +578,7 @@
           "Pos.x":  30,
           "Pos.y":  -130,
           "Parent":  -1,
-          "#":  28,
+          "#":  27,
           "Code.Type":  "Turn",
           "Code":          
           [
@@ -622,7 +615,7 @@
           "Pos.x":  -90,
           "Pos.y":  -240,
           "Parent":  -1,
-          "#":  11,
+          "#":  10,
           "Var.Type":  "Array",
           "Init":  "",
           "Global":  false        
@@ -633,7 +626,7 @@
           "Pos.x":  -90,
           "Pos.y":  -270,
           "Parent":  -1,
-          "#":  12,
+          "#":  11,
           "Var.Type":  "Int",
           "Init":  "0",
           "Global":  false        
@@ -644,7 +637,7 @@
           "Pos.x":  -20,
           "Pos.y":  -270,
           "Parent":  -1,
-          "#":  13,
+          "#":  12,
           "Var.Type":  "Int",
           "Init":  "",
           "Global":  false        
@@ -655,7 +648,7 @@
           "Pos.x":  -20,
           "Pos.y":  -240,
           "Parent":  -1,
-          "#":  14,
+          "#":  13,
           "Var.Type":  "Int",
           "Init":  "",
           "Global":  false        
@@ -666,7 +659,7 @@
           "Pos.x":  -90,
           "Pos.y":  -300,
           "Parent":  -1,
-          "#":  15,
+          "#":  14,
           "Var.Type":  "Dword",
           "Init":  "",
           "Global":  false        
@@ -677,7 +670,7 @@
           "Pos.x":  -90,
           "Pos.y":  -330,
           "Parent":  -1,
-          "#":  16,
+          "#":  15,
           "Var.Type":  "Dword",
           "Init":  "",
           "Global":  false        
@@ -688,7 +681,7 @@
           "Pos.x":  30,
           "Pos.y":  -300,
           "Parent":  -1,
-          "#":  17,
+          "#":  16,
           "Var.Type":  "Dword",
           "Init":  "",
           "Global":  false        
@@ -699,7 +692,7 @@
           "Pos.x":  30,
           "Pos.y":  -240,
           "Parent":  -1,
-          "#":  18,
+          "#":  17,
           "Var.Type":  "Int",
           "Init":  "",
           "Global":  false        
@@ -710,7 +703,7 @@
           "Pos.x":  30,
           "Pos.y":  -270,
           "Parent":  -1,
-          "#":  19,
+          "#":  18,
           "Var.Type":  "Dword",
           "Init":  "",
           "Global":  false        
@@ -721,7 +714,7 @@
           "Pos.x":  30,
           "Pos.y":  -330,
           "Parent":  -1,
-          "#":  20,
+          "#":  19,
           "Var.Type":  "Int",
           "Init":  "0",
           "Global":  false        
@@ -732,7 +725,7 @@
           "Pos.x":  -90,
           "Pos.y":  -360,
           "Parent":  -1,
-          "#":  21,
+          "#":  20,
           "Var.Type":  "Dword",
           "Init":  "",
           "Global":  false        
@@ -743,7 +736,7 @@
           "Pos.x":  30,
           "Pos.y":  -360,
           "Parent":  -1,
-          "#":  22,
+          "#":  21,
           "Var.Type":  "Array",
           "Init":  "",
           "Global":  false        
@@ -754,7 +747,7 @@
           "Pos.x":  -90,
           "Pos.y":  -390,
           "Parent":  -1,
-          "#":  23,
+          "#":  22,
           "Var.Type":  "Str",
           "Init":  "",
           "Global":  false        
@@ -765,7 +758,7 @@
           "Pos.x":  30,
           "Pos.y":  -390,
           "Parent":  -1,
-          "#":  24,
+          "#":  23,
           "Var.Type":  "Dword",
           "Init":  "0",
           "Global":  false        
@@ -776,7 +769,7 @@
           "Pos.x":  120,
           "Pos.y":  -240,
           "Parent":  -1,
-          "#":  25,
+          "#":  24,
           "Var.Type":  "Str",
           "Init":  "",
           "Global":  false        
@@ -787,7 +780,7 @@
           "Pos.x":  120,
           "Pos.y":  -300,
           "Parent":  -1,
-          "#":  26,
+          "#":  25,
           "Var.Type":  "Str",
           "Init":  "",
           "Global":  false        
@@ -798,7 +791,7 @@
           "Pos.x":  120,
           "Pos.y":  -330,
           "Parent":  -1,
-          "#":  27,
+          "#":  26,
           "Var.Type":  "Str",
           "Init":  "",
           "Global":  false        
@@ -809,7 +802,7 @@
           "Pos.x":  120,
           "Pos.y":  -270,
           "Parent":  -1,
-          "#":  30,
+          "#":  29,
           "Var.Type":  "Dword",
           "Init":  "",
           "Global":  false        
@@ -849,8 +842,8 @@
     },
     {
       "Type":  "TGraphLink",
-      "Begin":  28,
-      "End":  29,
+      "Begin":  27,
+      "End":  28,
       "Nom":  0,
       "Arrow":  true    
     }  

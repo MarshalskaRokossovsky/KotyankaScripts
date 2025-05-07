@@ -1,11 +1,11 @@
 {
   "FileID":  573785173,
   "FileVersion":  8,
-  "ViewPos.x":  -577,
-  "ViewPos.y":  -576,
+  "ViewPos.x":  -653,
+  "ViewPos.y":  -524,
   "ScriptName":  "Cat_DomScience",
-  "ScriptFileOut":  "C:\\Users\\DmitB\\Downloads\\Cat_DomScience.scr",
-  "ScriptTextOut":  "C:\\Users\\DmitB\\Downloads\\Cat_DomScience.txt",
+  "ScriptFileOut":  "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
+  "ScriptTextOut":  "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
   "Visual.Objects":  
   [
     {
@@ -24,7 +24,7 @@
         {
           "Type":  "TDialogAnswer",
           "Name":  "restart",
-          "Pos.x":  360,
+          "Pos.x":  290,
           "Pos.y":  -140,
           "Parent":  -1,
           "#":  22,
@@ -64,8 +64,8 @@
         {
           "Type":  "TDialogAnswer",
           "Name":  "",
-          "Pos.x":  210,
-          "Pos.y":  -220,
+          "Pos.x":  190,
+          "Pos.y":  -190,
           "Parent":  -1,
           "#":  40,
           "Msg":  "Хочу сдать ещё один модуль",
@@ -74,8 +74,8 @@
         {
           "Type":  "TDialogAnswer",
           "Name":  "restart",
-          "Pos.x":  250,
-          "Pos.y":  -260,
+          "Pos.x":  230,
+          "Pos.y":  -250,
           "Parent":  -1,
           "#":  41,
           "Msg":  "На этот раз всё",
@@ -277,7 +277,7 @@
         {
           "Type":  "TDialogMsg",
           "Name":  "",
-          "Pos.x":  320,
+          "Pos.x":  250,
           "Pos.y":  -140,
           "Parent":  -1,
           "#":  20,
@@ -317,8 +317,8 @@
         {
           "Type":  "TDialogMsg",
           "Name":  "",
-          "Pos.x":  210,
-          "Pos.y":  -260,
+          "Pos.x":  190,
+          "Pos.y":  -250,
           "Parent":  -1,
           "#":  36,
           "Msg":  "Итак, наши специалисты забрали из трюма вашего корабля указанный модуль. Как только они закончат свою работу, мы пришлём вам уведомление.",
@@ -327,11 +327,11 @@
         {
           "Type":  "TDialogMsg",
           "Name":  "",
-          "Pos.x":  330,
-          "Pos.y":  -300,
+          "Pos.x":  310,
+          "Pos.y":  -290,
           "Parent":  -1,
           "#":  46,
-          "Msg":  "Информация, полученная нами из доставленных вами модулей памяти доминаторов, весьма неоценима, и мы хотели бы отметить ваш вклад отдельной наградой!\r\nНам удалось убедить Галактический Совет в вашем неоценимом вкладе в развитие науки, ",
+          "Msg":  "Информация, полученная нами из доставленных вами модулей памяти доминаторов, весьма неоценима, и мы хотели бы отметить ваш вклад отдельной наградой!\r\nНам удалось убедить Галактический Совет в вашем неоценимом вкладе в развитие науки, и вы получаете награду!\r\n\r\nПусть она мотивирует вас на дальнейшую помощь науке!",
           "DMsg.Num":  "6"        
         },
         {
@@ -468,7 +468,7 @@
         {
           "Type":  "TDialog",
           "Name":  "UnlockDD",
-          "Pos.x":  320,
+          "Pos.x":  250,
           "Pos.y":  -180,
           "Parent":  -1,
           "#":  13        
@@ -500,8 +500,8 @@
         {
           "Type":  "TDialog",
           "Name":  "Gave",
-          "Pos.x":  210,
-          "Pos.y":  -340,
+          "Pos.x":  190,
+          "Pos.y":  -330,
           "Parent":  -1,
           "#":  34        
         },
@@ -588,29 +588,29 @@
           "Code":          
           [
               "if(GetShipRuins(Player())) {",
-              "    if(!CurrentMods('Evolution\\EvoSB')) {",
-              "        if(!DomiksDefeated()) {",
-              "            if(FindModule()) {",
+              "    if(!DomiksDefeated()) {",
+              "        if(FindModule()) {",
+              "            if(!CurrentMods('Evolution\\EvoSB')) {",
               "                if(ShipType(GetShipRuins(Player())) == 'SB') {",
               "                    AddDialogInject('UnlockSB','',\"Я нашёл здесь модуль памяти...\",15);",
               "                }",
-              "                if(ShipType(GetShipRuins(Player())) == 'DD') {",
-              "                    AddDialogInject('UnlockDD','',\"Я нашёл здесь модуль памяти...\",15);",
-              "                }",
+              "            }",
+              "            if(ShipType(GetShipRuins(Player())) == 'DD') {",
+              "                AddDialogInject('UnlockDD','',\"Я нашёл здесь модуль памяти...\",15);",
               "            }",
               "        }",
               "    }",
-              "        if(FindResearched()) {",
-              "            if(ShipType(GetShipRuins(Player())) == 'SB') {",
-              "                AddDialogInject('CreateSB','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
-              "            }",
-              "            if(ShipType(GetShipRuins(Player())) == 'DD') {",
-              "                AddDialogInject('CreateDD','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
-              "            }",
-              "            if(ShipType(GetShipRuins(Player())) == 'TC') {",
-              "                AddDialogInject('CreateTC','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
-              "            }",
+              "    if(FindResearched()) {",
+              "        if(ShipType(GetShipRuins(Player())) == 'SB') {",
+              "            AddDialogInject('CreateSB','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
               "        }",
+              "        if(ShipType(GetShipRuins(Player())) == 'DD') {",
+              "            AddDialogInject('CreateDD','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
+              "        }",
+              "        if(ShipType(GetShipRuins(Player())) == 'TC') {",
+              "            AddDialogInject('CreateTC','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
+              "        }",
+              "    }",
               "}"          
           ]        
         },
@@ -624,7 +624,7 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "if(GetValueFromScript('Mod_ShuDomiks','UnknownDomAcrynsTimer' == -1)) {",
+              "if(GetValueFromScript('Mod_ShuDomiks','UnknownDomAcrynsTimer') == -1) {",
               "    //Раздаём случайные юзлесы всем новым кораблям",
               "    if(GalaxyShipId() > lastShipId) {",
               "        AddDropUselessToShips();",
@@ -633,11 +633,11 @@
               "    }",
               "}",
               "",
-              "if(ArrayDim(Modules) > 1) {",
-              "    for(i=1;ArrayDim(Modules)>i;i=i+1) {",
-              "        if(Modules[(i-1),'days'] > 0) Modules[(i-1),'days'] = Modules[(i-1),'days'] - 1;",
-              "        else if(!Modules[(i-1),'days']) {",
-              "            Modules[(i-1),'days'] = -1;",
+              "if(ArrayDim(Days) > 1) {",
+              "    for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
+              "        if(Days[i] > 0) Days[i] = Days[i] - 1;",
+              "        else if(!Days[i]) {",
+              "            Days[i] = -1;",
               "            Sound('Sound.NewMsg');",
               "            NewsAdd(\"Завершилось изучение доминаторского модуля памяти. Обратитесь за результатами исследований на любую базу, имеющую доступ к Базе Научных Данных.\");",
               "        }",
@@ -656,17 +656,17 @@
           "Code":          
           [
               "//Раздаём уникальные блоки памяти доминаторским боссам",
-              "item = CreateQuestItem('Remains_CatMem0');",
+              "item = CreateQuestItem('Remains_CatMem');",
               "UselessItemData(item,1,777);",
               "ItemOwner(item,Kling);",
               "ItemSubrace(item,0);",
               "ShipAddDropItem(Blazer(),item);",
-              "item = CreateQuestItem('Remains_CatMem1');",
+              "item = CreateQuestItem('Remains_CatMem');",
               "UselessItemData(item,1,888);",
               "ItemOwner(item,Kling);",
               "ItemSubrace(item,1);",
               "ShipAddDropItem(Keller(),item);",
-              "item = CreateQuestItem('Remains_CatMem2');",
+              "item = CreateQuestItem('Remains_CatMem');",
               "UselessItemData(item,1,999);",
               "ItemOwner(item,Kling);",
               "ItemSubrace(item,2);",
@@ -712,8 +712,8 @@
               "",
               "            //Случайно определяем шанс выдачи",
               "            if(RndObject(1, 100, ship) <= chance_items) {",
-              "                item = CreateQuestItem('Remains_CatMem'+ShipSubrace(ship));",
-              "                ItemSubrace(item,ShipSubrace(ship));",
+              "                item = CreateQuestItem('Remains_CatMem');",
+              "                ItemSubrace(item,ShipSubrace(ship,-1));",
               "                UselessItemData(item,1,Rnd(1,CT('Script.Cat_DomScience.AcrynsArchive.Count')));",
               "                ItemOwner(item,Kling);",
               "                ShipAddDropItem(ship, item);",
@@ -730,8 +730,7 @@
               "    {",
               "        item = ShipItems(Player(), i);",
               "        if(ItemType(item) != t_UselessItem) continue;",
-              "        if(EquipmentImageName(item) != 'Remains_CatMem0' && EquipmentImageName(item) != 'Remains_CatMem1' && EquipmentImageName(item) != 'Remains_CatMem2') continue;",
-              "        crist_found = crist_found + 1;",
+              "        if(~findsubstr(EquipmentImageName(item),'CatMem')) crist_found = crist_found + 1;",
               "    }",
               "",
               "    result = crist_found;",
@@ -739,31 +738,34 @@
               "",
               "//Добавляет новый модуль в массив на исследование",
               "function AddToArray(int type, dayss, subrace) {",
-              "    ArrayClear(tarr);",
-              "    ArrayDelete(tarr,0);",
-              "    ArrayAdd(tarr,type,'Acryn');",
-              "    ArrayAdd(tarr,dayss,'Days');",
-              "    ArrayAdd(tarr,subrace,'Race');",
-              "",
-              "    ArrayAdd(Modules,tarr);",
+              "    ArrayAdd(Acryn,type);",
+              "    ArrayAdd(Days,dayss);",
+              "    ArrayAdd(Race,subrace);",
               "}",
               "",
               "//Добавляет диалог получения результата исследования",
               "function FindResearched() {",
               "    int cnt2;",
-              "    if(ArrayDim(Modules) < 2) result = 0;",
-              "",
               "    result = 0;",
-              "    for(i=1;ArrayDim(Modules)>i;i=i+1) {",
-              "        if(Modules[(i-1),'days'] == 0) {",
-              "            result = 1;",
+              "    if(ArrayDim(Days) > 1) {",
+              "        for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
+              "",
+              "            if(Days[i] == -1) {",
+              "                result = 1;",
+              "            }",
               "        }",
               "    }",
               "}",
               "",
               "//Сохраняет значения оборудования Келлера и Террона, т.к. не одними же акринами едиными!",
               "if(Keller()) kellerDroid = GetEquipmentStats(ShipEqInSlot(Keller(),t_RepairRobot),0);",
-              "if(Terron()) terronDef = GetEquipmentStats(ShipEqInSlot(Keller(),t_DefGenerator),0);"          
+              "if(Terron()) terronDef = GetEquipmentStats(ShipEqInSlot(Keller(),t_DefGenerator),0);",
+              "",
+              "//Немного \"инитнем\" массив",
+              "ArrayClear(Modules);",
+              "ArrayDelete(Modules,0);",
+              "",
+              "ArrayAdd(Modules,'Basa');"          
           ]        
         },
         {
@@ -777,26 +779,24 @@
           "Code":          
           [
               "int crist_found = 0;",
-              "int cnt111 = ShipItems(Player());",
-              "for(i = 1; i < cnt111; i = i + 1)",
+              "int cnt111 = ShipItems(Player()) - 1;",
+              "for(i = cnt111; i > 0; i = i - 1)",
               "{",
               "    item = ShipItems(Player(), i);",
               "    if(ItemType(item) != t_UselessItem) continue;",
-              "    if(EquipmentImageName(item) != 'Remains_CatMem0' && EquipmentImageName(item) != 'Remains_CatMem1' && EquipmentImageName(item) != 'Remains_CatMem2') continue;",
+              "    if(EquipmentImageName(item) != 'Remains_CatMem') continue;",
               "    if(!ItemSubrace(item)) tstr = \"<color=255,50,50>Блазера</color>\";",
               "    if(ItemSubrace(item) == 1) tstr = \"<color=50,50,255>Келлера</color>\";",
               "    if(ItemSubrace(item) == 2) tstr = \"<color=50,255,50>Террона</color>\";",
               "    money = GalaxyMoney(3,2) + ItemCost(item);",
-              "    days = 120;",
-              "    if(ShipMoney(Player()) >= money) InjectAnswer('Gave',\"Сдать модуль\"+' '+tstr+' ('+ItemSize(item)+\"т.)\",i);",
-              "    else InjectAnswer('Gave',\"Сдать модуль\"+' '+tstr+' ('+ItemSize(item)+\"т.)\",i,'block');",
+              "    if(ShipMoney(Player()) >= money) InjectAnswer('Gave',\"Сдать модуль\"+' '+tstr+' ('+ItemSize(item)+' '+\"т.)\",i);",
               "}"          
           ]        
         },
         {
           "Type":  "Top",
           "Name":  "",
-          "Pos.x":  320,
+          "Pos.x":  250,
           "Pos.y":  -100,
           "Parent":  -1,
           "#":  30,
@@ -804,19 +804,17 @@
           "Code":          
           [
               "int crist_found = 0;",
-              "int cnt111 = ShipItems(Player());",
-              "for(i = 1; i < cnt111; i = i + 1)",
+              "int cnt111 = ShipItems(Player()) - 1;",
+              "for(i = cnt111; i > 0; i = i - 1)",
               "{",
               "    item = ShipItems(Player(), i);",
               "    if(ItemType(item) != t_UselessItem) continue;",
-              "    if(EquipmentImageName(item) != 'Remains_CatMem0' && EquipmentImageName(item) != 'Remains_CatMem1' && EquipmentImageName(item) != 'Remains_CatMem2') continue;",
+              "    if(EquipmentImageName(item) != 'Remains_CatMem') continue;",
               "    if(!ItemSubrace(item)) tstr = \"<color=255,50,50>Блазера</color>\";",
               "    if(ItemSubrace(item) == 1) tstr = \"<color=50,50,255>Келлера</color>\";",
               "    if(ItemSubrace(item) == 2) tstr = \"<color=50,255,50>Террона</color>\";",
-              "    money = GalaxyMoney(3,2) + ItemCost(item);",
-              "    days = 30;",
-              "    if(ShipMoney(Player()) >= money) InjectAnswer('Gave',\"Сдать модуль\"+' '+tstr+' ('+ItemSize(item)+\"т.)\",i);",
-              "    else InjectAnswer('Gave',\"Сдать модуль\"+' '+tstr+' ('+ItemSize(item)+\"т.)\",i,'block');",
+              "    money = GalaxyMoney(3,3) + ItemCost(item);",
+              "    if(ShipMoney(Player()) >= money) InjectAnswer('Gave',\"Сдать модуль\"+' '+tstr+' ('+ItemSize(item)+' '+\"т.)\",i);",
               "}"          
           ]        
         },
@@ -830,8 +828,8 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "for(i=0;ArrayDim(Modules);i=i+1) {",
-              "    if(Modules[(i-1),'days'] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
+              "for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
+              "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
               "}"          
           ]        
         },
@@ -845,8 +843,8 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "for(i=0;ArrayDim(Modules);i=i+1) {",
-              "    if(Modules[(i-1),'days'] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
+              "for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
+              "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
               "}"          
           ]        
         },
@@ -860,32 +858,44 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "for(i=0;ArrayDim(Modules);i=i+1) {",
-              "    if(Modules[(i-1),'days'] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
+              "for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
+              "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
               "}"          
           ]        
         },
         {
           "Type":  "Top",
           "Name":  "",
-          "Pos.x":  210,
-          "Pos.y":  -300,
+          "Pos.x":  190,
+          "Pos.y":  -290,
           "Parent":  -1,
           "#":  39,
           "Code.Type":  "Turn",
           "Code":          
           [
+              "item = ShipItems(Player(),GAnswerData);",
+              "",
+              "if(ShipType(GetShipRuins(Player())) == 'DD') {",
+              "    money = GalaxyMoney(3,3) + ItemCost(ShipItems(Player(),GAnswerData));",
+              "    days = 30;",
+              "}",
+              "else {",
+              "    money = GalaxyMoney(3,2) + ItemCost(ShipItems(Player(),GAnswerData));",
+              "    //days = 120;",
+              "    days = 3;",
+              "}",
+              "",
               "Sound('Sound.Buy');",
               "ShipMoney(Player(),ShipMoney(Player())-money);",
-              "AddToArray(GAnswerData,days,ItemSubrace(ShipItems(Player(),GAnswerData)));",
+              "AddToArray(UselessItemData(ShipItems(Player(),GAnswerData),1),days,ItemSubrace(ShipItems(Player(),GAnswerData)));",
               "FreeItem(GetItemFromShip(Player(),ShipItems(Player(),GAnswerData)));"          
           ]        
         },
         {
           "Type":  "Top",
           "Name":  "",
-          "Pos.x":  290,
-          "Pos.y":  -300,
+          "Pos.x":  270,
+          "Pos.y":  -290,
           "Parent":  -1,
           "#":  45,
           "Code.Type":  "Turn",
@@ -906,9 +916,11 @@
           "Code":          
           [
               "item = CreateEquipment(Rnd(t_FuelTanks,t_DefGenerator),Rnd(20,25),GalaxyTechLevel(),Kling);",
-              "ItemSubrace(item,Modules[GAnswerData,'Race']);",
+              "ItemSubrace(item,Race[GAnswerData]);",
               "AddItemToShip(Player(),item);",
-              "ArrayDelete(Modules,GAnswerData);",
+              "ArrayDelete(Race,GAnswerData);",
+              "ArrayDelete(Days,GAnswerData);",
+              "ArrayDelete(Acryn,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -922,10 +934,12 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "item = CreateEquipmentWithSpecial(CT('Script.Cat_DomScience.AcrynArchive.'+Modules[GAnswerData,'Acryn']),Rnd(20,25),GalaxyTechLevel(),Kling);",
-              "ItemSubrace(item,Modules[GAnswerData,'Race']);",
+              "item = CreateEquipmentWithSpecial(CT('Script.Cat_DomScience.AcrynArchive.'+Acryn[GAnswerData]),Rnd(20,25),GalaxyTechLevel(),Kling);",
+              "ItemSubrace(item,Race[GAnswerData]);",
               "AddItemToShip(Player(),item);",
-              "ArrayDelete(Modules,GAnswerData);",
+              "ArrayDelete(Race,GAnswerData);",
+              "ArrayDelete(Days,GAnswerData);",
+              "ArrayDelete(Acryn,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -957,7 +971,6 @@
               "",
               "    cnt = cnt + 1;",
               "}",
-              "ArrayDelete(Modules,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -972,9 +985,11 @@
           "Code":          
           [
               "item = CreateEquipment(Rnd(t_FuelTanks,t_DefGenerator),Rnd(20,25),GalaxyTechLevel(),Kling);",
-              "ItemSubrace(item,Modules[GAnswerData,'Race']);",
+              "ItemSubrace(item,Race[GAnswerData]);",
               "AddItemToShip(Player(),item);",
-              "ArrayDelete(Modules,GAnswerData);",
+              "ArrayDelete(Race,GAnswerData);",
+              "ArrayDelete(Days,GAnswerData);",
+              "ArrayDelete(Acryn,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -989,9 +1004,11 @@
           "Code":          
           [
               "item = CreateEquipment(Rnd(t_FuelTanks,t_DefGenerator),Rnd(20,25),GalaxyTechLevel(),Kling);",
-              "ItemSubrace(item,Modules[GAnswerData,'Race']);",
+              "ItemSubrace(item,Race[GAnswerData]);",
               "AddItemToShip(Player(),item);",
-              "ArrayDelete(Modules,GAnswerData);",
+              "ArrayDelete(Race,GAnswerData);",
+              "ArrayDelete(Days,GAnswerData);",
+              "ArrayDelete(Acryn,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -1005,10 +1022,12 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "item = CreateEquipmentWithSpecial(CT('Script.Cat_DomScience.AcrynArchive.'+Modules[GAnswerData,'Acryn']),Rnd(20,25),GalaxyTechLevel(),Kling);",
-              "ItemSubrace(item,Modules[GAnswerData,'Race']);",
+              "item = CreateEquipmentWithSpecial(CT('Script.Cat_DomScience.AcrynArchive.'+Acryn[GAnswerData]),Rnd(20,25),GalaxyTechLevel(),Kling);",
+              "ItemSubrace(item,Race[GAnswerData]);",
               "AddItemToShip(Player(),item);",
-              "ArrayDelete(Modules,GAnswerData);",
+              "ArrayDelete(Race,GAnswerData);",
+              "ArrayDelete(Days,GAnswerData);",
+              "ArrayDelete(Acryn,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -1040,7 +1059,6 @@
               "",
               "    cnt = cnt + 1;",
               "}",
-              "ArrayDelete(Modules,GAnswerData);",
               "Sound('Sound.Buy');"          
           ]        
         },
@@ -1054,7 +1072,7 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "tstr = CT('MicroModuls.'+CT('Script.Cat_DomScience.AcrynArchive.'+Modules[GAnswerData,'Acryn'])+'.Name');"          
+              "tstr = CT('MicroModuls.'+CT('Script.Cat_DomScience.AcrynArchive.'+Acryn[GAnswerData])+'.Name');"          
           ]        
         },
         {
@@ -1067,7 +1085,7 @@
           "Code.Type":  "Turn",
           "Code":          
           [
-              "tstr = CT('MicroModuls.'+CT('Script.Cat_DomScience.AcrynArchive.'+Modules[GAnswerData,'Acryn'])+'.Name');"          
+              "tstr = CT('MicroModuls.'+CT('Script.Cat_DomScience.AcrynArchive.'+Acryn[GAnswerData])+'.Name');"          
           ]        
         }      
       ],
@@ -1138,8 +1156,8 @@
         {
           "Type":  "Tif",
           "Name":  "",
-          "Pos.x":  180,
-          "Pos.y":  -180,
+          "Pos.x":  150,
+          "Pos.y":  -160,
           "Parent":  -1,
           "#":  42,
           "Code.Type":  "Turn",
@@ -1151,8 +1169,8 @@
         {
           "Type":  "Tif",
           "Name":  "",
-          "Pos.x":  240,
-          "Pos.y":  -180,
+          "Pos.x":  210,
+          "Pos.y":  -160,
           "Parent":  -1,
           "#":  43,
           "Code.Type":  "Turn",
@@ -1164,8 +1182,8 @@
         {
           "Type":  "Tif",
           "Name":  "",
-          "Pos.x":  250,
-          "Pos.y":  -300,
+          "Pos.x":  230,
+          "Pos.y":  -290,
           "Parent":  -1,
           "#":  44,
           "Code.Type":  "Turn",
@@ -1420,6 +1438,19 @@
           [
               "(GalaxyMoney(4,4)*2) > ShipMoney(Player())"          
           ]        
+        },
+        {
+          "Type":  "Tif",
+          "Name":  "",
+          "Pos.x":  190,
+          "Pos.y":  -220,
+          "Parent":  -1,
+          "#":  110,
+          "Code.Type":  "Turn",
+          "Code":          
+          [
+              "FindModule()"          
+          ]        
         }      
       ],
       "States":      
@@ -1503,7 +1534,7 @@
         {
           "Type":  "TVar",
           "Name":  "tstr",
-          "Pos.x":  -20,
+          "Pos.x":  -10,
           "Pos.y":  -270,
           "Parent":  -1,
           "#":  35,
@@ -1525,7 +1556,7 @@
         {
           "Type":  "TVar",
           "Name":  "days",
-          "Pos.x":  -20,
+          "Pos.x":  -10,
           "Pos.y":  -300,
           "Parent":  -1,
           "#":  38,
@@ -1552,6 +1583,39 @@
           "Parent":  -1,
           "#":  48,
           "Var.Type":  "Dword",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "Acryn",
+          "Pos.x":  70,
+          "Pos.y":  -360,
+          "Parent":  -1,
+          "#":  111,
+          "Var.Type":  "Array",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "Days",
+          "Pos.x":  70,
+          "Pos.y":  -330,
+          "Parent":  -1,
+          "#":  112,
+          "Var.Type":  "Array",
+          "Init":  "",
+          "Global":  false        
+        },
+        {
+          "Type":  "TVar",
+          "Name":  "Race",
+          "Pos.x":  70,
+          "Pos.y":  -300,
+          "Parent":  -1,
+          "#":  113,
+          "Var.Type":  "Array",
           "Init":  "",
           "Global":  false        
         }      
@@ -1732,13 +1796,6 @@
       "Type":  "TGraphLink",
       "Begin":  42,
       "End":  19,
-      "Nom":  0,
-      "Arrow":  true    
-    },
-    {
-      "Type":  "TGraphLink",
-      "Begin":  36,
-      "End":  40,
       "Nom":  0,
       "Arrow":  true    
     },
@@ -2273,6 +2330,20 @@
       "End":  73,
       "Nom":  0,
       "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  36,
+      "End":  110,
+      "Nom":  0,
+      "Arrow":  true    
+    },
+    {
+      "Type":  "TGraphLink",
+      "Begin":  110,
+      "End":  40,
+      "Nom":  0,
+      "Arrow":  true    
     }  
   ],
   "BlockPar.EC.Total.Strings":  26,
@@ -2296,7 +2367,7 @@
     },
     {
       "#":  "12",
-      "String":  "Информация, полученная нами из доставленных вами модулей памяти доминаторов, весьма неоценима, и мы хотели бы отметить ваш вклад отдельной наградой!<br>Нам удалось убедить Галактический Совет в вашем неоценимом вкладе в развитие науки, "    
+      "String":  "Информация, полученная нами из доставленных вами модулей памяти доминаторов, весьма неоценима, и мы хотели бы отметить ваш вклад отдельной наградой!<br>Нам удалось убедить Галактический Совет в вашем неоценимом вкладе в развитие науки, и вы получаете награду!<br><br>Пусть она мотивирует вас на дальнейшую помощь науке!"    
     },
     {
       "#":  "13",
