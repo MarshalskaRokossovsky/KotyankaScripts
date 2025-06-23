@@ -1,0 +1,382 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -86,
+    "ViewPos.y": -377,
+    "ScriptName": "Excalibur",
+    "ScriptFileOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.scr",
+    "ScriptTextOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.txt",
+    "LangDatIn": "",
+    "LangDatOut": "",
+    "MainDatIn": "",
+    "MainDatOut": "",
+    "CacheDatIn": "",
+    "CacheDatOut": "",
+    "ExportLang": false,
+    "Visual.Objects": 
+    [
+        {
+            "DialogAnswers": 
+            [
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 740,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Ну-ка давай посмотрим на чём он там летал.",
+                    "AMsg.Num": "0"
+                }
+            ],
+            "DialogMessages": 
+            [
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 720,
+                    "Pos.y": 140,
+                    "Parent": -1,
+                    "#": 0,
+                    "Msg": "Таааакс...\r\n\r\nПолучается ты теперь верховный барон да?\r\nЯ был главным советником и правой рукой у прежнего барона.\r\nОн позаботился об распоряжениях на случай его смерти, так что вот, это ключи от его личного корабля, теперь они ваши.",
+                    "DMsg.Num": "0"
+                }
+            ],
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "GetHull",
+                    "Pos.x": 710,
+                    "Pos.y": 110,
+                    "Parent": -1,
+                    "#": 0
+                }
+            ],
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": 240,
+                    "Pos.y": 270,
+                    "Parent": -1,
+                    "#": 0,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 1,
+                    "CntShipMax": 1,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": true,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 320,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun();"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 740,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "hull = CreateHull(",
+                        "    2,",
+                        "    500,",
+                        "    GalaxyTechLevel(),",
+                        "    People,",
+                        "    -1,",
+                        "    1",
+                        ");",
+                        "int bonus_num = FindBonusByName('Экскалибур');",
+                        "SpecialToEquipment(bonus_num, hull);",
+                        "ItemSize(hull, 500);",
+                        "ItemCost(hull, 1000000);",
+                        "HullHP(hull, 500);",
+                        "AddItemToStorage(GetShipPlanet(Player()), hull);",
+                        "CanSellItem(hull, 0);",
+                        "state=2;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 690,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "curPlanet=GetShipPlanet(Player());",
+                        "if(curPlanet) {",
+                        "    if(curPlanet==PlanetPirateClan()) {",
+                        "        if(PlanetOwner(PlanetPirateClan())==PirateClan) {",
+                        "            if(ShipOwner(Player())==PirateClan && GetShipPirateRank(Player())>=7) {",
+                        "                AddDialogOverride('GetHull',23);",
+                        "            }",
+                        "        }",
+                        "    }",
+                        "}"
+                    ]
+                }
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 260,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 0,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": 260,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": 240,
+                    "Pos.y": 210,
+                    "Parent": -1,
+                    "#": 0,
+                    "Constellation": 1,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "Statements": 
+            [
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 670,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "PirateWin()==1 || PirateWin()==2 || PirateWin()==5"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 650,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "state==1"
+                    ]
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": 260,
+                    "Pos.y": 300,
+                    "Parent": -1,
+                    "#": 0,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "state",
+                    "Pos.x": 400,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "1",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "curPlanet",
+                    "Pos.x": 400,
+                    "Pos.y": -50,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull",
+                    "Pos.x": 400,
+                    "Pos.y": -30,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 4,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 2,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 6,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 8,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 12,
+            "End": 7,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 13,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 10,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 10,
+            "End": 5,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "BlockPar.EC.Total.Strings": 2,
+    "BlockPar.EC": 
+    [
+        {
+            "#": "188",
+            "String": "Таааакс...<br><br>Получается ты теперь верховный барон да?<br>Я был главным советником и правой рукой у прежнего барона.<br>Он позаботился об распоряжениях на случай его смерти, так что вот, это ключи от его личного корабля, теперь они ваши."
+        },
+        {
+            "#": "189",
+            "String": "Ну-ка давай посмотрим на чём он там летал."
+        }
+    ]
+}
