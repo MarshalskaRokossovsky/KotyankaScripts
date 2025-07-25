@@ -942,7 +942,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "item = CreateEquipmentWithSpecial(FindBonusByNameInCfg(CT('Script.Cat_DomScience.AcrynArchive.'+Acryn[GAnswerData])),Rnd(20,25),GalaxyTechLevel(),Kling);",
+                        "item = CreateEquipmentWithSpecial(FindBonusByNameInCfg(CT('Script.Cat_DomScience.AcrynsArchive.'+Acryn[GAnswerData])),Rnd(20,25),GalaxyTechLevel(),Kling);",
                         "ItemSubrace(item,Race[GAnswerData]);",
                         "AddItemToShip(Player(),item);",
                         "ArrayDelete(Race,GAnswerData);",
@@ -1038,7 +1038,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "item = CreateEquipmentWithSpecial(FindBonusByNameInCfg(CT('Script.Cat_DomScience.AcrynArchive.'+Acryn[GAnswerData])),Rnd(20,25),GalaxyTechLevel(),Kling);",
+                        "item = CreateEquipmentWithSpecial(FindBonusByNameInCfg(CT('Script.Cat_DomScience.AcrynsArchive.'+Acryn[GAnswerData])),Rnd(20,25),GalaxyTechLevel(),Kling);",
                         "ItemSubrace(item,Race[GAnswerData]);",
                         "AddItemToShip(Player(),item);",
                         "ArrayDelete(Race,GAnswerData);",
@@ -1061,6 +1061,10 @@
                         "int cnt = 0;",
                         "while(1) {",
                         "    item = ShipEqInSlot(Player(),Rnd(t_FuelTanks,t_DefGenerator));",
+                        "    if(item < 1) {",
+                        "        cnt = cnt + 1;",
+                        "        continue;",
+                        "    }",
                         "    if(ItemLevel(item) < 7) {",
                         "        ItemLevel(item,ItemLevel(item)+2);",
                         "        break;",
@@ -1072,7 +1076,7 @@
                         "        }",
                         "        else if(!ItemImprovement(item)) {",
                         "            ItemImprovement(item,3);",
-                        "            cnt = cnt + 50;",
+                        "            break;",
                         "        }",
                         "    }",
                         "",
