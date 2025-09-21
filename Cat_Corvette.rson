@@ -1,0 +1,1111 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -95,
+    "ViewPos.y": -473,
+    "ScriptName": "Cat_Corvette",
+    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\Cat_Corvette\\DATA\\Script\\Cat_Corvette.scr",
+    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\Cat_Corvette\\DATA\\Script\\Cat_Corvette.txt",
+    "LangDatIn": "",
+    "LangDatOut": "",
+    "MainDatIn": "",
+    "MainDatOut": "",
+    "CacheDatIn": "",
+    "CacheDatOut": "",
+    "ExportLangTxt": false,
+    "ExportLangDat": false,
+    "Visual.Objects": 
+    [
+        {
+            "DialogAnswers": 
+            [
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 950,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 16,
+                    "Msg": "Всенепременно!",
+                    "AMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 770,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 21,
+                    "Msg": "Ну что ж, приступайте",
+                    "AMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 860,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 23,
+                    "Msg": "Превосходно",
+                    "AMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 770,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 27,
+                    "Msg": "Хо-хо, спрашиваете ещё! Плачу!",
+                    "AMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 720,
+                    "Pos.y": 80,
+                    "Parent": -1,
+                    "#": 31,
+                    "Msg": "Я подумаю",
+                    "AMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 720,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 45,
+                    "Msg": "Пожалуй, в другой раз",
+                    "AMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 830,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 49,
+                    "Msg": "Лёгкая (1000 ед.)",
+                    "AMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 830,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 50,
+                    "Msg": "Средняя (1200 ед.)",
+                    "AMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 830,
+                    "Pos.y": 80,
+                    "Parent": -1,
+                    "#": 51,
+                    "Msg": "Тяжёлая (1400 ед.)",
+                    "AMsg.Num": "8"
+                }
+            ],
+            "DialogMessages": 
+            [
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 720,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 9,
+                    "Msg": "Ну, что, рейнджер, не будем ходить вокруг да около: ты вояка бывалый, не один и не два боя прошёл, и наград достоин больших и почётных. Но одними наградами сыт не будешь, и КВСМК приняло решение таким как ты предлагать к обмундированию особые, <clr>ли-ми-ти-ро-ван-ны-е<clrEnd> корабли, построенные на <clr>марсианских<clrEnd> верфях по спецзаказу.\r\n\r\nСтоимость такой игрушки - <cost_sponsor> cr. Интересует?",
+                    "DMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 720,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 20,
+                    "Msg": "Хм, дайте взглянуть...\r\n\r\nО-о-о, узнаю работу легендарных верфей Марса! Эргономичный и агрессивный дизайн вкупе с высокими технологиями.\r\n\r\nВпрочем, даже для такого корабля мы знаем, что подобрать\r\nУлучшенное покрытие и бронепластины позволят повысить сопротивляемость корабля внешним угрозам, что важно при его командирской роли\r\n\r\nОбойдётся такое улучшение в <cost_sponsor> cr.",
+                    "DMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 830,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 22,
+                    "Msg": "Отлично! Денежки списаны, работы производятся: считайте, что к концу дня или когда вы там заходите вылететь в открытый космос, всё будет уже совсем-совсем готово.",
+                    "DMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 920,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 30,
+                    "Msg": "Отлично. Корпус уже перемещн на склад. Пользуйся на здоровье и уничтожай как можно больше врагов Коалиции.\r\n\r\nУдачи!",
+                    "DMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 800,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 48,
+                    "Msg": "Остаётся вам только выбрать конфигурацию. У нас есть на выбор <clr>три<clrEnd>\r\n-----------\r\n1) Лёгкая - 1000 ед.\r\n2) Средняя - 1200 ед.\r\n3) Тяжёлая - 1400 ед.\r\n-----------\r\nВыбирайте!",
+                    "DMsg.Num": "4"
+                }
+            ],
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogTC1",
+                    "Pos.x": 650,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 4
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogTC1.5",
+                    "Pos.x": 640,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 19
+                }
+            ],
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": 420,
+                    "Pos.y": 240,
+                    "Parent": -1,
+                    "#": 3,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 1,
+                    "CntShipMax": 1,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": true,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Items": 
+            [
+                {
+                    "Type": "TItem",
+                    "Name": "hullik",
+                    "Pos.x": 420,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 47,
+                    "Class": 5,
+                    "Item.Type": 0,
+                    "Size": 10,
+                    "Level": 1,
+                    "Radius": 150,
+                    "Owner": 6,
+                    "Useless": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 450,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 0,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun();"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 620,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 8,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "AddDialogInject('DialogTC1', \"Для особо отличившихся в боях рейнджеров мы подготовили особый подарок - уникальный корпус.\", \"Что там у вас за подарок?\", 1);",
+                        "cost_sponsor = GalaxyMoney(4,4) * 15;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 620,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 18,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "AddDialogInject('DialogTC1.5', '', \"А есть у вас уникальные улучшения для моего корабля?\", 1);",
+                        "cost_sponsor = GalaxyMoney(4,4) * 4;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 890,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 33,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player(), ShipMoney(Player()) - cost_sponsor);",
+                        "Sound('Sound.Buy');",
+                        "",
+                        "state = 1;",
+                        "",
+                        "hull = CreateHull(0,cost,GalaxyTechLevel(),People,-1);",
+                        "ItemCost(hull,ItemCost(hull)+cost_sponsor);",
+                        "LinkItemToScript(hull,hullik);",
+                        "ItemOnActCode(hull,GenerateCodeStringFromBlock('ActCodeBlocksList.Cat_Corvette_OnActCode'));",
+                        "SpecialToEquipment(FindBonusByNameInCfg('Cat_Corvette'),hull);",
+                        "ShipAddCustomShipInfo(Player(),'CatCorvette_Buffs',0,cost*0.25);",
+                        "",
+                        "AddItemToStorage(GetShipRuins(Player()),hull);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 800,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 44,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player(), ShipMoney(Player()) - cost_sponsor);",
+                        "Sound('Sound.Buy');",
+                        "",
+                        "ItemExtraSpecialsAddByType(ShipEqInSlot(Player(),t_Hull),FindBonusByNameInCfg('Cat_Corvette_FragilityMinus'));",
+                        "",
+                        "//Блокируем бесконечный зачар",
+                        "if(ItemExtraSpecialsCountByType(ShipEqInSlot(Player(),t_Hull),FindBonusByNameInCfg('Cat_Corvette_FragilityMinus')) > 2) state = 2;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 860,
+                    "Pos.y": 80,
+                    "Parent": -1,
+                    "#": 52,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost = 1400;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 860,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 53,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost = 1200;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 860,
+                    "Pos.y": 20,
+                    "Parent": -1,
+                    "#": 54,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "cost = 1000;"
+                    ]
+                }
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 420,
+                    "Pos.y": 220,
+                    "Parent": -1,
+                    "#": 2,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": 420,
+                    "Pos.y": 180,
+                    "Parent": -1,
+                    "#": 5,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": ""
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": 420,
+                    "Pos.y": 200,
+                    "Parent": -1,
+                    "#": 1,
+                    "Constellation": 1,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "Statements": 
+            [
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 590,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 6,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "ShipType(GetShipRuins(Player())) == 'WB'"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 540,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 7,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "GetShipRuins(Player())"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 570,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 14,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "state == 0"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 540,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 15,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "state == 1"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 600,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 17,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "ShipType(GetShipRuins(Player())) == 'TC'"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 750,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 29,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player()) >= cost_sponsor"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 400,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 35,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "GalaxyTechLevel() > 4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 520,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 37,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "!PlayerBridge()"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 39,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "ShipRank(Player()) > 5"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 460,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 40,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "!ShipOnSidePirateClan(Player())"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 490,
+                    "Pos.y": 50,
+                    "Parent": -1,
+                    "#": 41,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "ShipStatistic(Player(),3) > 4"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 560,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 42,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "~HullSpecial(Player())"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 580,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 43,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "HullSpecial(Player()) == FindBonusByNameInCfg('Cat_Corvette')"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": 750,
+                    "Pos.y": 130,
+                    "Parent": -1,
+                    "#": 46,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player()) >= cost_sponsor"
+                    ]
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": 420,
+                    "Pos.y": 260,
+                    "Parent": -1,
+                    "#": 26,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 1,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "research_start_date",
+                    "Pos.x": 790,
+                    "Pos.y": -180,
+                    "Parent": -1,
+                    "#": 10,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "base_name",
+                    "Pos.x": 790,
+                    "Pos.y": -200,
+                    "Parent": -1,
+                    "#": 11,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "research_time",
+                    "Pos.x": 790,
+                    "Pos.y": -160,
+                    "Parent": -1,
+                    "#": 12,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "state",
+                    "Pos.x": 790,
+                    "Pos.y": -250,
+                    "Parent": -1,
+                    "#": 13,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "good_special_name",
+                    "Pos.x": 980,
+                    "Pos.y": -280,
+                    "Parent": -1,
+                    "#": 24,
+                    "Var.Type": "Str",
+                    "Init": "Бритвенный гребень",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull_cost_1",
+                    "Pos.x": 980,
+                    "Pos.y": -260,
+                    "Parent": -1,
+                    "#": 25,
+                    "Var.Type": "Int",
+                    "Init": "50000",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost_sponsor",
+                    "Pos.x": 980,
+                    "Pos.y": -240,
+                    "Parent": -1,
+                    "#": 28,
+                    "Var.Type": "Int",
+                    "Init": "350000",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "research_time_fast",
+                    "Pos.x": 980,
+                    "Pos.y": -200,
+                    "Parent": -1,
+                    "#": 32,
+                    "Var.Type": "Int",
+                    "Init": "180",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull_size_good",
+                    "Pos.x": 980,
+                    "Pos.y": -180,
+                    "Parent": -1,
+                    "#": 34,
+                    "Var.Type": "Int",
+                    "Init": "1300",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull",
+                    "Pos.x": 790,
+                    "Pos.y": -270,
+                    "Parent": -1,
+                    "#": 36,
+                    "Var.Type": "Dword",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost",
+                    "Pos.x": 980,
+                    "Pos.y": -220,
+                    "Parent": -1,
+                    "#": 38,
+                    "Var.Type": "Dword",
+                    "Init": "1",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 2,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 5,
+            "End": 1,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 2,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 6,
+            "End": 8,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 4,
+            "End": 9,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 14,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 15,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 17,
+            "End": 18,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 19,
+            "End": 20,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 22,
+            "End": 23,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 3,
+            "End": 26,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 27,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 16,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 37,
+            "End": 7,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 14,
+            "End": 6,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 39,
+            "End": 40,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 35,
+            "End": 39,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 40,
+            "End": 41,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 41,
+            "End": 37,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 15,
+            "End": 42,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 42,
+            "End": 43,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 43,
+            "End": 17,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 21,
+            "End": 44,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 44,
+            "End": 22,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 20,
+            "End": 45,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 20,
+            "End": 46,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 46,
+            "End": 21,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 33,
+            "End": 30,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 31,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 9,
+            "End": 29,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 27,
+            "End": 48,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 48,
+            "End": 49,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 48,
+            "End": 50,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 48,
+            "End": 51,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 51,
+            "End": 52,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 50,
+            "End": 53,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 49,
+            "End": 54,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 54,
+            "End": 33,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 53,
+            "End": 33,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 52,
+            "End": 33,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "BlockPar.EC.Total.Strings": 17,
+    "BlockPar.EC": 
+    [
+        {
+            "#": "112",
+            "String": "Превосходно"
+        },
+        {
+            "#": "147",
+            "String": "Ну что ж, приступайте"
+        },
+        {
+            "#": "155",
+            "String": "Я подумаю"
+        },
+        {
+            "#": "170",
+            "String": "Отлично! Денежки списаны, работы производятся: считайте, что к концу дня или когда вы там заходите вылететь в открытый космос, всё будет уже совсем-совсем готово."
+        },
+        {
+            "#": "194",
+            "String": "Хм, дайте взглянуть...<br><br>О-о-о, узнаю работу легендарных верфей Марса! Эргономичный и агрессивный дизайн вкупе с высокими технологиями.<br><br>Впрочем, даже для такого корабля мы знаем, что подобрать<br>Улучшенное покрытие и бронепластины позволят повысить сопротивляемость корабля внешним угрозам, что важно при его командирской роли<br><br>Обойдётся такое улучшение в <0> cr."
+        },
+        {
+            "#": "196",
+            "String": "Отлично. Корпус уже перемещн на склад. Пользуйся на здоровье и уничтожай как можно больше врагов Коалиции.<br><br>Удачи!"
+        },
+        {
+            "#": "199",
+            "String": "Всенепременно!"
+        },
+        {
+            "#": "201",
+            "String": "Хо-хо, спрашиваете ещё! Плачу!"
+        },
+        {
+            "#": "205",
+            "String": "Ну, что, рейнджер, не будем ходить вокруг да около: ты вояка бывалый, не один и не два боя прошёл, и наград достоин больших и почётных. Но одними наградами сыт не будешь, и КВСМК приняло решение таким как ты предлагать к обмундированию особые, <clr>ли-ми-ти-ро-ван-ны-е<clrEnd> корабли, построенные на <clr>марсианских<clrEnd> верфях по спецзаказу.<br><br>Стоимость такой игрушки - <0> cr. Интересует?"
+        },
+        {
+            "#": "207",
+            "String": "А есть у вас уникальные улучшения для моего корабля?"
+        },
+        {
+            "#": "208",
+            "String": "Что там у вас за подарок?"
+        },
+        {
+            "#": "209",
+            "String": "Для особо отличившихся в боях рейнджеров мы подготовили особый подарок - уникальный корпус."
+        },
+        {
+            "#": "210",
+            "String": "Пожалуй, в другой раз"
+        },
+        {
+            "#": "211",
+            "String": "Остаётся вам только выбрать конфигурацию. У нас есть на выбор <clr>три<clrEnd><br>-----------<br>1) Лёгкая - 1000 ед.<br>2) Средняя - 1200 ед.<br>3) Тяжёлая - 1400 ед.<br>-----------<br>Выбирайте!"
+        },
+        {
+            "#": "212",
+            "String": "Лёгкая (1000 ед.)"
+        },
+        {
+            "#": "213",
+            "String": "Средняя (1200 ед.)"
+        },
+        {
+            "#": "214",
+            "String": "Тяжёлая (1400 ед.)"
+        }
+    ]
+}

@@ -4,8 +4,8 @@
     "ViewPos.x": -82,
     "ViewPos.y": -387,
     "ScriptName": "Cat_ZelRangers",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Rangers\\DATA\\Script\\Cat_ZelRangers.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Downloads\\Cat_ZelRangers.txt",
+    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Rangers\\DATA\\Script\\Cat_ZelRangers.scr",
+    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Rangers\\DATA\\Script\\Cat_ZelRangers.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
@@ -1246,7 +1246,7 @@
                     "Code": 
                     [
                         "if (accepted)",
-                        "    AddDialogInject('Verbovka', '', \"Мне нужен доступ к вашей таблице в Гаалакселе\", 0);",
+                        "    AddDialogInject('Verbovka', '', \"Посмотреть отчет по новобранцам\", 0);",
                         "else",
                         "    AddDialogInject('Begin', '', \"Дела на фронте сейчас совсем кислые, как обстоят дела с новобранцами в наши ряды доблестных рейнджеров?\", 0);"
                     ]
@@ -4045,10 +4045,6 @@
             "String": "Дела на фронте сейчас совсем кислые, как обстоят дела с новобранцами в наши ряды доблестных рейнджеров?"
         },
         {
-            "#": "205",
-            "String": "Мне нужен доступ к вашей таблице в Гаалакселе"
-        },
-        {
             "#": "206",
             "String": "скупаем лучший массмаркет с индустриальных планет"
         },
@@ -4083,6 +4079,10 @@
         {
             "#": "213",
             "String": "берем в рейнджеров всех прошедших минимальное обучение в симуляторах космического боя"
+        },
+        {
+            "#": "214",
+            "String": "Посмотреть отчет по новобранцам"
         },
         {
             "#": "22",

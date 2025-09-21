@@ -12,7 +12,8 @@
     "MainDatOut": "",
     "CacheDatIn": "",
     "CacheDatOut": "",
-    "ExportLang": false,
+    "ExportLangTxt": false,
+    "ExportLangDat": false,
     "Visual.Objects": 
     [
         {
@@ -178,7 +179,8 @@
                         "                    coun = coun + 1;",
                         "                }",
                         "",
-                        "                if(coun < 3 && Rnd(1,5) == 5) g_UpdateForBSO(cur_ruin);",
+                        "                //Временные меры",
+                        "                //if(coun < 3 && Rnd(1,5) == 5) g_UpdateForBSO(cur_ruin);",
                         "            }",
                         "        }",
                         "",
@@ -187,7 +189,8 @@
                         "    else CD = CD - 1;",
                         "}",
                         "",
-                        "if(GalaxyTechLevel() == 8) {",
+                        "//Временные меры",
+                        "/*if(GalaxyTechLevel() == 8) {",
                         "    if(!init_flag) {",
                         "        for(i=0;GalaxyStars()>i;i=i+1) {",
                         "            star = GalaxyStar(i);",
@@ -233,7 +236,10 @@
                         "            lastShipId=GalaxyShipId();    //Обновляем Id последнего рожденного корабля",
                         "        }",
                         "    }",
-                        "}"
+                        "}*/",
+                        "",
+                        "//Временные меры",
+                        "init_flag = 0;"
                     ]
                 },
                 {

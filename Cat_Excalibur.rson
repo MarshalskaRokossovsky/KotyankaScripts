@@ -2,7 +2,7 @@
     "FileID": 573785173,
     "FileVersion": 8,
     "ViewPos.x": -86,
-    "ViewPos.y": -377,
+    "ViewPos.y": -378,
     "ScriptName": "Excalibur",
     "ScriptFileOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.scr",
     "ScriptTextOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.txt",
@@ -12,7 +12,8 @@
     "MainDatOut": "",
     "CacheDatIn": "",
     "CacheDatOut": "",
-    "ExportLang": false,
+    "ExportLangTxt": false,
+    "ExportLangDat": false,
     "Visual.Objects": 
     [
         {
@@ -22,9 +23,9 @@
                     "Type": "TDialogAnswer",
                     "Name": "restart",
                     "Pos.x": 740,
-                    "Pos.y": 180,
+                    "Pos.y": 210,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 10,
                     "Msg": "Ну-ка давай посмотрим на чём он там летал.",
                     "AMsg.Num": "0"
                 }
@@ -34,10 +35,10 @@
                 {
                     "Type": "TDialogMsg",
                     "Name": "",
-                    "Pos.x": 720,
-                    "Pos.y": 140,
+                    "Pos.x": 740,
+                    "Pos.y": 180,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 9,
                     "Msg": "Таааакс...\r\n\r\nПолучается ты теперь верховный барон да?\r\nЯ был главным советником и правой рукой у прежнего барона.\r\nОн позаботился об распоряжениях на случай его смерти, так что вот, это ключи от его личного корабля, теперь они ваши.",
                     "DMsg.Num": "0"
                 }
@@ -47,10 +48,10 @@
                 {
                     "Type": "TDialog",
                     "Name": "GetHull",
-                    "Pos.x": 710,
-                    "Pos.y": 110,
+                    "Pos.x": 740,
+                    "Pos.y": 150,
                     "Parent": -1,
-                    "#": 0
+                    "#": 8
                 }
             ],
             "Groups": 
@@ -61,7 +62,7 @@
                     "Pos.x": 240,
                     "Pos.y": 270,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 7,
                     "Owner": 62,
                     "Group.Type": 126,
                     "CntShipMin": 1,
@@ -93,7 +94,7 @@
                     "Pos.x": 320,
                     "Pos.y": 160,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 11,
                     "Code.Type": "Global",
                     "Code": 
                     [
@@ -106,7 +107,7 @@
                     "Pos.x": 740,
                     "Pos.y": 240,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 12,
                     "Code.Type": "Turn",
                     "Code": 
                     [
@@ -134,7 +135,7 @@
                     "Pos.x": 690,
                     "Pos.y": 20,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 13,
                     "Code.Type": "DialogBegin",
                     "Code": 
                     [
@@ -159,7 +160,7 @@
                     "Pos.x": 260,
                     "Pos.y": 240,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 4,
                     "Race": 62,
                     "Owner": 62,
                     "Economy": 14,
@@ -177,7 +178,7 @@
                     "Pos.x": 260,
                     "Pos.y": 180,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 5,
                     "Count": 1,
                     "Owner": 62,
                     "Ship.Type": 126,
@@ -206,7 +207,7 @@
                     "Pos.x": 240,
                     "Pos.y": 210,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 3,
                     "Constellation": 1,
                     "Priority": 0,
                     "NoKling": false,
@@ -221,7 +222,7 @@
                     "Pos.x": 670,
                     "Pos.y": 20,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 14,
                     "Code.Type": "DialogBegin",
                     "Code": 
                     [
@@ -234,7 +235,7 @@
                     "Pos.x": 650,
                     "Pos.y": 20,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 15,
                     "Code.Type": "DialogBegin",
                     "Code": 
                     [
@@ -250,7 +251,7 @@
                     "Pos.x": 260,
                     "Pos.y": 300,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 6,
                     "Move": 0,
                     "MoveObj": -1,
                     "Attack.Count": 0,
@@ -282,7 +283,7 @@
                     "Pos.x": 400,
                     "Pos.y": -50,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 1,
                     "Var.Type": "Dword",
                     "Init": "",
                     "Global": false
@@ -293,7 +294,7 @@
                     "Pos.x": 400,
                     "Pos.y": -30,
                     "Parent": -1,
-                    "#": 0,
+                    "#": 2,
                     "Var.Type": "Dword",
                     "Init": "",
                     "Global": false
@@ -305,50 +306,8 @@
     [
         {
             "Type": "TGraphLink",
-            "Begin": 2,
-            "End": 1,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
-            "Begin": 4,
-            "End": 1,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
-            "Begin": 3,
-            "End": 2,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
-            "Begin": 3,
-            "End": 6,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
             "Begin": 8,
             "End": 9,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
-            "Begin": 12,
-            "End": 7,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
-            "Begin": 13,
-            "End": 12,
             "Nom": 0,
             "Arrow": true
         },
@@ -361,8 +320,50 @@
         },
         {
             "Type": "TGraphLink",
+            "Begin": 4,
+            "End": 3,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 5,
+            "End": 3,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 4,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 6,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 15,
+            "End": 14,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 14,
+            "End": 13,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
             "Begin": 10,
-            "End": 5,
+            "End": 12,
             "Nom": 0,
             "Arrow": true
         }

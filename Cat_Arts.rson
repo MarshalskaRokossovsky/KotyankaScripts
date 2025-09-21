@@ -2,10 +2,10 @@
     "FileID": 573785173,
     "FileVersion": 8,
     "ViewPos.x": -688,
-    "ViewPos.y": -643,
-    "ScriptName": "Cat_Taburet",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\Cat_Taburet\\DATA\\Script\\Cat_Taburet.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\Cat_Taburet\\DATA\\Script\\Cat_Taburet.txt",
+    "ViewPos.y": -651,
+    "ScriptName": "Cat_Arts",
+    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Arts\\DATA\\Script\\Cat_Arts.scr",
+    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Arts\\DATA\\Script\\Cat_Arts.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
@@ -17,6 +17,17 @@
     "Visual.Objects": 
     [
         {
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogCringe",
+                    "Pos.x": 30,
+                    "Pos.y": -130,
+                    "Parent": -1,
+                    "#": 7
+                }
+            ],
             "Groups": 
             [
                 {
@@ -71,32 +82,29 @@
                     "Pos.y": -90,
                     "Parent": -1,
                     "#": 6,
-                    "Code.Type": "Init",
+                    "Code.Type": "DialogBegin",
                     "Code": 
                     [
-                        "percent = min(int(CT('Script.Cat_Taburet.TaburetPercent')),100);",
-                        "j = 0;",
-                        "",
-                        "for(i=0;GalaxyStars()>i;i=i+1) {",
-                        "    j = j + StarAsteroids(GalaxyStar(i));",
-                        "}",
-                        "",
-                        "cnt = round(j / percent * 100);",
-                        "cnt = min(cnt,j);",
-                        "",
-                        "while(cnt > 0) {",
-                        "    star = GalaxyStar(Rnd(0,GalaxyStars()-1));",
-                        "    asteroid = StarAsteroids(star,Rnd(0,StarAsteroids(star)-1));",
-                        "    if(asteroid > 0) {",
-                        "        if(AsteroidGraph(asteroid) == 'Asteroid.Taburet') continue;",
-                        "        else {",
-                        "            AsteroidGraph(asteroid,'Asteroid.Taburet');",
-                        "            cnt = cnt - 1;",
+                        "if(GetTalkShip()) {",
+                        "    if(ArtefactTypeInUse(Player(),'FifthElement_CatArt')) {",
+                        "        if(ShipType(GetTalkShip()) == 'FemRanger') {",
+                        "            AddDialogInject('DialogCringe','',\"Знаешь, к чёрту всех этих доминаторов - выходи за меня!\",99);",
                         "        }",
                         "    }",
-                        "",
-                        "    if(cnt < 1) break;",
                         "}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 30,
+                    "Pos.y": -90,
+                    "Parent": -1,
+                    "#": 8,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "CustomWin(\"Главное в жизни - оказаться в нужном месте, в нужное время. Вот и вы оказались так, и ваше предложение было не только рассмотрено, но и одобрено. Зачем плодить жесткокость, когда можно творить и созидать? Премиальных вашей избранницы и долгов перед вами за выполнение правительственных заданий вполне хватило на небольшой участок на одном из тыловых аграрных миров Коалиции.\"+Format('<br>')+Format('<br>')+Format('<br>')+\"Это... И есть - счастливый конец?..\");"
                     ]
                 }
             ],
@@ -182,75 +190,6 @@
                     "EUnique": "",
                     "EMsg": ""
                 }
-            ],
-            "Variables": 
-            [
-                {
-                    "Type": "TVar",
-                    "Name": "percent",
-                    "Pos.x": -100,
-                    "Pos.y": -150,
-                    "Parent": -1,
-                    "#": 7,
-                    "Var.Type": "Int",
-                    "Init": "0",
-                    "Global": false
-                },
-                {
-                    "Type": "TVar",
-                    "Name": "cnt",
-                    "Pos.x": -100,
-                    "Pos.y": -170,
-                    "Parent": -1,
-                    "#": 8,
-                    "Var.Type": "Int",
-                    "Init": "0",
-                    "Global": false
-                },
-                {
-                    "Type": "TVar",
-                    "Name": "i",
-                    "Pos.x": -10,
-                    "Pos.y": -150,
-                    "Parent": -1,
-                    "#": 9,
-                    "Var.Type": "Int",
-                    "Init": "",
-                    "Global": false
-                },
-                {
-                    "Type": "TVar",
-                    "Name": "j",
-                    "Pos.x": -10,
-                    "Pos.y": -170,
-                    "Parent": -1,
-                    "#": 10,
-                    "Var.Type": "Int",
-                    "Init": "",
-                    "Global": false
-                },
-                {
-                    "Type": "TVar",
-                    "Name": "asteroid",
-                    "Pos.x": -100,
-                    "Pos.y": -190,
-                    "Parent": -1,
-                    "#": 11,
-                    "Var.Type": "Dword",
-                    "Init": "",
-                    "Global": false
-                },
-                {
-                    "Type": "TVar",
-                    "Name": "star",
-                    "Pos.x": -10,
-                    "Pos.y": -190,
-                    "Parent": -1,
-                    "#": 12,
-                    "Var.Type": "Dword",
-                    "Init": "",
-                    "Global": false
-                }
             ]
         }
     ],
@@ -283,11 +222,29 @@
             "End": 3,
             "Nom": 0,
             "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 7,
+            "End": 8,
+            "Nom": 0,
+            "Arrow": true
         }
     ],
-    "BlockPar.EC.Total.Strings": 0,
+    "BlockPar.EC.Total.Strings": 3,
     "BlockPar.EC": 
     [
-      
+        {
+            "#": "0",
+            "String": "Знаешь, к чёрту всех этих доминаторов - выходи за меня!"
+        },
+        {
+            "#": "1",
+            "String": "Это... И есть - счастливый конец?.."
+        },
+        {
+            "#": "2",
+            "String": "Главное в жизни - оказаться в нужном месте, в нужное время. Вот и вы оказались так, и ваше предложение было не только рассмотрено, но и одобрено. Зачем плодить жесткокость, когда можно творить и созидать? Премиальных вашей избранницы и долгов перед вами за выполнение правительственных заданий вполне хватило на небольшой участок на одном из тыловых аграрных миров Коалиции."
+        }
     ]
 }

@@ -1,18 +1,19 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -575,
-    "ViewPos.y": -343,
+    "ViewPos.x": -644,
+    "ViewPos.y": -477,
     "ScriptName": "Cat_DomScience",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
+    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
+    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
     "MainDatOut": "",
     "CacheDatIn": "",
     "CacheDatOut": "",
-    "ExportLang": false,
+    "ExportLangTxt": false,
+    "ExportLangDat": false,
     "Visual.Objects": 
     [
         {
@@ -608,14 +609,8 @@
                         "        }",
                         "    }",
                         "    if(FindResearched()) {",
-                        "        if(ShipType(GetShipRuins(Player())) == 'SB') {",
+                        "        if(ShipType(GetShipRuins(Player())) == RuinType) {",
                         "            AddDialogInject('CreateSB','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
-                        "        }",
-                        "        if(ShipType(GetShipRuins(Player())) == 'DD') {",
-                        "            AddDialogInject('CreateDD','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
-                        "        }",
-                        "        if(ShipType(GetShipRuins(Player())) == 'TC') {",
-                        "            AddDialogInject('CreateTC','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
                         "        }",
                         "    }",
                         "}"
@@ -631,8 +626,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "if(GetValueFromScript('Mod_ShuDomiks','UnknownDomAcrynsTimer') == -1) {",
-                        "    //Раздаём случайные юзлесы всем новым кораблям",
+                        "if(CurrentMods('ShusRangers\\ShuDomiks')) {",
                         "    if(GalaxyShipId() > lastShipId) {",
                         "        AddDropUselessToShips();",
                         "        //Обновляем Id последнего рождённого корабля",
@@ -1641,6 +1635,17 @@
                     "Pos.y": -300,
                     "Parent": -1,
                     "#": 113,
+                    "Var.Type": "Array",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "RuinType",
+                    "Pos.x": 70,
+                    "Pos.y": -270,
+                    "Parent": -1,
+                    "#": 114,
                     "Var.Type": "Array",
                     "Init": "",
                     "Global": false
