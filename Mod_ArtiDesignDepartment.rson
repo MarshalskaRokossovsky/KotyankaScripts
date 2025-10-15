@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -641,
-    "ViewPos.y": -112,
+    "ViewPos.x": -414,
+    "ViewPos.y": -122,
     "ScriptName": "Mod_ArtiDesignDepartment",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.txt",
@@ -8218,9 +8218,13 @@
                         "        if(ShipMoney(cur_ship) < 1000000) continue;",
                         "",
                         "        if(StarOwner(cur_star) == 2) {",
+                        "            if(ShipStanding(cur_ship) == 2) continue;",
                         "        }",
                         "        else if(!StarOwner(cur_star)) {",
+                        "            if(ShipStanding(cur_ship) == 8) continue;",
                         "        }",
+                        "",
+                        "        ShipJoin(GroupShopping,cur_ship);",
                         "    }",
                         "}"
                     ]
@@ -8235,7 +8239,33 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                      
+                        "//Если вдруг куда денется",
+                        "if(!ShipInStar(CurShip,ShipStar(GroupToShip(DDGroup)))) {",
+                        "    ShipOut(CurShip);",
+                        "}",
+                        "//Если вдруг начались бои",
+                        "if(StarBattle(ShipStar(CurShip))) {",
+                        "    ShipOut(CurShip);",
+                        "}",
+                        "",
+                        "if(ShipInNormalSpace(CurShip)) {",
+                        "    OrderLanding(CurShip,GroupToShip(DDGroup));",
+                        "}",
+                        "else {",
+                        "    if(GetShipRuins(CurShip)) {",
+                        "        for(i=0;i<ShopItems(GroupToShip(DDGroup));i=i+1) {",
+                        "            cur_item = ShopItems(GroupToShip(DDGroup),i);",
+                        "            if(ItemType(cur_item) < t_FuelTanks) continue;",
+                        "            if(ItemType(cur_item) > t_Protoplasm) continue;",
+                        "",
+                        "            GetItemFromShop(GroupToShip(DDGroup),cur_item);",
+                        "            AddItemToShip(CurShip,cur_item);",
+                        "            ArrangeItems(CurShip);",
+                        "            ShipAddCustomShipInfo(cur_ship,'ArtiUniqueShipsPack_Crutch');",
+                        "        }",
+                        "        ShipOut(CurShip);",
+                        "    }",
+                        "}"
                     ]
                 }
             ],

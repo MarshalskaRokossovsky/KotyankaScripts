@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -572,
-    "ViewPos.y": -562,
+    "ViewPos.x": -904,
+    "ViewPos.y": -589,
     "ScriptName": "Cat_StationSuperintendent",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_StationSuperintendent\\DATA\\Script\\Cat_StationSuperintendent.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_StationSuperintendent\\DATA\\Script\\Cat_StationSuperintendent.txt",
@@ -98,6 +98,16 @@
                     "#": 68,
                     "Msg": "Нет, спасибо",
                     "AMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 420,
+                    "Pos.y": -70,
+                    "Parent": -1,
+                    "#": 70,
+                    "Msg": "Вернуться к выбору станций",
+                    "AMsg.Num": "8"
                 }
             ],
             "DialogMessages": 
@@ -159,7 +169,7 @@
                     "Pos.y": -110,
                     "Parent": -1,
                     "#": 36,
-                    "Msg": "При постройке станции может применяться один из наших уникальных концептов строительства. Приводим список наличных:\r\n================\r\n<tstr>\r\nСтоимость: <l> cr.\r\n\r\n<tstr2>\r\nСтоимость: <j> cr.\r\n\r\n<tstr3>\r\nСтоимость: <k> cr.\r\n================",
+                    "Msg": "При постройке станции может применяться один из наших уникальных концептов строительства. Приводим список наличных:\r\n================\r\n<tstr>\r\nСтоимость: <l> cr.\r\n\r\n<tstr2>\r\nСтоимость: <j> cr.\r\n\r\n<tstr3>\r\nСтоимость: <k> cr.\r\n================\r\nНапоминаем: стоимость постройки станции без улучшений составляет <cost> cr.",
                     "DMsg.Num": "5"
                 }
             ],
@@ -350,16 +360,13 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 290,
+                    "Pos.x": 330,
                     "Pos.y": -110,
                     "Parent": -1,
                     "#": 25,
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "temp_star = GAnswerData;",
-                        "tstr = Name(GAnswerData);",
-                        "",
                         "j=0;",
                         "for(k=0;StarRuins(temp_star)>k;k=k+1) {",
                         "    if(ShipType(StarRuins(temp_star,k)) == 'WB') j=j+1;",
@@ -370,7 +377,7 @@
                         "else if(StarOwner(temp_star) == 2 && !CoalitionDefeated()) tstr2 = \"Система захвачена пиратами, часть станций построить невозможно!\";",
                         "else tstr2 = '';",
                         "",
-                        "cost = GalaxyMoney(4,4) * 2;"
+                        "cost = GalaxyMoney(4,4) * 3;"
                     ]
                 },
                 {
@@ -394,13 +401,13 @@
                         "        if(StarRuins(temp_star,'SB') == 0 && ShipMoney(Player()) >= cost) InjectAnswer('Build',\"Построить научную базу\",9);",
                         "        if(StarRuins(temp_star,'BK') == 0 && ShipMoney(Player()) >= cost) InjectAnswer('Build',\"Построить бизнес-центр\",10);",
                         "    }",
-                        "    if(StarRuins(temp_star,'MC') == 0 && StarOwner(temp_star) != 1) InjectAnswer('Build',\"Построить медицинский центр\",11);",
+                        "    if(StarRuins(temp_star,'MC') == 0 && StarOwner(temp_star) != 1 && ShipMoney(Player()) >= cost) InjectAnswer('Build',\"Построить медицинский центр\",11);",
                         "    if(ShipOnSidePirateClan(Player())) {",
                         "        if(StarRuins(temp_star,'PB') != 1 && ShipMoney(Player()) >= cost && StarOwner(temp_star) != 1) InjectAnswer('Build',\"Построить пиратскую базу\",7);",
                         "        if(StarOwner(temp_star) == 2 && ShipMoney(Player()) >= cost) InjectAnswer('Build',\"Построить доминион\",12);",
                         "    }",
                         "    if(CurrentMods('Expansion\\ExpTC') /*&& CurrentMods('Expansion\\ExpPilotBridge')*/) {",
-                        "        if(StarRuins(temp_star,'TC') == 0 && StarOwner(temp_star) != 1) InjectAnswer('Build',\"Построить технологический центр\",13);",
+                        "        if(StarRuins(temp_star,'TC') == 0 && StarOwner(temp_star) != 1 && ShipMoney(Player()) >= cost) InjectAnswer('Build',\"Построить технологический центр\",13);",
                         "    }",
                         "}",
                         "",
@@ -609,21 +616,31 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "if(~IdToShip(ShipData())) {",
-                        "    if(~ShipFindCustomShipInfoByType(IdToShip(ShipData()),'Cat_SAS_Build')) {",
-                        "        GoodsAdd(CurShip,t_Technics,-GoodsAdd(CurShip,t_Technics,0));",
-                        "        ShipCustomShipInfoData(IdToShip(ShipData()),'Cat_SAS_Build',1,ShipCustomShipInfoData(IdToShip(ShipData()),'Cat_SAS_Build',1) - 1);",
-                        "        OrderLock(CurShip, 0);",
-                        "        OrderTakeOff(CurShip);",
+                        "if(NoLanding(GetShipRuins(CurShip))) {",
+                        "    if(~IdToShip(ShipData())) {",
+                        "        if(~ShipFindCustomShipInfoByType(IdToShip(ShipData()),'Cat_SAS_Build')) {",
+                        "            GoodsAdd(CurShip,t_Technics,-GoodsAdd(CurShip,t_Technics,0));",
+                        "            ShipCustomShipInfoData(IdToShip(ShipData()),'Cat_SAS_Build',1,ShipCustomShipInfoData(IdToShip(ShipData()),'Cat_SAS_Build',1) - 1);",
+                        "            OrderLock(CurShip, 0);",
+                        "            OrderTakeOff(CurShip);",
+                        "        }",
+                        "        else {",
+                        "            OrderLock(CurShip, 0);",
+                        "            OrderTakeOff(CurShip);",
+                        "        }",
                         "    }",
                         "    else {",
-                        "        OrderLock(CurShip, 0);",
+                        "        OrderLock(CurShip, 1);",
                         "        OrderTakeOff(CurShip);",
                         "    }",
                         "}",
                         "else {",
-                        "    OrderLock(CurShip, 1);",
-                        "    OrderTakeOff(CurShip);",
+                        "    //Не забываем про этого обормота",
+                        "    dword ship = TranclucatorData(tranc,'Proprietor');",
+                        "    if(ship > 0) ShipDestroy(ship);",
+                        "    ",
+                        "    ShipOut(CurShip);",
+                        "    ShipDestroy(CurShip);",
                         "}"
                     ]
                 },
@@ -696,12 +713,13 @@
                         "}",
                         "",
                         "function DeleteTranc(dword tranc) {",
-                        "    OrderLock(tranc,0);",
-                        "    ShipOut(tranc);",
+                        "    //OrderLock(tranc,0);",
+                        "    //ShipOut(tranc);",
+                        "    ChangeState('DestroyIt',tranc);",
                         "",
                         "    //Не забываем про этого обормота",
                         "    dword ship = TranclucatorData(tranc,'Proprietor');",
-                        "    ShipDestroy(ship);",
+                        "    if(ship > 0) ShipDestroy(ship);",
                         "}"
                     ]
                 },
@@ -725,6 +743,20 @@
                         "        ShipDestroy(CurShip,1);",
                         "    }",
                         "}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 290,
+                    "Pos.y": -110,
+                    "Parent": -1,
+                    "#": 69,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "temp_star = GAnswerData;",
+                        "tstr = Name(GAnswerData);"
                     ]
                 }
             ],
@@ -1286,13 +1318,6 @@
         },
         {
             "Type": "TGraphLink",
-            "Begin": 24,
-            "End": 25,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
             "Begin": 25,
             "End": 26,
             "Nom": 0,
@@ -1549,9 +1574,37 @@
             "End": 31,
             "Nom": 0,
             "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 24,
+            "End": 69,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 69,
+            "End": 25,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 36,
+            "End": 70,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 70,
+            "End": 25,
+            "Nom": 0,
+            "Arrow": true
         }
     ],
-    "BlockPar.EC.Total.Strings": 29,
+    "BlockPar.EC.Total.Strings": 30,
     "BlockPar.EC": 
     [
         {
@@ -1588,7 +1641,7 @@
         },
         {
             "#": "16",
-            "String": "При постройке станции может применяться один из наших уникальных концептов строительства. Приводим список наличных:<br>================<br><0><br>Стоимость: <1> cr.<br><br><2><br>Стоимость: <3> cr.<br><br><4><br>Стоимость: <5> cr.<br>================"
+            "String": "При постройке станции может применяться один из наших уникальных концептов строительства. Приводим список наличных:<br>================<br><0><br>Стоимость: <1> cr.<br><br><2><br>Стоимость: <3> cr.<br><br><4><br>Стоимость: <5> cr.<br>================<br>Напоминаем: стоимость постройки станции без улучшений составляет <6> cr."
         },
         {
             "#": "17",
@@ -1641,6 +1694,10 @@
         {
             "#": "28",
             "String": "Нет, спасибо"
+        },
+        {
+            "#": "29",
+            "String": "Вернуться к выбору станций"
         },
         {
             "#": "3",
