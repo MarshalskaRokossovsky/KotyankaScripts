@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -644,
-    "ViewPos.y": -477,
+    "ViewPos.x": -594,
+    "ViewPos.y": -326,
     "ScriptName": "Cat_DomScience",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
@@ -711,6 +711,8 @@
                         "                chance_items = 1;",
                         "            }",
                         "",
+                        "            if(1) chance_items = 1000;",
+                        "",
                         "            //Случайно определяем шанс выдачи",
                         "            if(RndObject(1, 100, ship) <= chance_items) {",
                         "                item = CreateQuestItem('Remains_CatMem');",
@@ -742,6 +744,7 @@
                         "    ArrayAdd(Acryn,type);",
                         "    ArrayAdd(Days,dayss);",
                         "    ArrayAdd(Race,subrace);",
+                        "    ArrayAdd(RuinType,ShipType(GetShipRuins(Player())));",
                         "}",
                         "",
                         "//Добавляет диалог получения результата исследования",
@@ -752,7 +755,9 @@
                         "        for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
                         "",
                         "            if(Days[i] == -1) {",
-                        "                result = 1;",
+                        "                if(RuinType[i] == ShipType(GetShipRuins(Player()))) {",
+                        "                    result = 1;",
+                        "                }",
                         "            }",
                         "        }",
                         "    }",
@@ -922,6 +927,7 @@
                         "ArrayDelete(Race,GAnswerData);",
                         "ArrayDelete(Days,GAnswerData);",
                         "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);",
                         "ShipMoney(Player(),ShipMoney(Player())-GalaxyMoney(4,4));",
                         "Sound('Sound.Buy');"
                     ]
@@ -942,6 +948,7 @@
                         "ArrayDelete(Race,GAnswerData);",
                         "ArrayDelete(Days,GAnswerData);",
                         "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);",
                         "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*3));",
                         "Sound('Sound.Buy');"
                     ]
@@ -979,7 +986,11 @@
                         "    cnt = cnt + 1;",
                         "}",
                         "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*3/4));",
-                        "Sound('Sound.Repair');"
+                        "Sound('Sound.Repair');",
+                        "ArrayDelete(Race,GAnswerData);",
+                        "ArrayDelete(Days,GAnswerData);",
+                        "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);"
                     ]
                 },
                 {
@@ -998,6 +1009,7 @@
                         "ArrayDelete(Race,GAnswerData);",
                         "ArrayDelete(Days,GAnswerData);",
                         "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);",
                         "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*3));",
                         "Sound('Sound.Buy');"
                     ]
@@ -1018,6 +1030,7 @@
                         "ArrayDelete(Race,GAnswerData);",
                         "ArrayDelete(Days,GAnswerData);",
                         "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);",
                         "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*3/4));",
                         "Sound('Sound.Buy');"
                     ]
@@ -1038,6 +1051,7 @@
                         "ArrayDelete(Race,GAnswerData);",
                         "ArrayDelete(Days,GAnswerData);",
                         "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);",
                         "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*3));",
                         "Sound('Sound.Buy');"
                     ]
@@ -1079,7 +1093,11 @@
                         "    cnt = cnt + 1;",
                         "}",
                         "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*2));",
-                        "Sound('Sound.Repair');"
+                        "Sound('Sound.Repair');",
+                        "ArrayDelete(Race,GAnswerData);",
+                        "ArrayDelete(Days,GAnswerData);",
+                        "ArrayDelete(Acryn,GAnswerData);",
+                        "ArrayDelete(RuinType,GAnswerData);"
                     ]
                 },
                 {

@@ -1,11 +1,11 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -661,
-    "ViewPos.y": -609,
+    "ViewPos.x": -667,
+    "ViewPos.y": -610,
     "ScriptName": "Cat_AsteroidStations",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_AsteroidStations\\DATA\\Script\\Cat_AsteroidStations.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_AsteroidStations\\DATA\\Script\\Cat_AsteroidStations.txt",
+    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_AsteroidStations\\DATA\\Script\\Cat_AsteroidStations.scr",
+    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_AsteroidStations\\DATA\\Script\\Cat_AsteroidStations.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
@@ -41,13 +41,33 @@
                 },
                 {
                     "Type": "TDialogAnswer",
-                    "Name": "",
+                    "Name": "restart",
                     "Pos.x": 180,
                     "Pos.y": -150,
                     "Parent": -1,
                     "#": 28,
-                    "Msg": "",
+                    "Msg": "Да, я согласен!",
                     "AMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 360,
+                    "Pos.y": -180,
+                    "Parent": -1,
+                    "#": 32,
+                    "Msg": "Нет, пожалуй, нет",
+                    "AMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 330,
+                    "Pos.y": -150,
+                    "Parent": -1,
+                    "#": 33,
+                    "Msg": "Да, абсолютно точно",
+                    "AMsg.Num": "4"
                 }
             ],
             "DialogMessages": 
@@ -69,8 +89,18 @@
                     "Pos.y": -180,
                     "Parent": -1,
                     "#": 26,
-                    "Msg": "О, да, конечно. Специально для рейнджеров мы предлагаем возможность легко подзаработать! Смотрите сами:\r\n\r\n",
+                    "Msg": "О, да, конечно. Специально для рейнджеров мы предлагаем возможность легко подзаработать! Смотрите сами:\r\n\r\n1) За каждый день, когда в нашей системе будет меньше определённого количества мусора, вы будете получать некоторую небольшую сумму:\r\n- Меньше 50 тонн: 25 cr./сутки\r\n- Меньше 20 тонн: 70 cr./сутки\r\n- 0 - 5 тонн: 150 cr./сутки\r\n\r\n2) Пока вы работаете на нас, для вас действуют особые условия в нашем магазине: мы\r\nскупаем минералы по особо выгодным ценам\r\n\r\n\r\nНо учтите: <clr>как только вы покинете систему, контракт будет автоматически расторгнут<clrEnd>.\r\nА во избежание мошеннических схем <clr>покупка минералов<clrEnd> на всех планетах и станциях системы приравнивается к контрабандным сделкам.\r\n\r\nНу что, идёт?",
                     "DMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 330,
+                    "Pos.y": -180,
+                    "Parent": -1,
+                    "#": 31,
+                    "Msg": "Уверены, что хотите разорвать контракт?",
+                    "DMsg.Num": "2"
                 }
             ],
             "Dialogs": 
@@ -90,6 +120,14 @@
                     "Pos.y": -210,
                     "Parent": -1,
                     "#": 25
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogAsteroid_End",
+                    "Pos.x": 330,
+                    "Pos.y": -210,
+                    "Parent": -1,
+                    "#": 30
                 }
             ],
             "Groups": 
@@ -184,7 +222,12 @@
                         "        AddDialogBlock('Blocker',2);",
                         "",
                         "        //Диалог о очистке систем",
-                        "        AddDialogInject('DialogAsteroid',\"Для малоимущих рейнджеров у нас есть программа подработки.\",\"Что за программа подработки?\",10);",
+                        "        if(~ShipFindCustomShipInfoByType(Player(),'CatAS_Main')) {",
+                        "            AddDialogInject('DialogAsteroid_End',\"Для малоимущих рейнджеров у нас есть программа подработки.\",\"Что за программа подработки?\",10);",
+                        "        }",
+                        "        else {",
+                        "            AddDialogInject('DialogAsteroid',\"Для малоимущих рейнджеров у нас есть программа подработки.\",\"Что за программа подработки?\",10);",
+                        "        }",
                         "    }",
                         "}"
                     ]
@@ -229,6 +272,37 @@
                         "",
                         "    if(CurTurn() % 15) {",
                         "        GoodsAdd(temp_dword,t_Minerals,200+(100*GalaxyTechLevel()));",
+                        "    }",
+                        "}",
+                        "",
+                        "if(~ShipFindCustomShipInfoByType(Player(),'CatAS_Main')) {",
+                        "    if(ShipInNormalSpace(Player())) {",
+                        "        temp_dword = ShipStar(Player());",
+                        "        if(!StarRuins(temp_dword,'AS')) {",
+                        "            ShipDeleteCustomShipInfo(Player(),'CatAS_Main');",
+                        "            money = 0;",
+                        "",
+                        "            NewsAdd(\"Вы покинули систему, контролируемую Сетью Астероидных Станций. Контракт разорван.\");",
+                        "        }",
+                        "        else {",
+                        "            j = 0;",
+                        "            for(i=0;StarItems(temp_dword)>i;i=i+1) {",
+                        "                temp_dword_2 = StarItems(temp_dword,i);",
+                        "                j = j + ItemSize(temp_dword_2);",
+                        "            }",
+                        "",
+                        "            if(j < 6) {",
+                        "                money = money + 150;",
+                        "            }",
+                        "            else if(j < 20) {",
+                        "                money = money + 70;",
+                        "            }",
+                        "            else if(j < 50) {",
+                        "                money = money + 25;",
+                        "            }",
+                        "",
+                        "            Ether(3,'Cat_AS_314',\"Текущая статистика от Сети АС:\"+Format('<br>')+'=========='+Format('<br>')+\"Текущий тоннаж мусора: \"+j+\" т.\"+Format('<br>')+\"Текущий накопленный заработок: \"+money+' cr.'+Format('<br>')+'==========');",
+                        "        }",
                         "    }",
                         "}"
                     ]
@@ -385,6 +459,37 @@
                         "else {",
                         "    ShipOut(CurShip);",
                         "}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 180,
+                    "Pos.y": -120,
+                    "Parent": -1,
+                    "#": 29,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "Sound('Sound.Buy');",
+                        "",
+                        "ShipAddCustomShipInfo(Player(),'CatAS_Main');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 330,
+                    "Pos.y": -120,
+                    "Parent": -1,
+                    "#": 34,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "Sound('Sound.Buy');",
+                        "ShipMoney(Player(),ShipMoney(Player())+money);",
+                        "",
+                        "ShipDeleteCustomShipInfo(Player(),'CatAS_Main');"
                     ]
                 }
             ],
@@ -600,6 +705,17 @@
                     "Var.Type": "Array",
                     "Init": "",
                     "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "money",
+                    "Pos.x": 240,
+                    "Pos.y": -330,
+                    "Parent": -1,
+                    "#": 35,
+                    "Var.Type": "Int",
+                    "Init": "",
+                    "Global": false
                 }
             ]
         }
@@ -689,9 +805,44 @@
             "End": 27,
             "Nom": 0,
             "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 29,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 31,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 33,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 32,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 33,
+            "End": 34,
+            "Nom": 0,
+            "Arrow": true
         }
     ],
-    "BlockPar.EC.Total.Strings": 3,
+    "BlockPar.EC.Total.Strings": 15,
     "BlockPar.EC": 
     [
         {
@@ -703,8 +854,56 @@
             "String": "Добро пожаловать на добывающей станции! Здесь мы занимаемся разработкой полезных ископаемых, которые предоставляет нам космическое пространство. Если вас такие интересуют, то за ничтожную сумму вы можете приобрести, например, минералы в нашем торговом центре."
         },
         {
+            "#": "10",
+            "String": "О, да, конечно. Специально для рейнджеров мы предлагаем возможность легко подзаработать! Смотрите сами:<br><br>1) За каждый день, когда в нашей системе будет меньше определённого количества мусора, вы будете получать некоторую небольшую сумму:<br>- Меньше 50 тонн: 25 cr./сутки<br>- Меньше 20 тонн: 70 cr./сутки<br>- 0 - 5 тонн: 150 cr./сутки<br><br>2) Пока вы работаете на нас, для вас действуют особые условия в нашем магазине: мы<br>скупаем минералы по особо выгодным ценам<br><br><br>Но учтите: <clr>как только вы покинете систему, контракт будет автоматически расторгнут<clrEnd>.<br>А во избежание мошеннических схем <clr>покупка минералов<clrEnd> на всех планетах и станциях системы приравнивается к контрабандным сделкам.<br><br>Ну что, идёт?"
+        },
+        {
+            "#": "11",
+            "String": "Уверены, что хотите разорвать контракт?"
+        },
+        {
+            "#": "12",
+            "String": "Да, я согласен!"
+        },
+        {
+            "#": "13",
+            "String": "Нет, пожалуй, нет"
+        },
+        {
+            "#": "14",
+            "String": "Да, абсолютно точно"
+        },
+        {
             "#": "2",
             "String": ""
+        },
+        {
+            "#": "3",
+            "String": "Текущий накопленный заработок: "
+        },
+        {
+            "#": "4",
+            "String": " т."
+        },
+        {
+            "#": "5",
+            "String": "Текущий тоннаж мусора: "
+        },
+        {
+            "#": "6",
+            "String": "Текущая статистика от Сети АС:"
+        },
+        {
+            "#": "7",
+            "String": "Вы покинули систему, контролируемую Сетью Астероидных Станций. Контракт разорван."
+        },
+        {
+            "#": "8",
+            "String": "Что за программа подработки?"
+        },
+        {
+            "#": "9",
+            "String": "Для малоимущих рейнджеров у нас есть программа подработки."
         }
     ]
 }

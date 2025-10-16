@@ -8216,6 +8216,7 @@
                         "        if(ShipStanding(cur_ship) == 0) continue;",
                         "        if(ShipStanding(cur_ship) == 9) continue;",
                         "        if(ShipMoney(cur_ship) < 1000000) continue;",
+                        "        if(~ShipFindCustomShipInfoByType(cur_ship,'ArtiUniqueShipsPack_Crutch')) continue;",
                         "",
                         "        if(StarOwner(cur_star) == 2) {",
                         "            if(ShipStanding(cur_ship) == 2) continue;",
