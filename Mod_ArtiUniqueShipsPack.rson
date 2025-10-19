@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -428,
-    "ViewPos.y": -330,
+    "ViewPos.x": -351,
+    "ViewPos.y": -408,
     "ScriptName": "Mod_ArtiUniqueShipsPack",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\ArtiUniqueShipsPack\\DATA\\Script\\Mod_ArtiUniqueShipsPack.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\ArtiUniqueShipsPack\\DATA\\Script\\Mod_ArtiUniqueShipsPack.txt",
@@ -2019,40 +2019,43 @@
                         "            }",
                         "        }",
                         "    }",
-                        "    //Если игрок находится на доминионе",
+                        "    //Если игрок находится на научке",
                         "    else if(tstr1 == 'SB')",
                         "    {",
-                        "        //Если игрок ещё не покупал корпус \"Торнадо\"",
-                        "        if(!TornadoWasBought)",
+                        "        if(FindPlanet(ShipStar(Player()),'NotMaloc,NotFei,NotGaal,NotPeleng,NotKling,NotPirateClan,NotNone'))",
                         "        {",
-                        "            //Игрок должен состоять в пиратском клане, иметь звание барона, а также должен уничтожить не менее 5 дредноутов из EvoArmada",
-                        "            if(ShipOnSidePirateClan(Player()))",
+                        "            //Если игрок ещё не покупал корпус \"Торнадо\"",
+                        "            if(!TornadoWasBought)",
                         "            {",
-                        "                if(GetShipPirateRank(Player()) >= 7)",
+                        "                //Игрок не должен состоять в пиратском клане, иметь звание командора, а также должен уничтожить не менее 5 дредноутов из EvoArmada",
+                        "                if(!ShipOnSidePirateClan(Player()))",
                         "                {",
-                        "                    //Игрок уничтожил 3 бертора и 3 линкора, либо 3 фрегата",
-                        "                    if(GDomBerStat >= 3 && (GWarFlagStat >= 3 || GPirFrigStat >= 3))",
+                        "                    if(ShipRank(Player()) > 5)",
                         "                    {",
-                        "                        if(TornadoDreadnoughtKills >= 5)",
+                        "                        //Игрок уничтожил 3 бертора и 3 линкора, либо 3 фрегата",
+                        "                        if(GDomBerStat >= 3 && GPirFrigStat >= 3)",
                         "                        {",
-                        "                            tstr1 = CT('Script.Mod_ArtiUniqueShipsPack.TornadoBuyOffer');",
-                        "                            tstr2 = CT('Script.Mod_ArtiUniqueShipsPack.TornadoBuyStart');",
+                        "                            tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.TornadoBuyOffer');",
+                        "                            tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.TornadoBuyStart');",
                         "                            AddDialogInject('TornadoBuyDialog', tstr1, tstr2, 2);",
                         "                        }",
                         "                    }",
                         "                }",
                         "            }",
                         "        }",
-                        "",
+                        "    }",
+                        "    //Если игрок находится на доминионе",
+                        "    else if(tstr1 == 'CB')",
+                        "    {",
                         "        //Если игрок ещё не покупал корпус \"Друг\"",
                         "        if(!FriendWasBought)",
                         "        {",
-                        "            if(GalaxyTechLevel() >= 5)",
+                        "            if(GalaxyTechLevel() >= 7)",
                         "            {",
                         "                if(ShipOnSidePirateClan(Player()))",
                         "                {",
-                        "                    //Звание не ниже атамана",
-                        "                    if(GetShipPirateRank(Player()) >= 5)",
+                        "                    //Звание не ниже барона",
+                        "                    if(GetShipPirateRank(Player()) >= 7)",
                         "                    {",
                         "                        //Игрок освободил не менее 5 систем",
                         "                        if(ShipStatistic(Player(), 3) >= 5)",
@@ -2175,9 +2178,9 @@
                         "//Удаляем \"расчётный\" корпус во избежание утечки памяти",
                         "FreeItem(cur_item);",
                         "",
-                        "tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.ArtimisBuy'), '<Cost' + '>', cost);",
-                        "tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.ArtimisBuyPlayerYes');",
-                        "tstr3 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.ArtimisBuyPlayerNo');"
+                        "tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.Artimis.ArtimisBuy'), '<Cost' + '>', cost);",
+                        "tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.ArtimisBuyPlayerYes');",
+                        "tstr3 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.ArtimisBuyPlayerNo');"
                     ]
                 },
                 {
@@ -2216,7 +2219,7 @@
                         "//Завершаем событие с поиском сферы и получением корпуса \"Артимида\"",
                         "ArtimisEventStatus = -3;",
                         "",
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.ArtimisBuyYes');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.ArtimisBuyYes');"
                     ]
                 },
                 {
@@ -2229,9 +2232,9 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.SphereFound');",
-                        "tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.SphereFoundPlayerYes');",
-                        "tstr3 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.SphereFoundPlayerNo');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.SphereFound');",
+                        "tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.SphereFoundPlayerYes');",
+                        "tstr3 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.SphereFoundPlayerNo');"
                     ]
                 },
                 {
@@ -2255,7 +2258,7 @@
                         "ReleaseItemFromScript(UnknownSphere);",
                         "FreeItem(GetItemFromShip(Player(), cur_item));",
                         "",
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.SphereFoundYes');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.SphereFoundYes');"
                     ]
                 },
                 {
@@ -2268,7 +2271,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.ArtimisBuyNo');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.ArtimisBuyNo');"
                     ]
                 },
                 {
@@ -2281,7 +2284,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.SphereFoundNo');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Artimis.SphereFoundNo');"
                     ]
                 },
                 {
@@ -5140,7 +5143,7 @@
                     "Parent": -1,
                     "#": 250,
                     "Var.Type": "Int",
-                    "Init": "20",
+                    "Init": "10",
                     "Global": false
                 },
                 {
@@ -5151,7 +5154,7 @@
                     "Parent": -1,
                     "#": 251,
                     "Var.Type": "Int",
-                    "Init": "20",
+                    "Init": "10",
                     "Global": false
                 },
                 {
