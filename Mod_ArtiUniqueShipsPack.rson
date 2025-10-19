@@ -2507,9 +2507,9 @@
                         "//Удаляем \"расчётный\" корпус во избежание утечки памяти",
                         "FreeItem(cur_item);",
                         "",
-                        "tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.BulwarkBuy'), '<Cost' + '>', cost);",
-                        "tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkBuyPlayerYes');",
-                        "tstr3 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkBuyPlayerNo');"
+                        "tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkBuy'), '<Cost' + '>', cost);",
+                        "tstr2 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkBuyPlayerYes');",
+                        "tstr3 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkBuyPlayerNo');"
                     ]
                 },
                 {
@@ -2539,7 +2539,7 @@
                         "//Ставим маркер, что данный корпус купить повторно уже не выйдет",
                         "BulwarkWasBought = 1;",
                         "",
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkBuyYes');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkBuyYes');"
                     ]
                 },
                 {
@@ -2552,7 +2552,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkBuyNo');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkBuyNo');"
                     ]
                 },
                 {
@@ -2565,11 +2565,11 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuy');",
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuy');",
                         "//Добавляем дополнительную информацию о модулях, если игрок ещё не выбрал себе один",
                         "if(!(BulwarkWasBought & 2))",
                         "{",
-                        "    tstr1 = tstr1 + \"<br>\" + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyAcryn');",
+                        "    tstr1 = tstr1 + \"<br>\" + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyAcryn');",
                         "    tstr1 = tstr1 + \"<br>\" + \"<br>\" + BonusText(FindBonusByNameInCfg('ArtiUniqueShipsPack_BulwarkHullFearlessMod'));",
                         "    tstr1 = tstr1 + \"<br>\" + \"<br>\" + BonusText(FindBonusByNameInCfg('ArtiUniqueShipsPack_BulwarkHullProtectiveMod'));",
                         "    tstr1 = tstr1 + \"<br>\" + \"<br>\" + BonusText(FindBonusByNameInCfg('ArtiUniqueShipsPack_BulwarkHullAMLMod'));",
@@ -2590,9 +2590,9 @@
                         "if(!(BulwarkWasBought & 2))",
                         "{",
                         "    cost = abs(0 + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkParamsList.ModAcrynsCost'));",
-                        "    tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyAcrynInstall'), '<Acryn' + '>', CT('MicroModuls.ArtiUniqueShipsPack_BulwarkHullFearlessMod.AddName'), '<Cost' + '>', cost);",
-                        "    tstr2 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyAcrynInstall'), '<Acryn' + '>', CT('MicroModuls.ArtiUniqueShipsPack_BulwarkHullProtectiveMod.AddName'), '<Cost' + '>', cost);",
-                        "    tstr3 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyAcrynInstall'), '<Acryn' + '>', CT('MicroModuls.ArtiUniqueShipsPack_BulwarkHullAMLMod.AddName'), '<Cost' + '>', cost);",
+                        "    tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyAcrynInstall'), '<Acryn' + '>', CT('MicroModuls.ArtiUniqueShipsPack_BulwarkHullFearlessMod.AddName'), '<Cost' + '>', cost);",
+                        "    tstr2 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyAcrynInstall'), '<Acryn' + '>', CT('MicroModuls.ArtiUniqueShipsPack_BulwarkHullProtectiveMod.AddName'), '<Cost' + '>', cost);",
+                        "    tstr3 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyAcrynInstall'), '<Acryn' + '>', CT('MicroModuls.ArtiUniqueShipsPack_BulwarkHullAMLMod.AddName'), '<Cost' + '>', cost);",
                         "",
                         "    if(ShipMoney(Player()) < cost)",
                         "    {",
@@ -2619,14 +2619,14 @@
                         "else if(!(BulwarkWasBought & 8))",
                         "{",
                         "    cost = abs(0 + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkParamsList.ModAddShotsSecondUpgradeCost'));",
-                        "    tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyShotsInstall'), '<Count' + '>', CT('Script.Mod_ArtiUniqueShipsPack.BulwarkParamsList.ModAddShotsSecondUpgrade'), '<Cost' + '>', cost);",
+                        "    tstr1 = '</color>' + Format(CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyShotsInstall'), '<Count' + '>', CT('Script.Mod_ArtiUniqueShipsPack.BulwarkParamsList.ModAddShotsSecondUpgrade'), '<Cost' + '>', cost);",
                         "",
                         "    if(ShipMoney(Player()) < cost) AddDialogBlock(tstr1, 1);",
                         "    InjectAnswer('BulwarkModsBuyDialog', tstr1, 5);",
                         "}",
                         "",
                         "//Для реплики выхода",
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyPlayerNo');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyPlayerNo');"
                     ]
                 },
                 {
@@ -2698,7 +2698,7 @@
                         "ShipMoney(Player(), ShipMoney(Player()) - cost);",
                         "Sound('Sound.Buy');",
                         "",
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyYes');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyYes');"
                     ]
                 },
                 {
@@ -2711,7 +2711,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.BulwarkModsBuyNo');"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiUniqueShipsPack.Bulwark.BulwarkModsBuyNo');"
                     ]
                 },
                 {
