@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -414,
-    "ViewPos.y": -122,
+    "ViewPos.x": -394,
+    "ViewPos.y": -253,
     "ScriptName": "Mod_ArtiDesignDepartment",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.txt",
@@ -338,6 +338,26 @@
                     "#": 234,
                     "Msg": "<tstr4>",
                     "AMsg.Num": "31"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 370,
+                    "Pos.y": 370,
+                    "Parent": -1,
+                    "#": 289,
+                    "Msg": "<tstr4>",
+                    "AMsg.Num": "32"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 330,
+                    "Parent": -1,
+                    "#": 291,
+                    "Msg": "<tstr2>",
+                    "AMsg.Num": "33"
                 }
             ],
             "DialogMessages": 
@@ -681,6 +701,16 @@
                     "#": 271,
                     "Msg": "<tstr1>",
                     "DMsg.Num": "33"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 340,
+                    "Pos.y": 390,
+                    "Parent": -1,
+                    "#": 290,
+                    "Msg": "<tstr1>",
+                    "DMsg.Num": "34"
                 }
             ],
             "Dialogs": 
@@ -4292,7 +4322,8 @@
                         "cost = CT('DesignDepartmentModList.DesignDepartmentStats.MemberCardBuy');",
                         "tstr1 = '</color>' + Format(CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.DDCardCost'), '<Cost' + '>', cost, '<MonthlyCost' + '>', CT('DesignDepartmentModList.DesignDepartmentStats.MemberCardPay'), '<PayPeriod' + '>', CT('DesignDepartmentModList.DesignDepartmentStats.MemberCardPayDate'));",
                         "tstr2 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.PlayerBuyCardYes');",
-                        "tstr3 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.PlayerBuyCardNo');"
+                        "tstr3 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.PlayerBuyCardNo');",
+                        "tstr4 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.PlayerAskForAgreement');"
                     ]
                 },
                 {
@@ -8268,6 +8299,20 @@
                         "    }",
                         "}"
                     ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 370,
+                    "Pos.y": 390,
+                    "Parent": -1,
+                    "#": 292,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.AgreementText');",
+                        "tstr2 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.DesignDepartmentTalks.PlayerThanks');"
+                    ]
                 }
             ],
             "Planets": 
@@ -10981,6 +11026,41 @@
             "Type": "TGraphLink",
             "Begin": 286,
             "End": 287,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 47,
+            "End": 289,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 290,
+            "End": 291,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 291,
+            "End": 47,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 289,
+            "End": 292,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 292,
+            "End": 290,
             "Nom": 0,
             "Arrow": true
         }
