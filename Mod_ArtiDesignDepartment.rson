@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -97,
-    "ViewPos.y": 0,
+    "ViewPos.x": -534,
+    "ViewPos.y": -62,
     "ScriptName": "Mod_ArtiDesignDepartment",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.txt",
@@ -8391,7 +8391,7 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": -90,
+                    "Pos.x": -120,
                     "Pos.y": 290,
                     "Parent": -1,
                     "#": 285,
@@ -8416,6 +8416,8 @@
                         "    cur_star = ShipStar(CurShip);",
                         "    for(i=0;StarShips(cur_star)>i;i=i+1) {",
                         "        cur_ship = StarShips(cur_star,i);",
+                        "        //SFT('Cat_DD logging: StarShips is '+i+', turn is '+CurTurn());",
+                        "        if(!ShipInNormalSpace(cur_ship)) continue;",
                         "        if(ShipInScript(cur_ship)) continue;",
                         "        if(ShipOwner(cur_ship) == Kling) continue;",
                         "        if(ShipOwner(cur_ship) == None) continue;",
@@ -8424,10 +8426,10 @@
                         "        if(ShipMoney(cur_ship) < 1000000) continue;",
                         "        if(~ShipFindCustomShipInfoByType(cur_ship,'ArtiUniqueShipsPack_Crutch')) continue;",
                         "",
-                        "        if(StarOwner(cur_star) == 2) {",
+                        "        if(StarOwner(cur_star) == 2 && StarCustomFaction(cur_star) == '') {",
                         "            if(ShipStanding(cur_ship) == 2) continue;",
                         "        }",
-                        "        else if(!StarOwner(cur_star)) {",
+                        "        else if(!StarOwner(cur_star)  && StarCustomFaction(cur_star) == '') {",
                         "            if(ShipStanding(cur_ship) == 8) continue;",
                         "        }",
                         "",
@@ -8468,7 +8470,7 @@
                         "            GetItemFromShop(GroupToShip(DDGroup),cur_item);",
                         "            AddItemToShip(CurShip,cur_item);",
                         "            ArrangeItems(CurShip);",
-                        "            ShipAddCustomShipInfo(cur_ship,'ArtiUniqueShipsPack_Crutch');",
+                        "            ShipAddCustomShipInfo(CurShip,'ArtiUniqueShipsPack_Crutch','NoShow');",
                         "        }",
                         "        ShipOut(CurShip);",
                         "    }",
@@ -9113,6 +9115,19 @@
                     "Code": 
                     [
                         "tint3 > tint2"
+                    ]
+                },
+                {
+                    "Type": "Tif",
+                    "Name": "",
+                    "Pos.x": -90,
+                    "Pos.y": 290,
+                    "Parent": -1,
+                    "#": 309,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "CurTurn() > 300"
                     ]
                 }
             ],
@@ -11314,13 +11329,6 @@
         },
         {
             "Type": "TGraphLink",
-            "Begin": 44,
-            "End": 285,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
             "Begin": 280,
             "End": 2,
             "Nom": 0,
@@ -11498,6 +11506,20 @@
             "Type": "TGraphLink",
             "Begin": 305,
             "End": 308,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 44,
+            "End": 309,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 309,
+            "End": 285,
             "Nom": 0,
             "Arrow": true
         }

@@ -4,7 +4,7 @@
     "ViewPos.x": -86,
     "ViewPos.y": -378,
     "ScriptName": "Excalibur",
-    "ScriptFileOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.scr",
+    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaPlusSourceFiles\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.scr",
     "ScriptTextOut": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Space Rangers HD A War Apart\\Mods\\KotyankaPlus\\Cat_Excalibur\\DATA\\Script\\Excalibur.txt",
     "LangDatIn": "",
     "LangDatOut": "",
@@ -22,8 +22,8 @@
                 {
                     "Type": "TDialogAnswer",
                     "Name": "restart",
-                    "Pos.x": 740,
-                    "Pos.y": 210,
+                    "Pos.x": 370,
+                    "Pos.y": 250,
                     "Parent": -1,
                     "#": 10,
                     "Msg": "Ну-ка давай посмотрим на чём он там летал.",
@@ -35,8 +35,8 @@
                 {
                     "Type": "TDialogMsg",
                     "Name": "",
-                    "Pos.x": 740,
-                    "Pos.y": 180,
+                    "Pos.x": 370,
+                    "Pos.y": 220,
                     "Parent": -1,
                     "#": 9,
                     "Msg": "Таааакс...\r\n\r\nПолучается ты теперь верховный барон да?\r\nЯ был главным советником и правой рукой у прежнего барона.\r\nОн позаботился об распоряжениях на случай его смерти, так что вот, это ключи от его личного корабля, теперь они ваши.",
@@ -48,8 +48,8 @@
                 {
                     "Type": "TDialog",
                     "Name": "GetHull",
-                    "Pos.x": 740,
-                    "Pos.y": 150,
+                    "Pos.x": 370,
+                    "Pos.y": 190,
                     "Parent": -1,
                     "#": 8
                 }
@@ -104,8 +104,8 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 740,
-                    "Pos.y": 240,
+                    "Pos.x": 370,
+                    "Pos.y": 280,
                     "Parent": -1,
                     "#": 12,
                     "Code.Type": "Turn",
@@ -126,14 +126,16 @@
                         "HullHP(hull, 500);",
                         "AddItemToStorage(GetShipPlanet(Player()), hull);",
                         "CanSellItem(hull, 0);",
-                        "state=2;"
+                        "state=2;",
+                        "//Заканчиваем скрипт, чтобы не висело",
+                        "AllShipOut();"
                     ]
                 },
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 690,
-                    "Pos.y": 20,
+                    "Pos.x": 380,
+                    "Pos.y": 140,
                     "Parent": -1,
                     "#": 13,
                     "Code.Type": "DialogBegin",
@@ -219,8 +221,8 @@
                 {
                     "Type": "Tif",
                     "Name": "",
-                    "Pos.x": 670,
-                    "Pos.y": 20,
+                    "Pos.x": 380,
+                    "Pos.y": 110,
                     "Parent": -1,
                     "#": 14,
                     "Code.Type": "DialogBegin",
@@ -232,8 +234,8 @@
                 {
                     "Type": "Tif",
                     "Name": "",
-                    "Pos.x": 650,
-                    "Pos.y": 20,
+                    "Pos.x": 380,
+                    "Pos.y": 80,
                     "Parent": -1,
                     "#": 15,
                     "Code.Type": "DialogBegin",
@@ -269,8 +271,8 @@
                 {
                     "Type": "TVar",
                     "Name": "state",
-                    "Pos.x": 400,
-                    "Pos.y": -70,
+                    "Pos.x": 260,
+                    "Pos.y": 70,
                     "Parent": -1,
                     "#": 0,
                     "Var.Type": "Int",
@@ -280,8 +282,8 @@
                 {
                     "Type": "TVar",
                     "Name": "curPlanet",
-                    "Pos.x": 400,
-                    "Pos.y": -50,
+                    "Pos.x": 260,
+                    "Pos.y": 90,
                     "Parent": -1,
                     "#": 1,
                     "Var.Type": "Dword",
@@ -291,8 +293,8 @@
                 {
                     "Type": "TVar",
                     "Name": "hull",
-                    "Pos.x": 400,
-                    "Pos.y": -30,
+                    "Pos.x": 260,
+                    "Pos.y": 110,
                     "Parent": -1,
                     "#": 2,
                     "Var.Type": "Dword",
