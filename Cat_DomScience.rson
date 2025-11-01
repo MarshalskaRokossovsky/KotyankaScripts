@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -704,
-    "ViewPos.y": -598,
+    "ViewPos.x": -666,
+    "ViewPos.y": -350,
     "ScriptName": "Cat_DomScience",
     "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
     "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
@@ -834,7 +834,7 @@
                     "Code": 
                     [
                         "for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
-                        "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
+                        "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i);",
                         "}"
                     ]
                 },
@@ -849,7 +849,7 @@
                     "Code": 
                     [
                         "for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
-                        "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
+                        "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i);",
                         "}"
                     ]
                 },
@@ -864,7 +864,7 @@
                     "Code": 
                     [
                         "for(i=1;(ArrayDim(Days)-1)>i;i=i+1) {",
-                        "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i-1);",
+                        "    if(Days[i] == -1) InjectAnswer('Reward'+ShipType(GetShipRuins(Player())),\"Результаты исследования номер\"+' '+RndObject(10000,99999,GetShipRuins(Player())),i);",
                         "}"
                     ]
                 },
