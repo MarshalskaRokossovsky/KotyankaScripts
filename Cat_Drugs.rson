@@ -4,8 +4,8 @@
     "ViewPos.x": -436,
     "ViewPos.y": -600,
     "ScriptName": "Cat_Drugs",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Drugs\\DATA\\Script\\Cat_Drugs.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Drugs\\DATA\\Script\\Cat_Drugs.txt",
+    "ScriptFileOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Drugs\\DATA\\Script\\Cat_Drugs.scr",
+    "ScriptTextOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_Drugs\\DATA\\Script\\Cat_Drugs.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
@@ -573,7 +573,7 @@
                         "",
                         "    PlanetRace(planet,k);",
                         "",
-                        "    ShipJoin('GroupFei',cur_ship);",
+                        "    ShipJoin(GroupFei,cur_ship);",
                         "    stateFei = 1;",
                         "}",
                         "",
@@ -588,7 +588,7 @@
                         "",
                         "    PlanetRace(planet,k);",
                         "",
-                        "    ShipJoin('GroupGaal',cur_ship);",
+                        "    ShipJoin(GroupGaal,cur_ship);",
                         "    stateGaal = 1;",
                         "}"
                     ]

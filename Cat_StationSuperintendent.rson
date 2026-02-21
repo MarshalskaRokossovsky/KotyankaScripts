@@ -1,11 +1,11 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -904,
-    "ViewPos.y": -589,
+    "ViewPos.x": -564,
+    "ViewPos.y": -602,
     "ScriptName": "Cat_StationSuperintendent",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_StationSuperintendent\\DATA\\Script\\Cat_StationSuperintendent.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_StationSuperintendent\\DATA\\Script\\Cat_StationSuperintendent.txt",
+    "ScriptFileOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_StationSuperintendent\\DATA\\Script\\Cat_StationSuperintendent.scr",
+    "ScriptTextOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_StationSuperintendent\\DATA\\Script\\Cat_StationSuperintendent.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
@@ -62,7 +62,7 @@
                 {
                     "Type": "TDialogAnswer",
                     "Name": "",
-                    "Pos.x": 420,
+                    "Pos.x": 470,
                     "Pos.y": -190,
                     "Parent": -1,
                     "#": 41,
@@ -72,7 +72,7 @@
                 {
                     "Type": "TDialogAnswer",
                     "Name": "",
-                    "Pos.x": 420,
+                    "Pos.x": 470,
                     "Pos.y": -230,
                     "Parent": -1,
                     "#": 42,
@@ -82,7 +82,7 @@
                 {
                     "Type": "TDialogAnswer",
                     "Name": "",
-                    "Pos.x": 420,
+                    "Pos.x": 470,
                     "Pos.y": -150,
                     "Parent": -1,
                     "#": 43,
@@ -92,7 +92,7 @@
                 {
                     "Type": "TDialogAnswer",
                     "Name": "",
-                    "Pos.x": 420,
+                    "Pos.x": 470,
                     "Pos.y": -110,
                     "Parent": -1,
                     "#": 68,
@@ -102,7 +102,7 @@
                 {
                     "Type": "TDialogAnswer",
                     "Name": "",
-                    "Pos.x": 420,
+                    "Pos.x": 470,
                     "Pos.y": -70,
                     "Parent": -1,
                     "#": 70,
@@ -165,7 +165,7 @@
                 {
                     "Type": "TDialogMsg",
                     "Name": "",
-                    "Pos.x": 460,
+                    "Pos.x": 530,
                     "Pos.y": -110,
                     "Parent": -1,
                     "#": 36,
@@ -202,7 +202,7 @@
                 {
                     "Type": "TDialog",
                     "Name": "Build",
-                    "Pos.x": 540,
+                    "Pos.x": 600,
                     "Pos.y": -110,
                     "Parent": -1,
                     "#": 30
@@ -501,7 +501,7 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 500,
+                    "Pos.x": 560,
                     "Pos.y": -110,
                     "Parent": -1,
                     "#": 35,
@@ -520,7 +520,7 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 380,
+                    "Pos.x": 430,
                     "Pos.y": -150,
                     "Parent": -1,
                     "#": 38,
@@ -540,7 +540,7 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 380,
+                    "Pos.x": 430,
                     "Pos.y": -190,
                     "Parent": -1,
                     "#": 39,
@@ -560,7 +560,7 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": 380,
+                    "Pos.x": 430,
                     "Pos.y": -230,
                     "Parent": -1,
                     "#": 40,
@@ -773,6 +773,25 @@
                         "temp_star = GAnswerData;",
                         "tstr = Name(GAnswerData);"
                     ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": -110,
+                    "Parent": -1,
+                    "#": 71,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(i != 13) {",
+                        "    tdwd = BuildRuins(temp_star,i);",
+                        "}",
+                        "else {",
+                        "    tdwd = RunFunctionFromScript('Mod_ExpPilotBridge','BuyTC',temp_star);",
+                        "}",
+                        "tstr = '';"
+                    ]
                 }
             ],
             "Planets": 
@@ -868,7 +887,7 @@
                 {
                     "Type": "Tif",
                     "Name": "",
-                    "Pos.x": 460,
+                    "Pos.x": 500,
                     "Pos.y": -150,
                     "Parent": -1,
                     "#": 44,
@@ -881,7 +900,7 @@
                 {
                     "Type": "Tif",
                     "Name": "",
-                    "Pos.x": 460,
+                    "Pos.x": 500,
                     "Pos.y": -190,
                     "Parent": -1,
                     "#": 45,
@@ -894,7 +913,7 @@
                 {
                     "Type": "Tif",
                     "Name": "",
-                    "Pos.x": 460,
+                    "Pos.x": 500,
                     "Pos.y": -230,
                     "Parent": -1,
                     "#": 46,
@@ -1585,13 +1604,6 @@
         },
         {
             "Type": "TGraphLink",
-            "Begin": 68,
-            "End": 31,
-            "Nom": 0,
-            "Arrow": true
-        },
-        {
-            "Type": "TGraphLink",
             "Begin": 24,
             "End": 69,
             "Nom": 0,
@@ -1615,6 +1627,20 @@
             "Type": "TGraphLink",
             "Begin": 70,
             "End": 25,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 68,
+            "End": 71,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 71,
+            "End": 31,
             "Nom": 0,
             "Arrow": true
         }
