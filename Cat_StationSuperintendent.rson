@@ -437,7 +437,7 @@
                         "ShipCustomShipInfoData(tdwd,'Cat_SAS_Build',1,Rnd(20,40));",
                         "",
                         "if(ShipType(tdwd) != 'TC'){",
-                        "    tstr = CT('GalaxyNews.CreateNewObject.'+ShipType(tdwd)+Rnd(1,2));",
+                        "    tstr = Format(CT('GalaxyNews.CreateNewObject.'+ShipType(tdwd)+Rnd(1,2)),'<Star'+'>',Name(ShipStar(tdwd)),'<Name'+'>',Name(tdwd),'<Sector'+'>',Name(StarToCon(ShipStar(tdwd))));",
                         "    AddPlanetNews(tstr,41);",
                         "    NewsAdd(tstr);",
                         "    Sound('Sound.NewMsg');",
