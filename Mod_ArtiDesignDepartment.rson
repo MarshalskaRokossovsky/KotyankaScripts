@@ -1,8 +1,8 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -383,
-    "ViewPos.y": 48,
+    "ViewPos.x": -194,
+    "ViewPos.y": -214,
     "ScriptName": "Mod_ArtiDesignDepartment",
     "ScriptFileOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.scr",
     "ScriptTextOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DesignDepartment\\DATA\\Script\\Mod_ArtiDesignDepartment.txt",
@@ -7782,7 +7782,14 @@
                     "Code": 
                     [
                         "//выводи нужный текст из Script.Mod_ArtiDesignDepartment.AboutDD",
-                        "tstr1 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.AboutDD.Text' + GAnswerData);"
+                        "tstr1 = '</color>' + CT('Script.Mod_ArtiDesignDepartment.AboutDD.Text' + GAnswerData);",
+                        "",
+                        "if(CurrentMods('Reflection\\RefGovCoffee')) {",
+                        "    if(ShipFindCustomShipInfoByType(Player(),'RefCoffeeFlag') == -1) ShipAddCustomShipInfo(Player(),'RefCoffeeFlag');",
+                        "    if(!ShipCustomShipInfoData(Player(),'RefCoffeeFlag',1)) ShipCustomShipInfoData(Player(),'RefCoffeeFlag',3,1);",
+                        "    ShipCustomShipInfoData(Player(),'RefCoffeeFlag',1,30);",
+                        "    ShipCustomShipInfoData(Player(),'RefCoffeeFlag',2,0);",
+                        "}"
                     ]
                 },
                 {
@@ -8399,7 +8406,7 @@
                 {
                     "Type": "Top",
                     "Name": "",
-                    "Pos.x": -120,
+                    "Pos.x": -90,
                     "Pos.y": 290,
                     "Parent": -1,
                     "#": 285,
@@ -8474,6 +8481,7 @@
                         "            cur_item = ShopItems(GroupToShip(DDGroup),i);",
                         "            if(ItemType(cur_item) < t_FuelTanks) continue;",
                         "            if(ItemType(cur_item) > t_Protoplasm) continue;",
+                        "            if(ItemSize(cur_item) > ShipFreeSpace(CurShip)) continue;",
                         "",
                         "            GetItemFromShop(GroupToShip(DDGroup),cur_item);",
                         "            AddItemToShip(CurShip,cur_item);",
@@ -9129,7 +9137,7 @@
                     "Type": "Tif",
                     "Name": "",
                     "Pos.x": -90,
-                    "Pos.y": 290,
+                    "Pos.y": 260,
                     "Parent": -1,
                     "#": 309,
                     "Code.Type": "Turn",

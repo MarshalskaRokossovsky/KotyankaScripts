@@ -1,11 +1,11 @@
 {
     "FileID": 573785173,
     "FileVersion": 8,
-    "ViewPos.x": -659,
-    "ViewPos.y": -477,
+    "ViewPos.x": -657,
+    "ViewPos.y": -292,
     "ScriptName": "Cat_DomScience",
-    "ScriptFileOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
-    "ScriptTextOut": "C:\\Users\\DmitB\\Documents\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
+    "ScriptFileOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
+    "ScriptTextOut": "G:\\Установщики\\Установщик Котянки\\KotyankaSourceFiles\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
     "LangDatIn": "",
     "LangDatOut": "",
     "MainDatIn": "",
@@ -939,6 +939,8 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
+                        "if(Acryn[GAnswerData] < 1) Acryn[GAnswerData] = Rnd(1,CT('Script.Cat_DomScience.AcrynsArchive.Count'));",
+                        "",
                         "item = CreateEquipmentWithSpecial(FindBonusByNameInCfg(CT('Script.Cat_DomScience.AcrynsArchive.'+Acryn[GAnswerData])),Rnd(20,25),GalaxyTechLevel(),Kling);",
                         "ItemSubrace(item,Race[GAnswerData]);",
                         "AddItemToShip(Player(),item);",
@@ -1042,6 +1044,8 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
+                        "if(Acryn[GAnswerData] < 1) Acryn[GAnswerData] = Rnd(1,CT('Script.Cat_DomScience.AcrynsArchive.Count'));",
+                        "",
                         "item = CreateEquipmentWithSpecial(FindBonusByNameInCfg(CT('Script.Cat_DomScience.AcrynsArchive.'+Acryn[GAnswerData])),Rnd(20,25),GalaxyTechLevel(),Kling);",
                         "ItemSubrace(item,Race[GAnswerData]);",
                         "AddItemToShip(Player(),item);",
