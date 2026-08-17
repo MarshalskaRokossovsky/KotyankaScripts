@@ -4555,7 +4555,7 @@
                         "                AddItemToPlanet(planet,item);",
                         "",
                         "                str tstr = CT('Script.Mod_ArtiDesignDepartment.BlueprintMap.Info');",
-                        "                tstr = Format(tstr,'star',star,'planet',planet);",
+                        "                tstr = Format(tstr,'star',Name(star),'planet',Name(planet));",
                         "",
                         "                NewsAdd(tstr);",
                         "                AddJournalRecord(tstr);",
