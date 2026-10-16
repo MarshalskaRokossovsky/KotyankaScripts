@@ -6,12 +6,12 @@
     "ScriptName": "Cat_Tardis",
     "ScriptFileOut":  "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\DATA\\Script\\Cat_Tardis.scr",
     "ScriptTextOut":  "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\DATA\\Script\\Cat_Tardis.txt",
-    "LangDatIn": "",
-    "LangDatOut": "",
-    "MainDatIn": "",
-    "MainDatOut": "",
-    "CacheDatIn": "",
-    "CacheDatOut": "",
+    "LangDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\CFG\\Rus\\Lang.txt",
+    "LangDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\CFG\\Rus\\Lang.dat",
+    "MainDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\CFG\\Main.txt",
+    "MainDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\CFG\\Main.dat",
+    "CacheDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\CFG\\CacheData.txt",
+    "CacheDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Tardis\\CFG\\CacheData.dat",
     "ExportLangTxt": false,
     "ExportLangDat": false,
     "Visual.Objects": 
@@ -429,7 +429,7 @@
                     "Code.Type": "Global",
                     "Code": 
                     [
-                        "GRun();"
+                        "if(!GCntRun(GScriptName)) GRun();"
                     ]
                 },
                 {

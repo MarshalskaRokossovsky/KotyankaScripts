@@ -1,0 +1,1104 @@
+{
+    "FileID": 573785173,
+    "FileVersion": 8,
+    "ViewPos.x": -75,
+    "ViewPos.y": -186,
+    "ScriptName": "Mandalorec",
+    "ScriptFileOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\DATA\\Script\\Mandalorec.scr",
+    "ScriptTextOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\DATA\\Script\\Mandalorec.txt",
+    "LangDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\CFG\\Rus\\Lang.txt",
+    "LangDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\CFG\\Rus\\Lang.dat",
+    "MainDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\CFG\\Main.txt",
+    "MainDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\CFG\\Main.dat",
+    "CacheDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\CFG\\CacheData.txt",
+    "CacheDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Mandalorec\\CFG\\CacheData.dat",
+    "ExportLangTxt": true,
+    "ExportLangDat": true,
+    "Visual.Objects": 
+    [
+        {
+            "ConstellationCount": 1,
+            "DialogAnswers": 
+            [
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 0,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 36,
+                    "Msg": "Отлично, пойду посмотрю на него.",
+                    "AMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 37,
+                    "Msg": "Ну, про уникальную модификацию человеческого корабля...",
+                    "AMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 240,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 38,
+                    "Msg": "Ок",
+                    "AMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 360,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 39,
+                    "Msg": "Ну, буду ждать",
+                    "AMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 40,
+                    "Msg": "А когда сможете закончить?",
+                    "AMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 600,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 41,
+                    "Msg": "Хорошо",
+                    "AMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 720,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 42,
+                    "Msg": "До свидания",
+                    "AMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 840,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 43,
+                    "Msg": "А вы меня заинтересовали. Так, что там за проект такой и сколько это будет стоить?",
+                    "AMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "",
+                    "Pos.x": 960,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 44,
+                    "Msg": "Я с радостью помогу вам, ведь уникальные вещи это то, ради чего стоить жить!",
+                    "AMsg.Num": "8"
+                },
+                {
+                    "Type": "TDialogAnswer",
+                    "Name": "restart",
+                    "Pos.x": 1080,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 45,
+                    "Msg": "Я подумаю",
+                    "AMsg.Num": "9"
+                }
+            ],
+            "DialogMessages": 
+            [
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 0,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 27,
+                    "Msg": "А? А-а-а, это ты, <ShipName(Player())>... Прошу простить - немного задумался... Да, у нас тут есть необычный проект. Правда, влетит он нам в довольно большую сумму кредитов, и руководство не хочет выделять на него деньги. Однако, судя по твоей репутации, ты любишь всё необычное - вне зависимости от стоимости. Вот я и решил спросить: может, тебя заинтересует наш эксперимент?",
+                    "DMsg.Num": "0"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 150,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 28,
+                    "Msg": "Да-да, мы вас ждали.\r\nНам удалось построить данный агрегат и провести все необходимые испытания, вы можете вступить в пользование им в ангаре станции.\r\nИ ещё раз спасибо за помощь в исследовании - это тестирование очень сильно помогло нам в понимании некоторых вещей.\r\n",
+                    "DMsg.Num": "1"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 300,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 29,
+                    "Msg": "Каким проектом?",
+                    "DMsg.Num": "2"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 480,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 30,
+                    "Msg": "Ни о чём таком мы не слышали. Спросите на <base_name> - возможно, там о таком слышали.",
+                    "DMsg.Num": "3"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 630,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 31,
+                    "Msg": "Работа эксперемантальная, да и мы проводим тестирования на каждом этапе постройки корабля. Пока могу сказать лишь то, что он не готов.\r\n",
+                    "DMsg.Num": "4"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 780,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 32,
+                    "Msg": "Работы закончатся приблизительно эдак <GameDateTxtByTurn(1 + research_start_date + research_time)>.",
+                    "DMsg.Num": "5"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 960,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 33,
+                    "Msg": "Не понимаю, о чем вы",
+                    "DMsg.Num": "6"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 1110,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 34,
+                    "Msg": "Дело в том, что нам в руки попалась неизвестная модификация человеческого корабля. Судя по документации, очень сильно попорченной пивом и прочей слабоалкогольной продукцией, сделан он на одной из пиратских баз в единичном экземпляре. Нас интересует возможность ремонта этого агрегата и проведение некоторых тестов, после чего вы сможете получить его в своё владение. Если вы всё ещё не передумали, то заплатите <cost_sponsor> cr., а со всем остальным мы разберёмся сами!",
+                    "DMsg.Num": "7"
+                },
+                {
+                    "Type": "TDialogMsg",
+                    "Name": "",
+                    "Pos.x": 1260,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 35,
+                    "Msg": "Приступаем к работе!",
+                    "DMsg.Num": "8"
+                }
+            ],
+            "Dialogs": 
+            [
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogTC1",
+                    "Pos.x": 0,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 22
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogTC2",
+                    "Pos.x": 120,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 23
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "WrongBase2",
+                    "Pos.x": 270,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 24
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "DialogTC1.5",
+                    "Pos.x": 450,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 25
+                },
+                {
+                    "Type": "TDialog",
+                    "Name": "WrongBase1.5",
+                    "Pos.x": 600,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 26
+                }
+            ],
+            "Groups": 
+            [
+                {
+                    "Type": "TGroup",
+                    "Name": "GroupNew",
+                    "Pos.x": 0,
+                    "Pos.y": 250,
+                    "Parent": -1,
+                    "#": 16,
+                    "Owner": 62,
+                    "Group.Type": 126,
+                    "CntShipMin": 1,
+                    "CntShipMax": 1,
+                    "SpeedMin": 100,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "AddPlayer": true,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "DistSearch": 10000,
+                    "Dialog": -1,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": "",
+                    "+Planet": "PlanetNew",
+                    "+State": 0
+                }
+            ],
+            "Items": 
+            [
+                {
+                    "Type": "TItem",
+                    "Name": "hull_good",
+                    "Pos.x": 0,
+                    "Pos.y": 205,
+                    "Parent": -1,
+                    "#": 15,
+                    "Class": 5,
+                    "Item.Type": 0,
+                    "Size": 10,
+                    "Level": 1,
+                    "Radius": 150,
+                    "Owner": 6,
+                    "Useless": "",
+                    "+Place": ""
+                }
+            ],
+            "Operations": 
+            [
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 0,
+                    "Pos.y": 510,
+                    "Parent": -1,
+                    "#": 17,
+                    "Code.Type": "Global",
+                    "Code": 
+                    [
+                        "GRun();"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 60,
+                    "Pos.y": 510,
+                    "Parent": -1,
+                    "#": 18,
+                    "Code.Type": "Init",
+                    "Code": 
+                    [
+                        "good_special_name = CT('Script.Mandalorec.Settings.good_special_name');",
+                        "",
+                        "hull_cost_1 = CT('Script.Mandalorec.Settings.hull_cost_1');",
+                        "",
+                        "hull_size_good = CT('Script.Mandalorec.Settings.hull_size_good');",
+                        "",
+                        "research_time_fast = CT('Script.Mandalorec.Settings.research_time_fast');"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 120,
+                    "Pos.y": 510,
+                    "Parent": -1,
+                    "#": 19,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(state == 1) {",
+                        "  if(CurTurn() >= research_start_date + research_time) {",
+                        "    if(IdToShip(base_id)) {",
+                        "      Ether(0, '', \"База <base_name> завершила постройку и исследования, можете прилетать!\");",
+                        "      state = 2;",
+                        "    }",
+                        "  }",
+                        "  if(!IdToShip(base_id)) {",
+                        "    Ether(0, '', \"База <base_name> была уничтожена, как и ваши инвестиции в проект...\");",
+                        "    state = -1;",
+                        "  }",
+                        "}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 180,
+                    "Pos.y": 510,
+                    "Parent": -1,
+                    "#": 20,
+                    "Code.Type": "DialogBegin",
+                    "Code": 
+                    [
+                        "if(GalaxyTechLevel() >= 4) {",
+                        "  if(!PlayerBridge()) {",
+                        "    if(GetShipRuins(Player())) {",
+                        "      if(state == 0) {",
+                        "        if(ShipType(GetShipRuins(Player())) == 'TC') {",
+                        "          AddDialogInject('DialogTC1', '', \"Здравствуйте, я бы хотел поинтересоваться, нет ли у вас сейчас каких-либо проектов, где могла бы пригодится помощь рейнджера?\", 1);",
+                        "        }",
+                        "      }",
+                        "      if(state == 1) {",
+                        "        if(Id(GetShipRuins(Player())) == base_id) {",
+                        "          AddDialogInject('DialogTC1.5', '', \"Я вот тут вернулся узнать что там с тем проектом, который я спонсировал?\", 1);",
+                        "        }",
+                        "        if(Id(GetShipRuins(Player())) != base_id) {",
+                        "          if(ShipType(GetShipRuins(Player())) == 'TC') {",
+                        "            AddDialogInject('WrongBase1.5', '', \"Я вот тут вернулся узнать - что там с тем проектом, который я спонсировал?\", 1);",
+                        "          }",
+                        "        }",
+                        "      }",
+                        "      if(state == 2) {",
+                        "        if(Id(GetShipRuins(Player())) == base_id) {",
+                        "          AddDialogInject('DialogTC2', '', \"Я вот тут вернулся узнать что там с тем проектом, который я спонсировал?\", 1);",
+                        "        }",
+                        "        if(Id(GetShipRuins(Player())) != base_id) {",
+                        "          if(ShipType(GetShipRuins(Player())) == 'TC') {",
+                        "            AddDialogInject('WrongBase2', '', \"Я вот тут вернулся узнать что там с тем проектом, который я спонсировал?\", 1);",
+                        "          }",
+                        "        }",
+                        "      }",
+                        "    }",
+                        "  }",
+                        "}"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -20,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 46,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(0);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 47,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(1);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 250,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 48,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(2);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 430,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 49,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(4);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 580,
+                    "Pos.y": 375,
+                    "Parent": -1,
+                    "#": 50,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(6);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": -20,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 51,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(7);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 130,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 52,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player(), ShipMoney(Player()) - cost);",
+                        "Sound('Sound.Buy');",
+                        "state = 4;",
+                        "",
+                        "hull = CreateHull(",
+                        "    2,",
+                        "    hull_size_good,",
+                        "    GalaxyTechLevel(),",
+                        "    Gaal,",
+                        "    -1,",
+                        "    0",
+                        ");",
+                        "int bonus_num = FindBonusByName(good_special_name);",
+                        "if (bonus_num > -1) {",
+                        "    SpecialToEquipment(bonus_num, hull);",
+                        "} else {",
+                        "    SFT('[Cat_Asteroid] Акрин '+good_special_name+' не найден. Возможны дальнейшие проблемы');",
+                        "}",
+                        "",
+                        "ItemSize(hull, hull_size_good);",
+                        "ItemCost(hull, hull_cost_1);",
+                        "HullHP(hull, ItemSize(hull));",
+                        "AddItemToStorage(GetShipRuins(Player()), hull);",
+                        "LinkItemToScript(hull, hull_good);",
+                        "CanSellItem(hull_good, 0);",
+                        "DAdd(0);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 280,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 53,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(1);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 460,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 54,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(2);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 610,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 55,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(4);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 760,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 56,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(5);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 940,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 57,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(6);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 1090,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 58,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "if(ShipMoney(Player()) >= cost_sponsor) {",
+                        "  DAdd(8);",
+                        "}",
+                        "DAdd(9);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 1240,
+                    "Pos.y": 420,
+                    "Parent": -1,
+                    "#": 59,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DAdd(3);"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 100,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 60,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(3);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 460,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 61,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(5);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 820,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 62,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "DChange(7);",
+                        "exit;"
+                    ]
+                },
+                {
+                    "Type": "Top",
+                    "Name": "",
+                    "Pos.x": 940,
+                    "Pos.y": 465,
+                    "Parent": -1,
+                    "#": 63,
+                    "Code.Type": "Turn",
+                    "Code": 
+                    [
+                        "ShipMoney(Player(), ShipMoney(Player()) - cost_sponsor);",
+                        "Sound('Sound.Buy');",
+                        "",
+                        "research_time = Rnd(0.8 * research_time_fast, 1.2 * research_time_fast);",
+                        "base_id = Id(GetShipRuins(Player()));",
+                        "base_name = ShipName(GetShipRuins(Player()));",
+                        "research_start_date = CurTurn();",
+                        "",
+                        "state = 1;",
+                        "DChange(8);",
+                        "exit;"
+                    ]
+                }
+            ],
+            "Places": 
+            [
+              
+            ],
+            "Planets": 
+            [
+                {
+                    "Type": "TPlanet",
+                    "Name": "PlanetNew",
+                    "Pos.x": 0,
+                    "Pos.y": 160,
+                    "Parent": -1,
+                    "#": 14,
+                    "Race": 62,
+                    "Owner": 62,
+                    "Economy": 14,
+                    "Goverment": 62,
+                    "RangeMin": 0,
+                    "RangeMax": 100,
+                    "Dialog": -1,
+                    "+Star": "StarNew"
+                }
+            ],
+            "Ships": 
+            [
+                {
+                    "Type": "TStarShip",
+                    "Name": "",
+                    "Pos.x": 0,
+                    "Pos.y": 70,
+                    "Parent": -1,
+                    "#": 13,
+                    "Count": 1,
+                    "Owner": 62,
+                    "Ship.Type": 126,
+                    "Player": true,
+                    "SpeedMin": 0,
+                    "SpeedMax": 10000,
+                    "Weapon": 0,
+                    "CargoHook": 0,
+                    "EmptySpace": 0,
+                    "StatusTraderMin": 0,
+                    "StatusTraderMax": 100,
+                    "StatusWarriorMin": 0,
+                    "StatusWarriorMax": 100,
+                    "StatusPirateMin": 0,
+                    "StatusPirateMax": 100,
+                    "StrengthMin": "0",
+                    "StrengthMax": "0",
+                    "Ruins": "",
+                    "+Star": "StarNew"
+                }
+            ],
+            "Stars": 
+            [
+                {
+                    "Type": "TStar",
+                    "Name": "StarNew",
+                    "Pos.x": 0,
+                    "Pos.y": 115,
+                    "Parent": -1,
+                    "#": 12,
+                    "Constellation": 1,
+                    "Priority": 0,
+                    "NoKling": false,
+                    "NoComeKling": false
+                }
+            ],
+            "States": 
+            [
+                {
+                    "Type": "TState",
+                    "Name": "StateNew",
+                    "Pos.x": 0,
+                    "Pos.y": 275,
+                    "Parent": -1,
+                    "#": 21,
+                    "Move": 0,
+                    "MoveObj": -1,
+                    "Attack.Count": 0,
+                    "TakeItem": -1,
+                    "TakeAllItem": false,
+                    "OnTalk": "",
+                    "OnActCode": "",
+                    "EType": 0,
+                    "EUnique": "",
+                    "EMsg": ""
+                }
+            ],
+            "Variables": 
+            [
+                {
+                    "Type": "TVar",
+                    "Name": "research_start_date",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 0,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "base_id",
+                    "Pos.x": 270,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 1,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "base_name",
+                    "Pos.x": 390,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 2,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "research_time",
+                    "Pos.x": 540,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 3,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "state",
+                    "Pos.x": 720,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 4,
+                    "Var.Type": "Int",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "good_special_name",
+                    "Pos.x": 810,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 5,
+                    "Var.Type": "Str",
+                    "Init": "Бритвенный гребень",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull_cost_1",
+                    "Pos.x": 1080,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 6,
+                    "Var.Type": "Int",
+                    "Init": "50000",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost_sponsor",
+                    "Pos.x": 1260,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 7,
+                    "Var.Type": "Int",
+                    "Init": "350000",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "research_time_fast",
+                    "Pos.x": 1440,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 8,
+                    "Var.Type": "Int",
+                    "Init": "180",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull_size_good",
+                    "Pos.x": 0,
+                    "Pos.y": 25,
+                    "Parent": -1,
+                    "#": 9,
+                    "Var.Type": "Int",
+                    "Init": "1300",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "hull",
+                    "Pos.x": 210,
+                    "Pos.y": 25,
+                    "Parent": -1,
+                    "#": 10,
+                    "Var.Type": "Dword",
+                    "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "cost",
+                    "Pos.x": 270,
+                    "Pos.y": 25,
+                    "Parent": -1,
+                    "#": 11,
+                    "Var.Type": "Dword",
+                    "Init": "1",
+                    "Global": false
+                }
+            ]
+        }
+    ],
+    "Visual.Links": 
+    [
+        {
+            "Type": "TGraphLink",
+            "Begin": 22,
+            "End": 46,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 23,
+            "End": 47,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 24,
+            "End": 48,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 25,
+            "End": 49,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 26,
+            "End": 50,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 27,
+            "End": 51,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 28,
+            "End": 52,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 29,
+            "End": 53,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 30,
+            "End": 54,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 31,
+            "End": 55,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 32,
+            "End": 56,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 33,
+            "End": 57,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 34,
+            "End": 58,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 35,
+            "End": 59,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 37,
+            "End": 60,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 40,
+            "End": 61,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 43,
+            "End": 62,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 44,
+            "End": 63,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 13,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 14,
+            "End": 12,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 16,
+            "End": 14,
+            "Nom": 0,
+            "Arrow": true
+        },
+        {
+            "Type": "TGraphLink",
+            "Begin": 16,
+            "End": 21,
+            "Nom": 0,
+            "Arrow": true
+        }
+    ],
+    "Rect.Text": 
+    [
+        {
+            "Type": "TGraphRectText",
+            "Rect.Left": 632,
+            "Rect.Top": -268,
+            "Rect.Right": 1339,
+            "Rect.Bottom": -80,
+            "FStyle": 0,
+            "FColor": 10710818,
+            "BStyle": 0,
+            "BColor": 14474460,
+            "BSize": 1,
+            "BCoef": "0.300000011920929",
+            "AlignX": 0,
+            "AlignY": 0,
+            "AlignRect": false,
+            "Text": "SCR Decompiling Mandalorec\r\n\r\nChangeState(...) -> Link to StateName\r\nDChange(...) -> Link to DMsg.Num\r\nDAdd(...) -> Link to AMsg.Num",
+            "Color": 16777215,
+            "Font": "Segoe UI",
+            "FontSize": 10,
+            "fsBold": true,
+            "fsItalic": false,
+            "fsUnderline": false
+        }
+    ]
+}

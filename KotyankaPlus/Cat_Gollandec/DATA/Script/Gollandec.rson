@@ -6,14 +6,14 @@
     "ScriptName": "Gollandec",
     "ScriptFileOut":  "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\DATA\\Script\\Gollandec.scr",
     "ScriptTextOut":  "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\DATA\\Script\\Gollandec.txt",
-    "LangDatIn": "",
-    "LangDatOut": "",
-    "MainDatIn": "",
-    "MainDatOut": "",
-    "CacheDatIn": "",
-    "CacheDatOut": "",
-    "ExportLangTxt": false,
-    "ExportLangDat": false,
+    "LangDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\CFG\\Rus\\Lang.txt",
+    "LangDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\CFG\\Rus\\Lang.dat",
+    "MainDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\CFG\\Main.txt",
+    "MainDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\CFG\\Main.dat",
+    "CacheDatIn": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\CFG\\CacheData.txt",
+    "CacheDatOut": "E:\\disasm2500\\Mods\\KotyankaPlus\\Cat_Gollandec\\CFG\\CacheData.dat",
+    "ExportLangTxt": true,
+    "ExportLangDat": true,
     "Visual.Objects": [
         {
             "ConstellationCount": 1,
@@ -26,8 +26,7 @@
                     "Parent": -1,
                     "#": 35,
                     "Msg": "",
-                    "AMsg.Num": "0",
-                    "_orig_danswer": "DAnswer('restart~'+CT(\"Script.Gollandec.142\"))"
+                    "AMsg.Num": "0"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -37,8 +36,7 @@
                     "Parent": -1,
                     "#": 36,
                     "Msg": "",
-                    "AMsg.Num": "1",
-                    "_orig_danswer": "DAnswer('restart~'+CT(\"Script.Gollandec.212\"))"
+                    "AMsg.Num": "1"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -48,8 +46,7 @@
                     "Parent": -1,
                     "#": 37,
                     "Msg": "",
-                    "AMsg.Num": "2",
-                    "_orig_danswer": "DAnswer('restart~'+CT(\"Script.Gollandec.199\"))"
+                    "AMsg.Num": "2"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -59,8 +56,7 @@
                     "Parent": -1,
                     "#": 38,
                     "Msg": "",
-                    "AMsg.Num": "3",
-                    "_orig_danswer": "DAnswer('restart~'+CT(\"Script.Gollandec.112\"))"
+                    "AMsg.Num": "3"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -70,8 +66,7 @@
                     "Parent": -1,
                     "#": 39,
                     "Msg": "",
-                    "AMsg.Num": "4",
-                    "_orig_danswer": "DAnswer('restart~'+CT(\"Script.Gollandec.220\"))"
+                    "AMsg.Num": "4"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -81,8 +76,7 @@
                     "Parent": -1,
                     "#": 40,
                     "Msg": "",
-                    "AMsg.Num": "5",
-                    "_orig_danswer": "DAnswer(CT(\"Script.Gollandec.224\"))"
+                    "AMsg.Num": "5"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -92,8 +86,7 @@
                     "Parent": -1,
                     "#": 41,
                     "Msg": "",
-                    "AMsg.Num": "6",
-                    "_orig_danswer": "DAnswer(CT(\"Script.Gollandec.214\"))"
+                    "AMsg.Num": "6"
                 },
                 {
                     "Type": "TDialogAnswer",
@@ -103,8 +96,7 @@
                     "Parent": -1,
                     "#": 42,
                     "Msg": "",
-                    "AMsg.Num": "7",
-                    "_orig_danswer": "DAnswer('restart~'+CT(\"Script.Gollandec.222\"))"
+                    "AMsg.Num": "7"
                 }
             ],
             "DialogMessages": [
@@ -117,7 +109,7 @@
                     "#": 28,
                     "Msg": "",
                     "DMsg.Num": "0",
-                    "_orig_dtext": "DText(CT(\"Script.Gollandec.218\"))"
+                    "_orig_dtext": "DText(CT(\"Script.Gollandec.Str218\"))"
                 },
                 {
                     "Type": "TDialogMsg",
@@ -128,7 +120,7 @@
                     "#": 29,
                     "Msg": "",
                     "DMsg.Num": "1",
-                    "_orig_dtext": "DText(CT(\"Script.Gollandec.209\"))"
+                    "_orig_dtext": "DText(CT(\"Script.Gollandec.Str209\"))"
                 },
                 {
                     "Type": "TDialogMsg",
@@ -139,7 +131,7 @@
                     "#": 30,
                     "Msg": "",
                     "DMsg.Num": "2",
-                    "_orig_dtext": "DText(CT(\"Script.Gollandec.114\"))"
+                    "_orig_dtext": "DText(CT(\"Script.Gollandec.Str114\"))"
                 },
                 {
                     "Type": "TDialogMsg",
@@ -150,7 +142,7 @@
                     "#": 31,
                     "Msg": "",
                     "DMsg.Num": "3",
-                    "_orig_dtext": "DText(CT(\"Script.Gollandec.210\"))"
+                    "_orig_dtext": "DText(CT(\"Script.Gollandec.Str210\"))"
                 },
                 {
                     "Type": "TDialogMsg",
@@ -161,7 +153,7 @@
                     "#": 32,
                     "Msg": "",
                     "DMsg.Num": "4",
-                    "_orig_dtext": "DText(CT(\"Script.Gollandec.114\"))"
+                    "_orig_dtext": "DText(CT(\"Script.Gollandec.Str114\"))"
                 },
                 {
                     "Type": "TDialogMsg",
@@ -172,7 +164,7 @@
                     "#": 33,
                     "Msg": "",
                     "DMsg.Num": "5",
-                    "_orig_dtext": "DText(Format(CT(\"Script.Gollandec.223\"),\"<0>\",cost_sponsor,\"<1>\",cost_sponsor_node))"
+                    "_orig_dtext": "DText(Format(CT(\"Script.Gollandec.Str223\"),\"<0>\",cost_sponsor,\"<1>\",cost_sponsor_node))"
                 },
                 {
                     "Type": "TDialogMsg",
@@ -183,7 +175,7 @@
                     "#": 34,
                     "Msg": "",
                     "DMsg.Num": "6",
-                    "_orig_dtext": "DText(CT(\"Script.Gollandec.196\"))"
+                    "_orig_dtext": "DText(CT(\"Script.Gollandec.Str196\"))"
                 }
             ],
             "Dialogs": [
@@ -326,12 +318,12 @@
                         "if(state == 1) {",
                         "  if(CurTurn() >= research_start_date + research_time) {",
                         "    if(IdToShip(base_id)) {",
-                        "      Ether(0, '', Format(CT('Script.Gollandec.205'),'<' + '0>',base_name));",
+                        "      Ether(0, '', Format(CT('Script.Gollandec.Str205'),'<' + '0>',base_name));",
                         "      state = 2;",
                         "    }",
                         "  }",
                         "  if(!IdToShip(base_id)) {",
-                        "    Ether(0, '', Format(CT('Script.Gollandec.187'),'<' + '0>',base_name));",
+                        "    Ether(0, '', Format(CT('Script.Gollandec.Str187'),'<' + '0>',base_name));",
                         "    state = -1;",
                         "  }",
                         "}"
@@ -350,26 +342,26 @@
                         "  if(GetShipRuins(Player())) {",
                         "    if(state == 0) {",
                         "      if(ShipType(GetShipRuins(Player())) == 'CB') {",
-                        "        AddDialogInject('DialogCB1', '', CT('Script.Gollandec.217'), 1);",
+                        "        AddDialogInject('DialogCB1', '', CT('Script.Gollandec.Str217'), 1);",
                         "      }",
                         "    }",
                         "    if(state == 1) {",
                         "      if(Id(GetShipRuins(Player())) == base_id) {",
-                        "        AddDialogInject('DialogCB1.5', '', CT('Script.Gollandec.206'), 1);",
+                        "        AddDialogInject('DialogCB1.5', '', CT('Script.Gollandec.Str206'), 1);",
                         "      }",
                         "      if(Id(GetShipRuins(Player())) != base_id) {",
                         "        if(ShipType(GetShipRuins(Player())) == 'CB') {",
-                        "          AddDialogInject('WrongBase1.5', '', CT('Script.Gollandec.206'), 1);",
+                        "          AddDialogInject('WrongBase1.5', '', CT('Script.Gollandec.Str206'), 1);",
                         "        }",
                         "      }",
                         "    }",
                         "    if(state == 2) {",
                         "      if(Id(GetShipRuins(Player())) == base_id) {",
-                        "        AddDialogInject('DialogCB2', '', CT('Script.Gollandec.206'), 1);",
+                        "        AddDialogInject('DialogCB2', '', CT('Script.Gollandec.Str206'), 1);",
                         "      }",
                         "      if(Id(GetShipRuins(Player())) != base_id) {",
                         "        if(ShipType(GetShipRuins(Player())) == 'CB') {",
-                        "          AddDialogInject('WrongBase2', '', CT('Script.Gollandec.206'), 1);",
+                        "          AddDialogInject('WrongBase2', '', CT('Script.Gollandec.Str206'), 1);",
                         "        }",
                         "      }",
                         "    }",

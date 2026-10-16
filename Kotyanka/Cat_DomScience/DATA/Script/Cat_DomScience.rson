@@ -6,14 +6,14 @@
     "ScriptName": "Cat_DomScience",
     "ScriptFileOut":  "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.scr",
     "ScriptTextOut":  "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\DATA\\Script\\Cat_DomScience.txt",
-    "LangDatIn": "",
-    "LangDatOut": "",
-    "MainDatIn": "",
-    "MainDatOut": "",
-    "CacheDatIn": "",
-    "CacheDatOut": "",
-    "ExportLangTxt": false,
-    "ExportLangDat": false,
+    "LangDatIn": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\CFG\\Rus\\Lang.txt",
+    "LangDatOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\CFG\\Rus\\Lang.dat",
+    "MainDatIn": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\CFG\\Main.txt",
+    "MainDatOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\CFG\\Main.dat",
+    "CacheDatIn": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\CFG\\CacheData.txt",
+    "CacheDatOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_DomScience\\CFG\\CacheData.dat",
+    "ExportLangTxt": true,
+    "ExportLangDat": true,
     "Visual.Objects": 
     [
         {
@@ -582,7 +582,7 @@
                     "Code.Type": "Global",
                     "Code": 
                     [
-                        "GRun();"
+                        "if(!GCntRun(GScriptName)) GRun();"
                     ]
                 },
                 {
@@ -2498,7 +2498,7 @@
         },
         {
             "#": "8",
-            "String": "Ого, рейнджер, да вам удалось раздобыть рабочий блок памяти доминатора - <clr>Винцератор<clrEnd>! Пожалуй, довольно интересный экземпляр. Мы бы изучили данный модуль, но за небольшой взнос (<0> cr.) мы можем предоставить вам доступ к результатам исследований. Исследования, кроме того, займут у нас <1> дней.<br><br>После этого можете прилетать и узнать, что сможете сделать со своим модулем."
+            "String": "Ого, рейнджер, да вам удалось раздобыть рабочий блок памяти доминатора - <clr>Винцератор<clrEnd>!. Пожалуй, довольно интересный экземпляр. Мы бы изучили данный модуль, но за небольшой взнос (<0> cr.) мы можем предоставить вам доступ к результатам исследований. Исследования, кроме того, займут у нас <1> дней.<br><br>После этого можете прилетать и узнать, что сможете сделать со своим модулем."
         },
         {
             "#": "9",

@@ -6,14 +6,14 @@
     "ScriptName": "Cat_Meowplants",
     "ScriptFileOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\DATA\\Script\\Cat_Meowplants.scr",
     "ScriptTextOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\DATA\\Script\\Cat_Meowplants.txt",
-    "LangDatIn": "",
-    "LangDatOut": "",
-    "MainDatIn": "",
-    "MainDatOut": "",
-    "CacheDatIn": "",
-    "CacheDatOut": "",
-    "ExportLangTxt": false,
-    "ExportLangDat": false,
+    "LangDatIn": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\CFG\\Rus\\Lang.txt",
+    "LangDatOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\CFG\\Rus\\Lang.dat",
+    "MainDatIn": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\CFG\\Main.txt",
+    "MainDatOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\CFG\\Main.dat",
+    "CacheDatIn": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\CFG\\CacheData.txt",
+    "CacheDatOut": "E:\\disasm2500\\Mods\\Kotyanka\\Cat_Meowplants\\CFG\\CacheData.dat",
+    "ExportLangTxt": true,
+    "ExportLangDat": true,
     "Visual.Objects": [
         {
             "ConstellationCount": 0,
@@ -64,7 +64,7 @@
                     "#": 6,
                     "Code.Type": "Global",
                     "Code": [
-                        "GRun();"
+                        "if(!GCntRun(GScriptName)) GRun();"
                     ]
                 },
                 {
