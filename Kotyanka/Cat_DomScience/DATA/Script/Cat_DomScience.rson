@@ -609,7 +609,7 @@
                         "        }",
                         "    }",
                         "    if(FindResearched()) {",
-                        "        AddDialogInject('CreateSB','',\"Я бы хотел воспользоваться разблокированным мной модулем памяти\",16);",
+                        "        AddDialogInject('CreateSB','',\"Я бы хотел воспользоваться разблокированным модулем памяти\",16);",
                         "    }",
                         "}"
                     ]
@@ -1067,7 +1067,8 @@
                     "Code": 
                     [
                         "int cnt = 0;",
-                        "while(1) {",
+                        "int upgraded = 0;",
+                        "while(cnt <= 250) {",
                         "    item = ShipEqInSlot(Player(),Rnd(t_FuelTanks,t_DefGenerator));",
                         "    if(item < 1) {",
                         "        cnt = cnt + 1;",
@@ -1075,29 +1076,31 @@
                         "    }",
                         "    if(ItemLevel(item) < 7) {",
                         "        ItemLevel(item,ItemLevel(item)+2);",
+                        "        upgraded = 1;",
                         "        break;",
                         "    }",
                         "    if(cnt > 100) {",
                         "        if(ItemLevel(item) < 8) {",
                         "            ItemLevel(item,min(ItemLevel(item)+2,8));",
+                        "            upgraded = 1;",
                         "            break;",
                         "        }",
                         "        else if(!ItemImprovement(item)) {",
                         "            ItemImprovement(item,3);",
+                        "            upgraded = 1;",
                         "            break;",
                         "        }",
                         "    }",
-                        "",
-                        "    if(cnt > 250) break;",
-                        "",
                         "    cnt = cnt + 1;",
                         "}",
-                        "ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*2));",
-                        "Sound('Sound.Repair');",
-                        "ArrayDelete(Race,GAnswerData);",
-                        "ArrayDelete(Days,GAnswerData);",
-                        "ArrayDelete(Acryn,GAnswerData);",
-                        "ArrayDelete(RuinType,GAnswerData);"
+                        "if(upgraded) {",
+                        "    ShipMoney(Player(),ShipMoney(Player())-(GalaxyMoney(4,4)*3/4));",
+                        "    Sound('Sound.Repair');",
+                        "    ArrayDelete(Race,GAnswerData);",
+                        "    ArrayDelete(Days,GAnswerData);",
+                        "    ArrayDelete(Acryn,GAnswerData);",
+                        "    ArrayDelete(RuinType,GAnswerData);",
+                        "}"
                     ]
                 },
                 {
@@ -1463,7 +1466,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "(GalaxyMoney(4,4)*2) <= ShipMoney(Player())"
+                        "(GalaxyMoney(4,4)*3/4) <= ShipMoney(Player())"
                     ]
                 },
                 {
@@ -1476,7 +1479,7 @@
                     "Code.Type": "Turn",
                     "Code": 
                     [
-                        "(GalaxyMoney(4,4)*2) > ShipMoney(Player())"
+                        "(GalaxyMoney(4,4)*3/4) > ShipMoney(Player())"
                     ]
                 },
                 {
@@ -2406,7 +2409,7 @@
         },
         {
             "#": "1",
-            "String": "Я бы хотел воспользоваться разблокированным мной модулем памяти"
+            "String": "Я бы хотел воспользоваться разблокированным модулем памяти"
         },
         {
             "#": "10",
